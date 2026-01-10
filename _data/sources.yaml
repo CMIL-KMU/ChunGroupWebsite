@@ -1,3 +1,7 @@
+- id: doi:10.48550/arXiv.2512.22370
+  tags:
+    - machine-learning
+    - algorithm
 - id: doi:10.20517/jmi.2025.65
   tags:
     - machine-learning

@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343.27 375">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168.33 185.35">
   <defs>
     <style>
-      .cls-1, .cls-2 {
-        fill: #243b5a;
-      }
-
-      .cls-1, .cls-3, .cls-4 {
-        stroke: #fff;
-        stroke-miterlimit: 10;
-        stroke-width: 5px;
-      }
-
-      .cls-3 {
+      .cls-1 {
         fill: #b0b8c1;
       }
 
-      .cls-5 {
-        stroke-linejoin: round;
-        stroke-width: 15px;
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
       }
 
-      .cls-5, .cls-6 {
+      .cls-2 {
+        fill: #243b5a;
+      }
+
+      .cls-3 {
+        fill: #4a90e2;
+      }
+
+      .cls-4 {
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+
+      .cls-4, .cls-5 {
         fill: none;
         stroke: #243b5a;
       }
 
-      .cls-4 {
-        fill: #4a90e2;
-      }
-
-      .cls-6 {
-        stroke-linecap: round;
-        stroke-width: 8px;
+      .cls-5 {
+        stroke-linejoin: round;
+        stroke-width: 10px;
       }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <g>
-      <path class="cls-5" d="M163.38,7.5l155.88,90v180l-155.88,90L7.5,277.5V97.5L163.38,7.5Z"/>
-      <circle class="cls-4" cx="315.26" cy="234.73" r="25.51"/>
-      <circle class="cls-1" cx="70.79" cy="292.69" r="25.51"/>
-      <circle class="cls-3" cx="293.75" cy="78.94" r="25.51"/>
-      <circle class="cls-2" cx="163.38" cy="152.64" r="22.68"/>
-      <path class="cls-6" d="M163.38,152.64l102.43-62.77"/>
-      <path class="cls-6" d="M163.38,152.64l122.84,70.67"/>
-      <path class="cls-6" d="M72.68,292.69l90.7-140.05"/>
+      <path class="cls-4" d="M80.93,75.7l63.5-35.9"/>
+      <path class="cls-4" d="M80.93,75.7l73.98,39.99"/>
+      <path class="cls-5" d="M80.93,5l75.93,43.84v87.68l-75.93,43.84L5,136.51V48.84L80.93,5Z"/>
+      <circle class="cls-3" cx="154.91" cy="115.68" r="12.43"/>
+      <circle class="cls-1" cx="144.43" cy="39.8" r="12.43"/>
+      <path class="cls-4" d="M36.75,151l44.18-75.31"/>
+      <circle class="cls-2" cx="80.93" cy="75.7" r="11.05"/>
+      <circle class="cls-2" cx="36.75" cy="151" r="12.43"/>
     </g>
   </g>
 </svg>
