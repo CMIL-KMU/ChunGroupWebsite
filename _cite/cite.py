@@ -2,6 +2,7 @@
 cite process to convert sources and metasources into full citations
 """
 
+import re
 import traceback
 from importlib import import_module
 from pathlib import Path
@@ -171,67 +172,106 @@ for index, source in enumerate(sources):
     citations.append(citation)
 
 
+def normalize_title(title):
+    """
+    normalize title for comparison (lowercase, alphanumeric only, collapse spaces)
+    """
+    if not title:
+        return ""
+    # remove non-alphanumeric characters, convert to lowercase, and collapse whitespace
+    title = re.sub(r"[^a-zA-Z0-9]", " ", title.lower())
+    return " ".join(title.split())
+
+
+def merge_citations(base, secondary):
+    """
+    merge two citation dicts, non-empty values from secondary override base
+    """
+    for key, value in secondary.items():
+        # if secondary has a value and base doesn't, or secondary value is longer/better
+        if value and (not base.get(key) or len(str(value)) > len(str(base.get(key)))):
+            base[key] = value
+    return base
+
+
 log()
 
 log("Merging duplicate citations by title (removing preprint versions)")
 
 # merge citations with matching titles, keeping published version over preprint
-# use a dictionary to group by title
+# use a dictionary to group by normalized title
 title_groups = {}
 for citation in citations:
-    title = get_safe(citation, "title", "").strip().lower()
-    if not title:
+    title = get_safe(citation, "title", "").strip()
+    norm_title = normalize_title(title)
+    if not norm_title:
         continue
-    if title not in title_groups:
-        title_groups[title] = []
-    title_groups[title].append(citation)
+    if norm_title not in title_groups:
+        title_groups[norm_title] = []
+    title_groups[norm_title].append(citation)
 
 # process each group
 merged_citations = []
 removed_ids = set()
 
-for title, group in title_groups.items():
+for norm_title, group in title_groups.items():
     if len(group) == 1:
         # no duplicates, keep as is
         merged_citations.append(group[0])
         continue
-    
+
     # find published and preprint versions
     published = []
     preprints = []
-    
+
     for citation in group:
         citation_id = get_safe(citation, "id", "")
         if not citation_id:
             continue
         is_preprint = "chemrxiv" in citation_id.lower() or "arxiv" in citation_id.lower()
-        
+
         if is_preprint:
             preprints.append(citation)
         else:
             published.append(citation)
-    
-    # if there are published versions, keep them and remove preprints
+
+    # if there are published versions, merge them and discard preprints
     if published:
-        for pub in published:
-            merged_citations.append(pub)
+        # start with the first published version
+        merged = published[0]
+        for other in published[1:]:
+            merged = merge_citations(merged, other)
+
+        merged_citations.append(merged)
+
+        # log removals
         for prep in preprints:
             prep_id = get_safe(prep, "id", "")
             log(f"Removing preprint {prep_id}, keeping published version(s)", indent=1)
             removed_ids.add(prep_id)
-    # if only preprints, keep the first one
+        for pub in published[1:]:
+            pub_id = get_safe(pub, "id", "")
+            log(f"Merged duplicate published version {pub_id}", indent=1)
+            removed_ids.add(pub_id)
+
+    # if only preprints, merge them
     elif preprints:
-        log(f"Only preprint versions found for title, keeping first: {preprints[0].get('id', '')}", indent=1)
-        merged_citations.append(preprints[0])
-        for prep in preprints[1:]:
-            prep_id = get_safe(prep, "id", "")
-            removed_ids.add(prep_id)
+        log(
+            f"Only preprint versions found for title, merging {len(preprints)} versions",
+            indent=1,
+        )
+        merged = preprints[0]
+        for other in preprints[1:]:
+            merged = merge_citations(merged, other)
+            removed_ids.add(get_safe(other, "id", ""))
+        merged_citations.append(merged)
 
 # also add citations without titles (shouldn't happen, but just in case)
 for citation in citations:
-    title = get_safe(citation, "title", "").strip().lower()
+    title = get_safe(citation, "title", "").strip()
+    norm_title = normalize_title(title)
     citation_id = get_safe(citation, "id", "")
-    if not title and citation_id and citation_id not in removed_ids:
+    if not norm_title and citation_id and citation_id not in removed_ids:
         merged_citations.append(citation)
 
 citations = merged_citations
