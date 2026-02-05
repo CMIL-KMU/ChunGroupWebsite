@@ -97,15 +97,15 @@ for plugin in plugins:
 
 log("Merging sources by id")
 
-# merge sources with matching (non-blank) ids
+# merge sources with matching (non-blank) ids (case-insensitive)
 for a in range(0, len(sources)):
-    a_id = get_safe(sources, f"{a}.id", "")
+    a_id = str(get_safe(sources, f"{a}.id", "")).strip()
     if not a_id:
         continue
     for b in range(a + 1, len(sources)):
-        b_id = get_safe(sources, f"{b}.id", "")
-        if b_id == a_id:
-            log(f"Found duplicate {b_id}", indent=2)
+        b_id = str(get_safe(sources, f"{b}.id", "")).strip()
+        if b_id.lower() == a_id.lower():
+            log(f"Found duplicate {b_id} (matches {a_id})", indent=2)
             sources[a].update(sources[b])
             sources[b] = {}
 sources = [entry for entry in sources if entry]
