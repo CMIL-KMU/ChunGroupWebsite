@@ -5,7 +5,7 @@
 
 We are a computational research group working at the interface of artificial intelligence and atomistic simulations, with a focus on the predictive design of functional materials. We develop AI-accelerated computational frameworks that enable efficient exploration of complex materials design spaces. Our approaches integrate deep reinforcement learning, machine-learned interatomic potentials, and automated workflows to advance atomistic modeling/simulation for materials discovery. Through these efforts, we aim to understand and predict materials formation, evolution, and functionality, while addressing fundamental questions in chemical bonding, materials processing, and ion and defect transport.
 
-우리는 인공지능과 원자 시뮬레이션의 접점에서 기능성 소재의 예측 설계를 목표로 하는 계산 과학 연구 그룹입니다. 복잡한 소재 설계 공간을 효율적으로 탐색할 수 있도록 AI 가속 계산 프레임워크를 개발하고 있습니다. 심층 강화 학습, 기계 학습 기반의 원자 간 포텐셜, 그리고 자동화된 워크플로우를 통합하여 소재 발견을 위한 원자 모델링 및 시뮬레이션 기술을 발전시키고 있습니다. 이러한 노력을 통해 화학 결합, 소재 공정, 이온 및 결함 수송에 대한 근본적인 질문들을 해결하는 동시에, 소재의 형성, 진화 및 기능을 이해하고 예측하고자 합니다.
+우리는 인공지능과 원자 시뮬레이션의 접점에서 기능성 소재의 예측 설계를 목표로 하는 계산 과학 연구 그룹입니다. 복잡한 소재 설계 공간을 효율적으로 탐색할 수 있도록 AI 가속 계산 프레임워크를 개발하고 있습니다. 제일원리기반의 시뮬레이션과 강화 학습, 머신러닝포텐셜, 그리고 자동화된 워크플로우 등을 활용하여 신소재 발견을 위한 원자 모델링 및 시뮬레이션 기술을 개발하고 있습니다. 이를 통해 소재의 구조-물성-공정 상관관계 등에 대한 근본적인 질문들에 대해 연구합니다.
 
 {% include section.html %}
 
