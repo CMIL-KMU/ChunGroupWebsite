@@ -140,6 +140,7 @@
   tags:
   - machine-learning
   - virtual screening
+  - catalysts
 - id: doi:10.1016/j.bios.2023.115882
   title: Active site engineering of Zn-doped mesoporous ceria toward highly efficient
     organophosphorus hydrolase-mimicking nanozyme
@@ -316,8 +317,6 @@
   orcid: 0000-0003-0624-536X
   plugin: sources.py
   file: sources.yaml
-  tags:
-  - catalysts
 - id: doi:10.1038/s41586-021-04391-5
   title: Metastable hexagonal close-packed palladium hydride in liquid cell TEM
   authors:
@@ -846,7 +845,5 @@
   publisher: Journal of Materials Informatics
   date: '2025-11-20'
   link: https://doi.org/hbg546
-  tags:
-  - machine-learning
   plugin: sources.py
   file: sources.yaml
