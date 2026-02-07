@@ -3,17 +3,14 @@
     - machine-learning
     - algorithm
 - id: doi:10.20517/jmi.2025.65
-  tags:
-    - machine-learning
 - id: doi:10.1016/j.apcatb.2021.120938
-  tags:
-    - catalysts
 - id: doi:10.1021/acscentsci.5c00547
 - id: doi:10.1038/s41524-024-01432-1
   image: images/publications/2024_npj_comp_hj.png
   tags:
     - machine-learning
     - virtual screening
+    - catalysts
 - id: doi:10.1016/j.bios.2023.115882
 - id: doi:10.1126/science.aax3233
 - id: doi:10.1016/j.apsusc.2023.158424

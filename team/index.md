@@ -18,4 +18,4 @@ nav:
 
 {% include section.html %}
 
-Please [reach out](/recruitment) if you are interested in joining!
+Please [reach out]({{ '/recruitment/' | relative_url }}) if you are interested in joining!
