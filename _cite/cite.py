@@ -133,6 +133,23 @@ for a in range(0, len(sources)):
 sources = [entry for entry in sources if entry]
 
 
+# filter out preprints not explicitly included in sources.yaml
+log("Filtering preprints (opt-in only)")
+filtered_sources = []
+for source in sources:
+    citation_id = str(get_safe(source, "id", "")).lower()
+    # detect various preprint identifiers
+    is_preprint = any(p in citation_id for p in ["arxiv", "chemrxiv", "rs.3.rs"])
+    is_from_sources = get_safe(source, "plugin", "") == "sources.py"
+
+    if is_preprint and not is_from_sources:
+        log(f"Removing preprint {citation_id} (not in sources.yaml)", indent=2)
+        continue
+
+    filtered_sources.append(source)
+sources = filtered_sources
+
+
 log(f"{len(sources)} total source(s) to cite")
 
 

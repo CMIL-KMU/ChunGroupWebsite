@@ -210,25 +210,6 @@
   orcid: 0000-0003-0624-536X
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.48550/arxiv.2305.19930
-  title: Atom-by-atom design of metal oxide catalysts for the oxygen evolution reaction
-    with machine learning
-  authors:
-  - Jaclyn R. Lunger
-  - Jessica Karaguesian
-  - Hoje Chun
-  - Jiayu Peng
-  - Yitong Tseo
-  - Chung Hsuan Shan
-  - Byungchan Han
-  - Yang Shao-Horn
-  - Rafael Gomez-Bombarelli
-  publisher: arXiv
-  date: '2023-01-01'
-  link: https://doi.org/hbmcxz
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1016/j.apsusc.2023.158424
   title: "Design a multiphase interfaced Ge(GeO )/T-Nb2O5\u2212/C anode with synergistic\
     \ high capacity and durability for Li-ion batteries"
@@ -281,7 +262,7 @@
   orcid: 0000-0003-0624-536X
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.21203/rs.3.rs-2115636/v1
+- id: doi:10.1038/s41598-023-28492-5
   title: Method for 3D atomic structure determination of multi-element nanoparticles
     with graphene liquid-cell TEM
   authors:
@@ -299,7 +280,7 @@
   - Hans Elmlund
   - Byungchan Han
   - Jungwon Park
-  publisher: Research Square Platform LLC
+  publisher: Scientific Reports
   date: '2023-02-01'
   link: https://doi.org/hbg52c
   orcid: 0000-0003-0624-536X
@@ -407,26 +388,6 @@
   orcid: 0000-0003-0624-536X
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.21203/rs.3.rs-1441062/v1
-  title: Tracking the 3D atomic structures during thermal treatment and catalytic
-    activity of individual Pt nanoparticles
-  authors:
-  - Hoje Chun
-  - Joonhee Kang
-  - Dohun Kang
-  - Sung Jun Hong
-  - Junyoung Heo
-  - Hyeongjin Cho
-  - Jaehyeon Heo
-  - Byung Hyo Kim
-  - Jungwon Park
-  - Byungchan Han
-  publisher: Springer Science and Business Media LLC
-  date: '2022-03-21'
-  link: https://doi.org/hbmcx4
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1016/j.apcatb.2022.121504
   title: Tuning the Electronic Structure and Inverse Degree of Inverse Spinel Ferrites
     by Integrating Samarium Orthoferrite for Efficient Water Oxidation
@@ -677,49 +638,6 @@
   orcid: 0000-0003-0624-536X
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.21203/rs.3.rs-104262/v1
-  title: Metastable Hexagonal Close-Packed Palladium Hydride in Liquid Cell Transmission
-    Electron Microscopy
-  authors:
-  - Dong Won Chun
-  - Jaeyoung Hong
-  - Jee-Hwan Bae
-  - Hyesung Jo
-  - Hee-Young Park
-  - Sehyun Lee
-  - Sung Jun Hong
-  - Hoje Chun
-  - Min Kyung Cho
-  - Juyoung Kim
-  - Joodeok Kim
-  - Yongju Son
-  - Haneul Jin
-  - Jin-yoo Suh
-  - Sung-Chul Kim
-  - Ha-Kyung Roh
-  - Kyu Hyoung Lee
-  - Hyung-Seok Kim
-  - Kyung Yoon Chung
-  - Chang Won Yoon
-  - Kiryeong Lee
-  - Seo Hee Kim
-  - Jae-Pyoung Ahn
-  - Hionsuck Baik
-  - Gyeung Ho Kim
-  - Byungchan Han
-  - Sungho Jin
-  - Taeghwan Hyeon
-  - Jungwon Park
-  - Chang Yun Son
-  - Yongsoo Yang
-  - Young-Su Lee
-  - Sung Jong Yoo
-  publisher: Springer Science and Business Media LLC
-  date: '2020-12-14'
-  link: https://doi.org/hbmcx6
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1021/acssuschemeng.0c02981
   title: Pairing of Transition Metal Dichalcogenides and Doped Graphene for Catalytically
     Dual Active Interfaces for the Hydrogen Evolution Reaction
@@ -930,20 +848,5 @@
   link: https://doi.org/hbg546
   tags:
   - machine-learning
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1039/D4CS00844H
-  title: 'Unlocking the potential: machine learning applications in electrocatalyst
-    design for electrochemical hydrogen energy transformation'
-  authors:
-  - Rui Ding
-  - Junhong Chen
-  - Yuxin Chen
-  - Jianguo Liu
-  - Yoshio Bando
-  - Xuebin Wang
-  publisher: Chemical Society Reviews
-  date: '2024-01-01'
-  link: https://doi.org/g8qkwz
   plugin: sources.py
   file: sources.yaml
