@@ -7,11 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research areas
 
-We work on computational materials science at the intersection of artificial intelligence and atomistic modeling, with an emphasis on the predictive design of functional materials. We develop AI-accelerated frameworks that enable efficient and systematic exploration of high-dimensional materials design spaces. Our methodology combines deep reinforcement learning, machine-learned interatomic potentials, and automated simulation workflows to advance atomistic modeling and simulation for materials discovery.
+We work on computational materials science at the intersection of artificial intelligence and atomistic simulation, with an emphasis on the predictive design of functional materials. We develop AI-accelerated frameworks that enable efficient and systematic exploration of high-dimensional materials design spaces. Our methodology combines deep reinforcement learning, machine-learned interatomic potentials, and automated simulation workflows to advance atomistic modeling and simulation for materials discovery.
 We seek to understand and predict materials formation, structural evolution, and functional behavior, while addressing fundamental questions related to chemical bonding, materials processing, and ion and defect transport.
 We apply these computational approaches to a broad range of materials systems, including electronic materials for heterojunctions, ionic conductors for energy storage applications, and heterogeneous (electro)catalysts.
 
-**인공지능(AI)과 원자론적 모델링(Atomistic Modeling)**의 접점에서 계산 재료 과학을 연구하며, 특히 기능성 재료의 예측 설계에 중점을 두고 있습니다. 우리는 고차원 재료 설계 공간을 효율적이고 체계적으로 탐색할 수 있는 AI 가속 프레임워크를 개발합니다. 우리는 강화 학습, 머신러닝포텐셜, 그리고 자동화된 시뮬레이션 워크플로우를 결합하여, 재료 발견을 위한 원자론적 모델링 및 시뮬레이션 기술을 선도하고 있습니다. 또한 재료의 형성 과정, 구조적 진화, 기능적 거동을 이해하고 예측하는 것을 목표로 하며, 화학 결합, 재료 공정, 이온 및 결함 수송과 관련된 근본적인 문제들을 해결하고자 합니다.
+**인공지능(AI)과 원자론적 시뮬레이션(Atomistic Simulation)**의 접점에서 계산 재료 과학을 연구하며, 특히 기능성 재료의 예측 설계에 중점을 두고 있습니다. 우리는 고차원 재료 설계 공간을 효율적이고 체계적으로 탐색할 수 있는 AI 가속 프레임워크를 개발합니다. 우리는 강화 학습, 머신러닝포텐셜, 그리고 자동화된 시뮬레이션 워크플로우를 결합하여, 재료 발견을 위한 원자론적 모델링 및 시뮬레이션 기술을 선도하고 있습니다. 또한 재료의 형성 과정, 구조적 진화, 기능적 거동을 이해하고 예측하는 것을 목표로 하며, 화학 결합, 재료 공정, 이온 및 결함 수송과 관련된 근본적인 문제들을 해결하고자 합니다.
 
 {% include section.html %}
 

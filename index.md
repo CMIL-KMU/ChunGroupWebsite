@@ -13,7 +13,7 @@ We are a computational research group working at the interface of artificial int
 
 We use computational tools to understand and design materials, including electronic materials, ionic conductors for energy storage, and heterogeneous (electro)catalysts.
 
-계산 과학 도구를 활용하여 전자 소재, 에너지 저장용 이온 전도체, 그리고 불균일계 (전기)촉매를 포함한 다양한 기능성 소재를 이해하고 설계합니다.
+계산 툴을 활용하여 전자 소재, 에너지 저장용 이온 전도체, 그리고 불균일계 (전기)촉매를 포함한 다양한 기능성 소재를 이해하고 설계합니다.
 
 {%
   include button.html
