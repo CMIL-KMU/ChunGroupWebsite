@@ -1,1 +1,1 @@
-Sitemap: https://hojechun.github.io/ChunGroupWebsite/sitemap.xml
+Sitemap: http://chunlab.kookmin.ac.kr/sitemap.xml
