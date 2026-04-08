@@ -5,6 +5,6 @@
 
   # HojeChun's Website
 
-  Visit **[chunlab.kookmin.ac.kr](http://chunlab.kookmin.ac.kr)** 🚀
+  Visit **[chunlab.kookmin.ac.kr](https://chunlab.kookmin.ac.kr)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
