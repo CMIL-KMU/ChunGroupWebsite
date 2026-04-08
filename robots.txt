@@ -1,1 +1,1 @@
-Sitemap: http://chunlab.kookmin.ac.kr/sitemap.xml
+Sitemap: https://chunlab.kookmin.ac.kr/sitemap.xml
