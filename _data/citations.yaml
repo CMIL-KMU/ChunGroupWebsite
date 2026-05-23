@@ -77,7 +77,7 @@
   authors:
   - DG Park
   - JW Choi
-  - H Chun
+  - Hoje Chun
   - HS Jang
   - H Lee
   - WH Choi
@@ -131,7 +131,7 @@
   - machine-learning
   - virtual screening
   - catalysts
-- id: ZrnibVwAAAAJ:YOwf2qJgpHMC
+- id: doi:10.1039/c8cp03801e
   title: First-principles database driven computational neural network approach to
     the discovery of active ternary nanocatalysts for oxygen reduction reaction
   authors:
@@ -226,7 +226,7 @@
   plugin: google-scholar.py
   file: google-scholar.yaml
   orcid: 0000-0003-0624-536X
-- id: ZrnibVwAAAAJ:2osOgNQ5qMEC
+- id: doi:10.1039/c6cp06483c
   title: First principles computational study on the adsorption mechanism of organic
     methyl iodide gas on triethylenediamine impregnated activated carbon
   authors:
@@ -245,7 +245,7 @@
     xSnP2S12\u2212xClx for All Solid-State Li-Ion Battery Applications"
   authors:
   - K Nam
-  - H Chun
+  - Hoje Chun
   - J Hwang
   - B Han
   publisher: ACS Sustainable Chemistry & Engineering 8 (8), 3321-3327, 2020
@@ -327,7 +327,7 @@
   plugin: google-scholar.py
   file: google-scholar.yaml
   orcid: 0000-0003-0624-536X
-- id: ZrnibVwAAAAJ:ULOm3_A8WrAC
+- id: doi:10.1039/d0tc01309a
   title: First-principles mechanism study on distinct optoelectronic properties of
     Cl-doped 2D hybrid tin iodide perovskite
   authors:
@@ -369,7 +369,7 @@
   authors:
   - J Park
   - JM Lee
-  - H Chun
+  - Hoje Chun
   - Y Lee
   - SJ Hong
   - H Jung
@@ -382,7 +382,7 @@
   gsid: ZrnibVwAAAAJ
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: ZrnibVwAAAAJ:9yKSN-GCB0IC
+- id: doi:10.1039/d1ta04084g
   title: 'Design of a unique anion framework in halospinels for outstanding performance
     of all solid-state Li-ion batteries: first-principles approach'
   authors:
@@ -431,7 +431,7 @@
   plugin: google-scholar.py
   file: google-scholar.yaml
   orcid: 0000-0003-0624-536X
-- id: ZrnibVwAAAAJ:Zph67rFs4hoC
+- id: doi:10.1002/er.4064
   title: "First principles computational studies of spontaneous reduction reaction\
     \ of Eu (III) in eutectic LiCl\u2010KCl molten salt"
   authors:
@@ -536,7 +536,7 @@
     2/3 Cl 4 through multichannels designed by aliovalent doping
   authors:
   - S Hyun
-  - H Chun
+  - Hoje Chun
   - M Hong
   - J Kang
   - B Han
@@ -552,7 +552,7 @@
     \ and healing for high \u2026"
   authors:
   - JH Choi
-  - H Chun
+  - Hoje Chun
   - DW Kim
   - MK Kabiraz
   - J Kim
@@ -698,7 +698,7 @@
     \ high capacity and durability for Li-ion batteries"
   authors:
   - W Tao
-  - H Chun
+  - Hoje Chun
   - S Hyun
   - B Han
   publisher: Applied Surface Science 640, 158424, 2023
@@ -806,7 +806,7 @@
   title: 'Deep Learning of Mean First Passage Time Scape: Chemical Short-Range Order
     and Kinetics of Diffusive Relaxation'
   authors:
-  - H Chun
+  - Hoje Chun
   - H Tang
   - B Xing
   - R Gomez-Bombarelli
@@ -834,13 +834,13 @@
   plugin: google-scholar.py
   file: google-scholar.yaml
   orcid: 0000-0003-0624-536X
-- id: ZrnibVwAAAAJ:bEWYMUwI8FkC
+- id: doi:10.1016/j.apsadv.2026.100984
   title: Decoding structural complexity with machine learning to empower physical
     AI driven electrocatalyst design
   authors:
-  - W Tao
-  - H Chun
-  - B Han
+  - Wei Tao
+  - Hoje Chun
+  - Byungchan Han
   publisher: Applied Surface Science Advances 34, 100984, 2026
   date: '2026-01-01'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:bEWYMUwI8FkC
@@ -852,7 +852,7 @@
     Order
   authors:
   - H Tang
-  - H Chun
+  - Hoje Chun
   - R Gomez-Bombarelli
   - Y Mishin
   - J Li
@@ -878,7 +878,7 @@
   title: Investigation into Structural Evolution of Single Nanoparticles during Thermal
     Treatment with Atomic Precision
   authors:
-  - H Chun
+  - Hoje Chun
   - B Han
   publisher: "\uD55C\uAD6D\uD45C\uBA74\uACF5\uD559\uD68C \uD559\uC220\uBC1C\uD45C\uD68C\
     \ \uCD08\uB85D\uC9D1, 164-164, 2022"
@@ -894,7 +894,7 @@
   - ZW Hong
   - N Segal
   - A Netanyahu
-  - H Chun
+  - Hoje Chun
   - R Gomez-Bombarelli
   - '...'
   publisher: NeurIPS 2025 AI for Science Workshop, 0
@@ -907,7 +907,7 @@
   title: Reinforcement learning atomistic simulation of short-range order formation
     in multi-principal element alloys
   authors:
-  - H Chun
+  - Hoje Chun
   - H Tang
   - R Gomez-Bombarelli
   - J Li
