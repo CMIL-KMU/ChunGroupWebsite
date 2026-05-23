@@ -2,29 +2,18 @@
   tags:
     - machine-learning
     - algorithm
-- id: doi:10.20517/jmi.2025.65
-- id: doi:10.1016/j.apcatb.2021.120938
-- id: doi:10.1021/acscentsci.5c00547
 - id: doi:10.1038/s41524-024-01432-1
   image: images/publications/2024_npj_comp_hj.png
   tags:
     - machine-learning
     - virtual screening
     - catalysts
-- id: doi:10.1016/j.bios.2023.115882
-- id: doi:10.1126/science.aax3233
-- id: doi:10.1016/j.apsusc.2023.158424
-- id: doi:10.1039/D1TA04084G
-- id: doi:10.1016/j.cej.2019.05.115
 - id: doi:10.1016/j.checat.2021.06.001
   image: images/publications/2021_chem_catal.jpeg
   tags:
     - machine-learning
     - virtual screening
     - catalysts
-- id: doi:10.1039/C8CP03801E
-- id: doi:10.1039/D2TA09592K
-- id: doi:10.1021/acscatal.3c01441
 - id: doi:10.48550/arXiv.2411.17839
   image: images/publications/2025_mfpt.png
   tags:
@@ -35,28 +24,3 @@
   tags:
     - machine-learning
     - algorithm
-- id: doi:10.1038/s41586-021-04391-5
-- id: doi:10.1038/s41598-023-28492-5
-- id: doi:10.26434/chemrxiv-2022-wt6p9-v2
-- id: doi:10.1016/j.apsusc.2022.153715
-- id: doi:10.1038/s41467-025-56476-8
-- id: doi:10.1038/s41524-024-01273-y
-- id: doi:10.1016/j.apcatb.2022.121504
-- id: doi:10.1021/acsnano.2c02324
-- id: doi:10.1021/acsami.1c21419
-- id: doi:10.1016/j.jhazmat.2020.122857
-- id: doi:10.1021/acs.jpcc.8b00721
-- id: doi:10.1021/acs.chemmater.4c01879
-- id: doi:10.1016/j.ensm.2025.104040
-- id: doi:10.1073/pnas.2424950122
-- id: doi:10.1016/j.apsusc.2022.152955
-- id: doi:10.1016/j.mtnano.2020.100099
-- id: doi:10.1021/acssuschemeng.0c02981
-- id: doi:10.1039/D0TC01309A
-- id: doi:10.1016/j.jpowsour.2020.227998
-- id: doi:10.1016/j.jiec.2018.10.024
-- id: doi:10.1016/j.jhazmat.2017.08.054
-- id: doi:10.1002/er.4064
-- id: doi:10.1039/C6CP06483C
-- id: doi:10.1021/acssuschemeng.9b07166
-- id: doi:10.1016/j.apsusc.2019.144861
