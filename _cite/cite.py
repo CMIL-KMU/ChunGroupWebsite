@@ -4,6 +4,7 @@ cite process to convert sources and metasources into full citations
 
 import re
 import traceback
+import yaml
 from importlib import import_module
 from pathlib import Path
 from dotenv import load_dotenv
@@ -12,6 +13,27 @@ from util import *
 
 # load environment variables
 load_dotenv()
+
+
+# load member names and aliases for author normalization
+name_mappings = {}
+for member_file in Path("_members").glob("*.md"):
+    try:
+        content = member_file.read_text(encoding="utf-8")
+        fm_match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
+        if fm_match:
+            fm_data = yaml.safe_load(fm_match.group(1))
+            name = fm_data.get("name")
+            aliases = fm_data.get("aliases", [])
+            if name:
+                name_mappings[name.lower()] = name
+                for alias in aliases:
+                    name_mappings[alias.lower()] = name
+                    # Also map stripped versions without dots or spaces
+                    normalized_alias = re.sub(r"[^a-z]", "", alias.lower())
+                    name_mappings[normalized_alias] = name
+    except Exception as e:
+        log(f"Error parsing member file {member_file.name}: {e}", level="WARNING")
 
 
 # save errors/warnings for reporting at end
@@ -38,6 +60,24 @@ def merge_citations(base, secondary):
     merge two citation dicts, non-empty values from secondary override base
     """
     for key, value in secondary.items():
+        if key == "id":
+            # prioritize standard IDs (doi, pmcode, arxiv, etc.) over Google Scholar IDs
+            base_id = str(base.get("id", ""))
+            sec_id = str(value)
+            
+            base_is_standard = base_id.startswith("doi:") or base_id.startswith("pmid:") or base_id.startswith("arxiv:")
+            sec_is_standard = sec_id.startswith("doi:") or sec_id.startswith("pmid:") or sec_id.startswith("arxiv:")
+            
+            if sec_is_standard and not base_is_standard:
+                base["id"] = sec_id
+            elif not sec_is_standard and base_is_standard:
+                # keep base_id
+                pass
+            elif len(sec_id) > len(base_id):
+                # fallback to length-based merge
+                base["id"] = sec_id
+            continue
+
         # if secondary has a value and base doesn't, or secondary value is longer/better
         if value and (not base.get(key) or len(str(value)) > len(str(base.get(key)))):
             base[key] = value
@@ -206,6 +246,25 @@ for index, source in enumerate(sources):
     # ensure date in proper format for correct date sorting
     if get_safe(citation, "date", ""):
         citation["date"] = format_date(get_safe(citation, "date", ""))
+
+    # normalize author names based on member files
+    normalized_authors = []
+    for author in get_safe(citation, "authors", []):
+        author_cleaned = author.strip()
+        author_lower = author_cleaned.lower()
+        author_no_dots = author_lower.replace(".", "")
+        author_no_spaces = re.sub(r"[^a-z]", "", author_lower)
+        
+        if author_lower in name_mappings:
+            normalized_authors.append(name_mappings[author_lower])
+        elif author_no_dots in name_mappings:
+            normalized_authors.append(name_mappings[author_no_dots])
+        elif author_no_spaces in name_mappings:
+            normalized_authors.append(name_mappings[author_no_spaces])
+        else:
+            normalized_authors.append(author_cleaned)
+    if normalized_authors:
+        citation["authors"] = normalized_authors
 
     # add new citation to list
     citations.append(citation)
