@@ -9,7 +9,7 @@ aliases:
   - hoje
   - hoje chun
 links:
-  email: hoje.chun316@gmail.com
+  email: hojechun@kookmin.ac.kr
   orcid: 0000-0003-0624-536X
   google-scholar: https://scholar.google.com/citations?hl=ko&user=ZrnibVwAAAAJ
 ---
