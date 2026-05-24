@@ -225,7 +225,28 @@ def cite_with_manubot(_id):
     container = get_safe(manubot, "container-title", "").strip()
     collection = get_safe(manubot, "collection-title", "").strip()
     publisher = get_safe(manubot, "publisher", "").strip()
-    citation["publisher"] = container or publisher or collection or ""
+    pub_name = container or publisher or collection or ""
+
+    volume = str(get_safe(manubot, "volume", "") or "").strip()
+    issue = str(get_safe(manubot, "issue", "") or "").strip()
+    page = str(get_safe(manubot, "page", "") or "").strip()
+
+    details = []
+    if volume:
+        if issue:
+            details.append(f"{volume} ({issue})")
+        else:
+            details.append(volume)
+    if page:
+        details.append(page)
+
+    if pub_name:
+        if details:
+            citation["publisher"] = f"{pub_name} {', '.join(details)}"
+        else:
+            citation["publisher"] = pub_name
+    else:
+        citation["publisher"] = ""
 
     # extract date part
     def date_part(citation, index):
