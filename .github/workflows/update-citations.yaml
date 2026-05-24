@@ -47,6 +47,15 @@ jobs:
           cache: "pip"
           cache-dependency-path: "**/requirements.txt"
 
+      - name: Cache Citation Compiler Database
+        if: github.event.action != 'closed'
+        uses: actions/cache@v4
+        with:
+          path: _cite/.cache
+          key: citation-cache-${{ github.run_id }}
+          restore-keys: |
+            citation-cache-
+
       - name: Install Python packages
         if: github.event.action != 'closed'
         run: |
@@ -60,13 +69,6 @@ jobs:
         if: github.event.action != 'closed'
         run: python _cite/cite.py
         timeout-minutes: 15
-
-      - name: Commit cache
-        if: failure()
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          file_pattern: "**/.cache/**"
-          commit_message: "Commit cache"
 
       - name: Check if citations changed
         if: github.event.action != 'closed'
@@ -83,6 +85,7 @@ jobs:
           inputs.open-pr != true
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          file_pattern: "_data/citations.yaml"
           commit_message: "Update citations"
 
       - name: Open pull request with updated citations
