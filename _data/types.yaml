@@ -151,7 +151,7 @@ error:
 # publications
 
 paper:
-  icon: fa-solid fa-scroll
+  icon: fa-solid fa-book-open
   text: Paper
   tooltip: Paper
 

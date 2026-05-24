@@ -226,3 +226,39 @@ $wrap: 800px;
         height: $thumb-size;
     }
 }
+
+.citation-type-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 8px;
+    font-size: 0.72em;
+    font-weight: var(--semi-bold, 600);
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    flex-shrink: 0;
+    line-height: 1;
+    
+    &.paper {
+        background-color: rgba(35, 83, 165, 0.1);
+        color: #2353A5;
+        border: 1px solid rgba(35, 83, 165, 0.2);
+    }
+    
+    &.preprint {
+        background-color: rgba(245, 158, 11, 0.1);
+        color: #D97706;
+        border: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    
+    &.patent {
+        background-color: rgba(16, 185, 129, 0.1);
+        color: #059669;
+        border: 1px solid rgba(16, 185, 129, 0.2);
+    }
+}
+
+.citation-content-wrapper .tags {
+    justify-content: flex-start;
+    margin: 0;
+}

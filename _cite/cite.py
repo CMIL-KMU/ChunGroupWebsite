@@ -384,15 +384,16 @@ citations = merged_citations
 
 log()
 
-log("Saving updated citations")
-
-
-# save new citations
-try:
-    save_data(output_file, citations)
-except Exception as e:
-    log(e, level="ERROR")
-    errors.append(e)
+if len(errors) > 0:
+    log("Errors occurred during compilation. Aborting save to prevent overwriting with incomplete data.", level="ERROR")
+else:
+    log("Saving updated citations")
+    # save new citations
+    try:
+        save_data(output_file, citations)
+    except Exception as e:
+        log(e, level="ERROR")
+        errors.append(e)
 
 
 log()
