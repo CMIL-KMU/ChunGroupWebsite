@@ -78,6 +78,8 @@
 
 .citation-publisher {
   text-transform: capitalize;
+  font-weight: var(--bold, bold);
+  color: #2353A5;
 }
 
 .citation-description {
