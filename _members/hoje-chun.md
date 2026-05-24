@@ -5,6 +5,7 @@ role: principal-investigator
 group: team
 aliases:
   - H. Chun
+  - H Chun
   - Hoje Chun
   - hoje
   - hoje chun

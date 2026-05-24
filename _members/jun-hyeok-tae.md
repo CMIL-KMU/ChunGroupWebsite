@@ -5,6 +5,7 @@ role: undergrad
 group: team
 aliases:
   - J. H. Tae
+  - J H Tae
   - Jun Hyeok Tae
   - jun hyeok tae
   - junhyeoktae
