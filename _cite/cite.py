@@ -178,8 +178,12 @@ log("Filtering preprints (opt-in only)")
 filtered_sources = []
 for source in sources:
     citation_id = str(get_safe(source, "id", "")).lower()
+    publisher_lower = str(get_safe(source, "publisher", "")).lower()
     # detect various preprint identifiers
-    is_preprint = any(p in citation_id for p in ["arxiv", "chemrxiv", "rs.3.rs"])
+    is_preprint = (
+        any(p in citation_id for p in ["arxiv", "chemrxiv", "rs.3.rs"]) or
+        any(p in publisher_lower for p in ["arxiv", "chemrxiv", "biorxiv", "medrxiv", "research square"])
+    )
     is_from_sources = get_safe(source, "plugin", "") == "sources.py"
 
     if is_preprint and not is_from_sources:
@@ -304,7 +308,16 @@ for norm_title, group in title_groups.items():
         citation_id = get_safe(citation, "id", "")
         if not citation_id:
             continue
-        is_preprint = "chemrxiv" in citation_id.lower() or "arxiv" in citation_id.lower()
+        publisher_lower = str(get_safe(citation, "publisher", "")).lower()
+        is_preprint = (
+            "chemrxiv" in citation_id.lower() or
+            "arxiv" in citation_id.lower() or
+            "chemrxiv" in publisher_lower or
+            "arxiv" in publisher_lower or
+            "biorxiv" in publisher_lower or
+            "medrxiv" in publisher_lower or
+            "research square" in publisher_lower
+        )
 
         if is_preprint:
             preprints.append(citation)
