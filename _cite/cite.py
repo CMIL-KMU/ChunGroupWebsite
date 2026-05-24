@@ -270,6 +270,22 @@ for index, source in enumerate(sources):
     if normalized_authors:
         citation["authors"] = normalized_authors
 
+    # determine type of citation
+    citation_id = str(get_safe(citation, "id", "")).lower()
+    publisher = str(get_safe(citation, "publisher", "")).lower()
+    
+    is_preprint = (
+        any(p in citation_id for p in ["arxiv", "chemrxiv", "rs.3.rs"]) or
+        any(p in publisher for p in ["arxiv", "chemrxiv", "biorxiv", "medrxiv", "research square"])
+    )
+    
+    if "patent" in publisher or "patent" in citation_id:
+        citation["type"] = "patent"
+    elif is_preprint:
+        citation["type"] = "preprint"
+    else:
+        citation["type"] = "paper"
+
     # add new citation to list
     citations.append(citation)
 

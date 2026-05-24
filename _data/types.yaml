@@ -175,6 +175,11 @@ preprint:
   text: Preprint
   tooltip: Preprint
 
+patent:
+  icon: fa-solid fa-file-signature
+  text: Patent
+  tooltip: Patent
+
 unpublished:
   icon: fa-regular fa-eye
   text: Unpublished

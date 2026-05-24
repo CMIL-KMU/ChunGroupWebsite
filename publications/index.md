@@ -27,4 +27,36 @@ nav:
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" %}
+<div class="publication-tabs">
+  <button id="tab-papers" class="tab-btn active" onclick="switchPubTab('papers')">Papers & Preprints</button>
+  <button id="tab-patents" class="tab-btn" onclick="switchPubTab('patents')">Patents</button>
+</div>
+
+<div id="papers-list">
+  {% include list.html data="citations" component="citation" filter="type != 'patent'" %}
+</div>
+
+<div id="patents-list" style="display: none;">
+  {% include list.html data="citations" component="citation" filter="type == 'patent'" %}
+</div>
+
+<script>
+  function switchPubTab(tab) {
+    const papersList = document.getElementById('papers-list');
+    const patentsList = document.getElementById('patents-list');
+    const tabPapers = document.getElementById('tab-papers');
+    const tabPatents = document.getElementById('tab-patents');
+    
+    if (tab === 'papers') {
+      papersList.style.display = 'block';
+      patentsList.style.display = 'none';
+      tabPapers.classList.add('active');
+      tabPatents.classList.remove('active');
+    } else {
+      papersList.style.display = 'none';
+      patentsList.style.display = 'block';
+      tabPapers.classList.remove('active');
+      tabPatents.classList.add('active');
+    }
+  }
+</script>

@@ -109,6 +109,47 @@ $wrap: 800px;
     margin: 0;
 }
 
+.publication-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+    border-bottom: 2px solid var(--light-gray, #eaeaea);
+    padding-bottom: 10px;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.1em;
+    font-weight: var(--semi-bold, 600);
+    color: var(--gray, #777);
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease;
+    
+    &:hover {
+        color: #2353A5;
+    }
+    
+    &.active {
+        color: #2353A5;
+        
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -12px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #2353A5;
+            border-radius: 2px;
+        }
+    }
+}
+
 @container (max-width: #{$wrap}) {
     .citation {
         flex-direction: column;
