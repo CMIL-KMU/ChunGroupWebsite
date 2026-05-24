@@ -260,11 +260,11 @@ for index, source in enumerate(sources):
         author_no_spaces = re.sub(r"[^a-z]", "", author_lower)
         
         if author_lower in name_mappings:
-            normalized_authors.append(name_mappings[author_lower])
+            normalized_authors.append(f"<u>{name_mappings[author_lower]}</u>")
         elif author_no_dots in name_mappings:
-            normalized_authors.append(name_mappings[author_no_dots])
+            normalized_authors.append(f"<u>{name_mappings[author_no_dots]}</u>")
         elif author_no_spaces in name_mappings:
-            normalized_authors.append(name_mappings[author_no_spaces])
+            normalized_authors.append(f"<u>{name_mappings[author_no_spaces]}</u>")
         else:
             normalized_authors.append(author_cleaned)
     if normalized_authors:
