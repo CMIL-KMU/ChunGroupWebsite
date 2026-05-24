@@ -1,17 +1,15 @@
 # site properties and page defaults
 title: Chun research group
 subtitle: 
-description: Digital materials processing and discovery
+description: Materials intelligence for novel discovery
 header: images/background.png
 footer: images/background.png
 proofer: false
 
 # site social media and other links
 links:
-  email: hoje.chun316@gmail.com
-  orcid: 0000-0003-0624-536X
-  google-scholar: ZrnibVwAAAAJ
-  github: HojeChun
+  email: hojechun@kookmin.ac.kr
+  github: CMIL-KMU
 
 ### jekyll settings
 
