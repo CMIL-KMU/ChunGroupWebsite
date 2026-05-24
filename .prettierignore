@@ -1,0 +1,2 @@
+# Prevent Prettier from collapsing Jekyll Front Matter in stylesheets
+_styles/citation.scss
