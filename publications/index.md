@@ -25,13 +25,20 @@ nav:
 {% include search-info.html %}
 
 <div class="publications-header">
-  <div class="publication-tabs">
-    <button id="tab-papers" class="tab-btn active" onclick="switchPubTab('papers')">Papers & Preprints</button>
-    <button id="tab-patents" class="tab-btn" onclick="switchPubTab('patents')">Patents</button>
+  <div class="publication-tabs-row">
+    <div class="publication-tabs">
+      <button id="tab-papers" class="tab-btn active" onclick="switchPubTab('papers')">Papers & Preprints</button>
+      <button id="tab-patents" class="tab-btn" onclick="switchPubTab('patents')">Patents</button>
+    </div>
+    <a href="https://scholar.google.com/citations?hl=ko&user=ZrnibVwAAAAJ" class="scholar-tab-btn" target="_blank" rel="noopener">
+      <i class="fa-brands fa-google"></i> Google Scholar
+    </a>
   </div>
-  <a href="https://scholar.google.com/citations?hl=ko&user=ZrnibVwAAAAJ" class="scholar-tab-btn" target="_blank" rel="noopener">
-    <i class="fa-brands fa-google"></i> Google Scholar
-  </a>
+  <div class="publications-legend">
+    <span class="legend-item"><i class="fa-solid fa-book-open"></i> Paper</span>
+    <span class="legend-item"><i class="fa-regular fa-eye"></i> Preprint</span>
+    <span class="legend-item"><i class="fa-solid fa-file-signature"></i> Patent</span>
+  </div>
 </div>
 
 <div id="papers-list">

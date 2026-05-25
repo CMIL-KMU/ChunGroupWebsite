@@ -28,28 +28,25 @@
     {% endif %}
 
     <div class="citation-text">
-      {% if include.number %}
-        <span class="citation-number">{{ include.number }}.</span>
-      {% endif %}
+      <div class="citation-left-column">
+        {% if include.number %}
+          <span class="citation-number">{{ include.number }}.</span>
+        {% endif %}
+        {% assign type = site.data.types[citation.type] %}
+        {% if type.icon %}
+          {% include icon.html icon=type.icon %}
+        {% endif %}
+      </div>
 
       <div class="citation-content-wrapper">
-        <div class="citation-title-wrapper">
-          {% assign type = site.data.types[citation.type] %}
-          {% if type.icon %}
-            {% include icon.html icon=type.icon %}
+        <a
+          {% if citation.link %}
+            href="{{ citation.link | relative_url | xml_escape }}"
           {% endif %}
-          <span class="citation-type-badge {{ citation.type }}">
-            {{ type.text | default: citation.type }}
-          </span>
-          <a
-            {% if citation.link %}
-              href="{{ citation.link | relative_url | xml_escape }}"
-            {% endif %}
-            class="citation-title"
-          >
-            {{ citation.title | default: "[no title info]" }}
-          </a>
-        </div>
+          class="citation-title"
+        >
+          {{ citation.title | default: "[no title info]" }}
+        </a>
 
         <div
           class="citation-authors"

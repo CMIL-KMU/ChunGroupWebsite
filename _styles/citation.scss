@@ -53,11 +53,14 @@ $wrap: 800px;
     min-width: 0;
 }
 
-.citation-title-wrapper {
+.citation-left-column {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 8px;
-    width: 100%;
+    flex-shrink: 0;
+    line-height: 1.4;
+    margin-top: 2px;
     
     .icon {
         font-size: 1.1em;
@@ -80,7 +83,6 @@ $wrap: 800px;
     color: var(--text);
     font-size: 1em;
     flex-shrink: 0;
-    line-height: 1.4;
 }
 
 .citation-title,
@@ -135,11 +137,18 @@ $wrap: 800px;
 
 .publications-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: 15px;
     border-bottom: 2px solid var(--light-gray, #eaeaea);
     margin: 30px 0;
-    padding-bottom: 5px;
+    padding-bottom: 12px;
+}
+
+.publication-tabs-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .publication-tabs {
@@ -203,12 +212,43 @@ $wrap: 800px;
     }
 }
 
+.publications-legend {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 0.9em;
+    color: var(--gray);
+    
+    .legend-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-weight: var(--semi-bold, 500);
+        
+        i {
+            font-size: 1.05em;
+        }
+    }
+}
+
 @media (max-width: 600px) {
     .publications-header {
         flex-direction: column;
         gap: 15px;
         align-items: center;
         padding-bottom: 15px;
+    }
+    
+    .publication-tabs-row {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .publications-legend {
+        justify-content: center;
+        width: 100%;
     }
     
     .tab-btn.active::after {
@@ -224,37 +264,6 @@ $wrap: 800px;
     .citation-image {
         width: unset;
         height: $thumb-size;
-    }
-}
-
-.citation-type-badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 3px 8px;
-    font-size: 0.72em;
-    font-weight: var(--semi-bold, 600);
-    border-radius: 4px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    flex-shrink: 0;
-    line-height: 1;
-    
-    &.paper {
-        background-color: rgba(35, 83, 165, 0.1);
-        color: #2353A5;
-        border: 1px solid rgba(35, 83, 165, 0.2);
-    }
-    
-    &.preprint {
-        background-color: rgba(245, 158, 11, 0.1);
-        color: #D97706;
-        border: 1px solid rgba(245, 158, 11, 0.2);
-    }
-    
-    &.patent {
-        background-color: rgba(16, 185, 129, 0.1);
-        color: #059669;
-        border: 1px solid rgba(16, 185, 129, 0.2);
     }
 }
 
