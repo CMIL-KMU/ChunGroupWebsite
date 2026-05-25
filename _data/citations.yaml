@@ -158,6 +158,27 @@
   file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.cej.2019.05.115
+  title: 'Design of highly efficient adsorbents for removal of gaseous methyl iodide
+    using tertiary amine-impregnated activated carbon: Integrated experimental and
+    first-principles approach'
+  authors:
+  - Keon Ho
+  - <u>Hoje Chun</u>
+  - Hyung Chae Lee
+  - Yunjo Lee
+  - Seulah Lee
+  - Hyunwook Jung
+  - Byungchan Han
+  - Chang-Ha Lee
+  publisher: Chemical Engineering Journal 373, 1003-1011
+  date: '2019-10-01'
+  link: https://doi.org/ggrhsp
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.apcatb.2022.121504
   title: Tuning the Electronic Structure and Inverse Degree of Inverse Spinel Ferrites
     by Integrating Samarium Orthoferrite for Efficient Water Oxidation
@@ -214,27 +235,6 @@
   publisher: Journal of Hazardous Materials 398, 122857
   date: '2020-11-01'
   link: https://doi.org/gpw3vk
-  gsid: ZrnibVwAAAAJ
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-- id: doi:10.1016/j.cej.2019.05.115
-  title: 'Design of highly efficient adsorbents for removal of gaseous methyl iodide
-    using tertiary amine-impregnated activated carbon: Integrated experimental and
-    first-principles approach'
-  authors:
-  - Keon Ho
-  - <u>Hoje Chun</u>
-  - Hyung Chae Lee
-  - Yunjo Lee
-  - Seulah Lee
-  - Hyunwook Jung
-  - Byungchan Han
-  - Chang-Ha Lee
-  publisher: Chemical Engineering Journal 373, 1003-1011
-  date: '2019-10-01'
-  link: https://doi.org/ggrhsp
   gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
