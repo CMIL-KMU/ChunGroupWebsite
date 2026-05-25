@@ -1,426 +1,33 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: ZrnibVwAAAAJ:Se3iqnhoufwC
-  title: First-principles study on ultrafast Li-ion diffusion in halospinel Li 2 Sc
-    2/3 Cl 4 through multichannels designed by aliovalent doping
+- id: doi:10.1126/science.aax3233
+  title: Critical differences in 3D atomic structure of individual ligand-protected
+    nanocrystals in solution
   authors:
-  - S Hyun
-  - <u>Hoje Chun</u>
-  - M Hong
-  - J Kang
-  - B Han
-  publisher: Journal of Materials Chemistry A 11 (8), 4272-4279, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:Se3iqnhoufwC
-  gsid: ZrnibVwAAAAJ
-  type: paper
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ZrnibVwAAAAJ:aqlVkmm33-oC
-  title: "Design a multiphase interfaced Ge (GeOx)/T-Nb2O5\u2212 x/C anode with synergistic\
-    \ high capacity and durability for Li-ion batteries"
-  authors:
-  - W Tao
-  - <u>Hoje Chun</u>
-  - S Hyun
-  - B Han
-  publisher: Applied Surface Science 640, 158424, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:aqlVkmm33-oC
-  gsid: ZrnibVwAAAAJ
-  type: paper
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ZrnibVwAAAAJ:e5wmG9Sq2KIC
-  title: Method for designing ternary catalyst using machine learning
-  authors:
-  - NOH Seunghyo
-  - C Hoje
-  - HAN Byungchan
-  publisher: US Patent 12,494,270, 2025
-  date: '2025-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:e5wmG9Sq2KIC
-  gsid: ZrnibVwAAAAJ
-  type: patent
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ZrnibVwAAAAJ:bEWYMUwI8FkC
-  title: Decoding structural complexity with machine learning to empower physical
-    AI driven electrocatalyst design
-  authors:
-  - W Tao
-  - <u>Hoje Chun</u>
-  - B Han
-  publisher: Applied Surface Science Advances 34, 100984, 2026
-  date: '2026-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:bEWYMUwI8FkC
-  gsid: ZrnibVwAAAAJ
-  type: paper
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ZrnibVwAAAAJ:iH-uZ7U-co4C
-  title: Towards Generating Stable Materials via Large Language Models with Reinforcement
-    Learning Finetuning
-  authors:
-  - ZW Hong
-  - N Segal
-  - A Netanyahu
-  - <u>Hoje Chun</u>
-  - R Gomez-Bombarelli
-  - '...'
-  publisher: NeurIPS 2025 AI for Science Workshop, 2025
-  date: '2025-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:iH-uZ7U-co4C
-  gsid: ZrnibVwAAAAJ
-  type: paper
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: ZrnibVwAAAAJ:HDshCWvjkbEC
-  title: Method for predicting potential energy of multicomponent materials
-  authors:
-  - HAN Byungchan
-  - NOH Seunghyo
-  - C Hoje
-  publisher: US Patent App. 18/522,562, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:HDshCWvjkbEC
-  gsid: ZrnibVwAAAAJ
-  type: patent
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1021/acs.jctc.5c00090
-  title: Learning Pairwise Interaction for Extrapolative and Interpretable Machine
-    Learning Interatomic Potentials with Physics-Informed Neural Network
-  authors:
-  - <u>Hoje Chun</u>
-  - Minjoon Hong
-  - Seung Hyo Noh
-  - Byungchan Han
-  publisher: Journal of Chemical Theory and Computation 21 (8), 4030-4039
-  date: '2025-04-14'
-  link: https://doi.org/hbg5zp
-  orcid: 0000-0003-0624-536X
-  plugin: sources.py
-  file: sources.yaml
-  image: images/publications/2025_jctc.png
-  tags:
-  - machine-learning
-  - algorithm
-  type: paper
-- id: doi:10.1038/s41467-025-56476-8
-  title: Time-resolved Brownian tomography of single nanocrystals in liquid during
-    oxidative etching
-  authors:
-  - Sungsu Kang
-  - Joodeok Kim
-  - Sungin Kim
-  - <u>Hoje Chun</u>
-  - Junyoung Heo
-  - Cyril F. Reboul
-  - "Rub\xE9n Meana-Pa\xF1eda"
-  - Cong T. S. Van
-  - Hyesung Choi
-  - Yunseo Lee
-  - Jinho Rhee
-  - Minyoung Lee
-  - Dohun Kang
   - Byung Hyo Kim
-  - Taeghwan Hyeon
+  - Junyoung Heo
+  - Sungin Kim
+  - Cyril F. Reboul
+  - <u>Hoje Chun</u>
+  - Dohun Kang
+  - Hyeonhu Bae
+  - Hyejeong Hyun
+  - Jongwoo Lim
+  - Hoonkyung Lee
   - Byungchan Han
+  - Taeghwan Hyeon
+  - A. Paul Alivisatos
   - Peter Ercius
-  - Won Chul Lee
   - Hans Elmlund
   - Jungwon Park
-  publisher: Nature Communications 16 (1)
-  date: '2025-01-29'
-  link: https://doi.org/hbg5zq
-  orcid: 0000-0003-0624-536X
+  publisher: Science 368 (6486), 60-67
+  date: '2020-04-03'
+  link: https://doi.org/ggrf78
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
-- id: doi:10.1021/acscentsci.5c00547
-  title: Accelerating and Enhancing Thermodynamic Simulations of Electrochemical Interfaces
-  authors:
-  - Xiaochen Du
-  - Mengren Liu
-  - Jiayu Peng
-  - <u>Hoje Chun</u>
-  - Alexander Hoffman
-  - Bilge Yildiz
-  - Lin Li
-  - Martin Z. Bazant
-  - "Rafael G\xF3mez-Bombarelli"
-  publisher: ACS Central Science 11 (9), 1558-1572
-  date: '2025-07-21'
-  link: https://doi.org/hbg5z3
   orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1073/pnas.2424950122
-  title: Multiphasic size-dependent growth dynamics of nanoparticle ensembles
-  authors:
-  - Ji-Hyun Kim
-  - Joodeok Kim
-  - Byung Hyo Kim
-  - Sanggeun Song
-  - Jingyu Kang
-  - Jinho Rhee
-  - Donghee Kim
-  - <u>Hoje Chun</u>
-  - Hyesung Choi
-  - Hyungjin Cho
-  - Yongjoon Kim
-  - Jae Won Jung
-  - Youngju Son
-  - Junhyeok Jung
-  - Kunwoo Park
-  - Sungho Jeon
-  - Minho Lee
-  - Byungchan Han
-  - Won Chul Lee
-  - Dongjun Kim
-  - Taeghwan Hyeon
-  - Jaeyoung Sung
-  - Jungwon Park
-  publisher: Proceedings of the National Academy of Sciences 122 (23)
-  date: '2025-06-04'
-  link: https://doi.org/g9zqsw
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1016/j.ensm.2025.104040
-  title: Zeolitic imidazolate framework-derived bifunctional CoO-Mn3O4 heterostructure
-    cathode enhancing oxygen reduction/evolution via dynamic O-vacancy formation and
-    healing for high-performance Zn-air batteries
-  authors:
-  - Jong Hui Choi
-  - <u>Hoje Chun</u>
-  - Dong Won Kim
-  - Mrinal Kanti Kabiraz
-  - Jeonghyeon Kim
-  - Jihoon Kim
-  - Keon-Han Kim
-  - Benzhi Wang
-  - Hyung Mo Jeong
-  - Sang-Il Choi
-  - Byungchan Han
-  - Jeung Ku Kang
-  publisher: Energy Storage Materials 75, 104040
-  date: '2025-02-01'
-  link: https://doi.org/hbg52j
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1038/s41524-024-01432-1
-  title: Active learning accelerated exploration of single-atom local environments
-    in multimetallic systems for oxygen electrocatalysis
-  authors:
-  - <u>Hoje Chun</u>
-  - Jaclyn R. Lunger
-  - Jeung Ku Kang
-  - "Rafael G\xF3mez-Bombarelli"
-  - Byungchan Han
-  publisher: npj Computational Materials 10 (1)
-  date: '2024-10-19'
-  link: https://doi.org/hbg5z4
-  orcid: 0000-0003-0624-536X
-  plugin: sources.py
-  file: sources.yaml
-  image: images/publications/2024_npj_comp_hj.png
-  tags:
-  - machine-learning
-  - virtual screening
-  - catalysts
-  type: paper
-- id: doi:10.1016/j.bios.2023.115882
-  title: Active site engineering of Zn-doped mesoporous ceria toward highly efficient
-    organophosphorus hydrolase-mimicking nanozyme
-  authors:
-  - Junsang Lee
-  - Xuan Ai Le
-  - <u>Hoje Chun</u>
-  - Trung Hieu Vu
-  - Daeeun Choi
-  - Byungchan Han
-  - Moon Il Kim
-  - Jinwoo Lee
-  publisher: Biosensors and Bioelectronics 246, 115882
-  date: '2024-02-01'
-  link: https://doi.org/hbg5z6
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.48550/arXiv.2411.17839
-  title: 'Deep Learning of Mean First Passage Time Scape: Chemical Short-Range Order
-    and Kinetics of Diffusive Relaxation'
-  authors:
-  - <u>Hoje Chun</u>
-  - Hao Tang
-  - Bin Xing
-  - Rafael Gomez-Bombarelli
-  - Ju Li
-  publisher: arXiv
-  date: '2024-01-01'
-  link: https://doi.org/hbg52b
-  orcid: 0000-0003-0624-536X
-  plugin: sources.py
-  file: sources.yaml
-  image: images/publications/2025_mfpt.png
-  tags:
-  - machine-learning
-  - algorithm
-  type: preprint
-- id: doi:10.1038/s41524-024-01273-y
-  title: Towards atom-level understanding of metal oxide catalysts for the oxygen
-    evolution reaction with machine learning
-  authors:
-  - Jaclyn R. Lunger
-  - Jessica Karaguesian
-  - <u>Hoje Chun</u>
-  - Jiayu Peng
-  - Yitong Tseo
-  - Chung Hsuan Shan
-  - Byungchan Han
-  - Yang Shao-Horn
-  - "Rafael G\xF3mez-Bombarelli"
-  publisher: npj Computational Materials 10 (1)
-  date: '2024-04-22'
-  link: https://doi.org/g96fcc
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1021/acs.chemmater.4c01879
-  title: Unveiling the Local Strain-Induced Structural Degradation Mechanisms in Li
-    Excess Manganese Cathodes
-  authors:
-  - Mu Geun Son
-  - Hyeonji Shin
-  - <u>Hoje Chun</u>
-  - Joonhee Kang
-  publisher: Chemistry of Materials 36 (22), 11065-11074
-  date: '2024-11-11'
-  link: https://doi.org/hbg52h
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1016/j.apsusc.2023.158424
-  title: "Design a multiphase interfaced Ge(GeO )/T-Nb2O5\u2212/C anode with synergistic\
-    \ high capacity and durability for Li-ion batteries"
-  authors:
-  - Wei Tao
-  - <u>Hoje Chun</u>
-  - Suseong Hyun
-  - Byungchan Han
-  publisher: Applied Surface Science 640, 158424
-  date: '2023-12-01'
-  link: https://doi.org/hbg5z7
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1039/d2ta09592k
-  title: First-principles study on ultrafast Li-ion diffusion in halospinel Li<sub>2</sub>Sc<sub>2/3</sub>Cl<sub>4</sub>
-    through multichannels designed by aliovalent doping
-  authors:
-  - Suseong Hyun
-  - <u>Hoje Chun</u>
-  - Minjoon Hong
-  - Joonhee Kang
-  - Byungchan Han
-  publisher: Journal of Materials Chemistry A 11 (8), 4272-4279
-  date: '2023-01-01'
-  link: https://doi.org/hbg5z9
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1021/acscatal.3c01441
-  title: Increasing CO Binding Energy and Defects by Preserving Cu Oxidation State
-    via O<sub>2</sub>-Plasma-Assisted N Doping on CuO Enables High C<sub>2+</sub>
-    Selectivity and Long-Term Stability in Electrochemical CO<sub>2</sub> Reduction
-  authors:
-  - Dong Gyu Park
-  - Jae Won Choi
-  - <u>Hoje Chun</u>
-  - Hae Sung Jang
-  - Heebin Lee
-  - Won Ho Choi
-  - Byeong Cheul Moon
-  - Keon-Han Kim
-  - Min Gyu Kim
-  - Kyung Min Choi
-  - Byungchan Han
-  - Jeung Ku Kang
-  publisher: ACS Catalysis 13 (13), 9222-9233
-  date: '2023-06-26'
-  link: https://doi.org/hbg5zs
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1038/s41598-023-28492-5
-  title: Method for 3D atomic structure determination of multi-element nanoparticles
-    with graphene liquid-cell TEM
-  authors:
-  - Junyoung Heo
-  - Dongjun Kim
-  - Hyesung Choi
-  - Sungin Kim
-  - <u>Hoje Chun</u>
-  - Cyril F. Reboul
-  - Cong T. S. Van
-  - Dominika Elmlund
-  - Soonmi Choi
-  - Kihyun Kim
-  - Younggil Park
-  - Hans Elmlund
-  - Byungchan Han
-  - Jungwon Park
-  publisher: Scientific Reports 13 (1)
-  date: '2023-02-01'
-  link: https://doi.org/hbg52c
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1002/cnma.202200057
-  title: "3\u2010Dimensional Scanning of Entire Unit Cells in Single Nanoparticles."
-  authors:
-  - Junyoung Heo
-  - Dohun Kang
-  - Sungin Kim
-  - <u>Hoje Chun</u>
-  - Byungchan Han
-  - Byung Hyo Kim
-  - Jungwon Park
-  publisher: ChemNanoMat 8 (5)
-  date: '2022-03-28'
-  link: https://doi.org/hbg5zt
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1016/j.apcatb.2021.120938
-  title: Accelerated N2 reduction kinetics in hybrid interfaces of NbTiO4 and nitrogen-doped
-    carbon nanorod via synergistic electronic coupling effect
-  authors:
-  - David Kumar Yesudoss
-  - <u>Hoje Chun</u>
-  - Byungchan Han
-  - Sangaraju Shanmugam
-  publisher: 'Applied Catalysis B: Environmental 304, 120938'
-  date: '2022-05-01'
-  link: https://doi.org/hbg5z2
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
 - id: doi:10.1038/s41586-021-04391-5
   title: Metastable hexagonal close-packed palladium hydride in liquid cell TEM
   authors:
@@ -460,40 +67,97 @@
   publisher: Nature 603 (7902), 631-636
   date: '2022-03-23'
   link: https://doi.org/gthvk2
-  orcid: 0000-0003-0624-536X
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
-- id: doi:10.1016/j.apsusc.2022.153715
-  title: 'N- and B-Doped Fullerene as Peroxidase- and Catalase-Like Metal-Free Nanozymes
-    with Ph-Switchable Catalytic Activity: A First-Principles Approach'
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1021/acscatal.3c01441
+  title: Increasing CO Binding Energy and Defects by Preserving Cu Oxidation State
+    via O<sub>2</sub>-Plasma-Assisted N Doping on CuO Enables High C<sub>2+</sub>
+    Selectivity and Long-Term Stability in Electrochemical CO<sub>2</sub> Reduction
   authors:
+  - Dong Gyu Park
+  - Jae Won Choi
+  - <u>Hoje Chun</u>
+  - Hae Sung Jang
+  - Heebin Lee
+  - Won Ho Choi
+  - Byeong Cheul Moon
+  - Keon-Han Kim
+  - Min Gyu Kim
+  - Kyung Min Choi
+  - Byungchan Han
+  - Jeung Ku Kang
+  publisher: ACS Catalysis 13 (13), 9222-9233
+  date: '2023-06-26'
+  link: https://doi.org/hbg5zs
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1021/acsnano.2c02324
+  title: "Tuning the Site-to-Site Interaction in Ru\u2013M (M\_=\_Co, Fe, Ni) Diatomic\
+    \ Electrocatalysts to Climb up the Volcano Plot of Oxygen Electroreduction"
+  authors:
+  - Mengjie Liu
+  - <u>Hoje Chun</u>
+  - Tsung-Cheng Yang
   - Sung Jun Hong
-  - <u>Hoje Chun</u>
-  - Minjoon Hong
+  - Chia-Min Yang
   - Byungchan Han
-  publisher: Applied Surface Science 598, 153715
-  date: '2022-01-01'
-  link: https://doi.org/hbmcx3
-  orcid: 0000-0003-0624-536X
+  - Lawrence Yoon Suk Lee
+  publisher: ACS Nano 16 (7), 10657-10666
+  date: '2022-07-14'
+  link: https://doi.org/g6d4fg
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
-- id: doi:10.1016/j.apsusc.2022.152955
-  title: 'Outstanding stability of Gd-doped UO2 against surface oxidation: First-principles
-    study'
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.checat.2021.06.001
+  title: First-principle-data-integrated machine-learning approach for high-throughput
+    searching of ternary electrocatalyst toward oxygen reduction reaction
   authors:
-  - Minjoon Hong
   - <u>Hoje Chun</u>
-  - Choah Kwon
+  - Eunjik Lee
+  - Kyungju Nam
+  - Ji-Hoon Jang
+  - Woomin Kyoung
+  - Seung Hyo Noh
   - Byungchan Han
-  publisher: Applied Surface Science 589, 152955
-  date: '2022-07-01'
-  link: https://doi.org/hbg547
+  publisher: Chem Catalysis 1 (4), 855-869
+  date: '2021-09-01'
+  link: https://doi.org/hbg5zv
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
   orcid: 0000-0003-0624-536X
+  image: images/publications/2021_chem_catal.jpeg
+  tags:
+  - machine-learning
+  - virtual screening
+  - catalysts
+- id: doi:10.1039/c8cp03801e
+  title: First-principles database driven computational neural network approach to
+    the discovery of active ternary nanocatalysts for oxygen reduction reaction
+  authors:
+  - Joonhee Kang
+  - Seung Hyo Noh
+  - Jeemin Hwang
+  - <u>Hoje Chun</u>
+  - Hansung Kim
+  - Byungchan Han
+  publisher: Physical Chemistry Chemical Physics 20 (38), 24539-24544
+  date: '2018-01-01'
+  link: https://doi.org/gnsxqt
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
+  orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.apcatb.2022.121504
   title: Tuning the Electronic Structure and Inverse Degree of Inverse Spinel Ferrites
     by Integrating Samarium Orthoferrite for Efficient Water Oxidation
@@ -510,65 +174,218 @@
   publisher: 'Applied Catalysis B: Environmental 315, 121504'
   date: '2022-01-01'
   link: https://doi.org/hbmcx5
-  orcid: 0000-0003-0624-536X
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
-- id: doi:10.1021/acsnano.2c02324
-  title: "Tuning the Site-to-Site Interaction in Ru\u2013M (M\_=\_Co, Fe, Ni) Diatomic\
-    \ Electrocatalysts to Climb up the Volcano Plot of Oxygen Electroreduction"
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.apsusc.2022.153715
+  title: 'N- and B-Doped Fullerene as Peroxidase- and Catalase-Like Metal-Free Nanozymes
+    with Ph-Switchable Catalytic Activity: A First-Principles Approach'
   authors:
-  - Mengjie Liu
-  - <u>Hoje Chun</u>
-  - Tsung-Cheng Yang
   - Sung Jun Hong
-  - Chia-Min Yang
+  - <u>Hoje Chun</u>
+  - Minjoon Hong
   - Byungchan Han
-  - Lawrence Yoon Suk Lee
-  publisher: ACS Nano 16 (7), 10657-10666
-  date: '2022-07-14'
-  link: https://doi.org/g6d4fg
-  orcid: 0000-0003-0624-536X
+  publisher: Applied Surface Science 598, 153715
+  date: '2022-01-01'
+  link: https://doi.org/hbmcx3
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
-- id: doi:10.1021/acsami.1c21419
-  title: Two-Dimensional Palladium Phosphoronitride for Oxygen Reduction
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.jhazmat.2020.122857
+  title: Unique design of superior metal-organic framework for removal of toxic chemicals
+    in humid environment via direct functionalization of the metal nodes
   authors:
-  - See Wee Koh
-  - Jie Hu
+  - Ga-Young Cha
   - <u>Hoje Chun</u>
-  - Peng Yu
-  - Junyu Ge
-  - Zixu Sun
-  - Wei Hong
-  - Qiunan Liu
+  - Do-Young Hong
+  - Jaegyeom Kim
+  - Kyung-Ho Cho
+  - U-Hwang Lee
+  - Jong-San Chang
+  - Sam Gon Ryu
+  - Hae Wan Lee
+  - Seung-Joo Kim
+  - Byungchan Han
+  - Young Kyu Hwang
+  publisher: Journal of Hazardous Materials 398, 122857
+  date: '2020-11-01'
+  link: https://doi.org/gpw3vk
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.cej.2019.05.115
+  title: 'Design of highly efficient adsorbents for removal of gaseous methyl iodide
+    using tertiary amine-impregnated activated carbon: Integrated experimental and
+    first-principles approach'
+  authors:
+  - Keon Ho
+  - <u>Hoje Chun</u>
+  - Hyung Chae Lee
+  - Yunjo Lee
+  - Seulah Lee
+  - Hyunwook Jung
+  - Byungchan Han
+  - Chang-Ha Lee
+  publisher: Chemical Engineering Journal 373, 1003-1011
+  date: '2019-10-01'
+  link: https://doi.org/ggrhsp
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1039/c6cp06483c
+  title: First principles computational study on the adsorption mechanism of organic
+    methyl iodide gas on triethylenediamine impregnated activated carbon
+  authors:
+  - <u>Hoje Chun</u>
+  - Joonhee Kang
+  - Byungchan Han
+  publisher: Physical Chemistry Chemical Physics 18 (47), 32050-32056
+  date: '2016-01-01'
+  link: https://doi.org/g9v6rp
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1021/acssuschemeng.9b07166
+  title: "First-Principles Design of Highly Functional Sulfide Electrolyte of Li<sub>10<i>\u2212\
+    x</i></sub>SnP<sub>2</sub>S<sub>12\u2212<i>x</i></sub>Cl<sub><i>x</i></sub> for\
+    \ All Solid-State Li-Ion Battery Applications"
+  authors:
   - Kyungju Nam
+  - <u>Hoje Chun</u>
+  - Jeemin Hwang
   - Byungchan Han
-  - Zheng Liu
-  - Hong Li
-  publisher: ACS Applied Materials &amp; Interfaces 14 (10), 12156-12167
-  date: '2022-03-07'
-  link: https://doi.org/gssb97
-  orcid: 0000-0003-0624-536X
+  publisher: ACS Sustainable Chemistry &amp; Engineering 8 (8), 3321-3327
+  date: '2020-02-12'
+  link: https://doi.org/hbg55c
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
-- id: doi:10.1016/j.jallcom.2021.160007
-  title: n-Type thermoelectric properties of a hexagonal SiGe polymorph superior to
-    a cubic SiGe
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.bios.2023.115882
+  title: Active site engineering of Zn-doped mesoporous ceria toward highly efficient
+    organophosphorus hydrolase-mimicking nanozyme
+  authors:
+  - Junsang Lee
+  - Xuan Ai Le
+  - <u>Hoje Chun</u>
+  - Trung Hieu Vu
+  - Daeeun Choi
+  - Byungchan Han
+  - Moon Il Kim
+  - Jinwoo Lee
+  publisher: Biosensors and Bioelectronics 246, 115882
+  date: '2024-02-01'
+  link: https://doi.org/hbg5z6
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.apcatb.2021.120938
+  title: Accelerated N2 reduction kinetics in hybrid interfaces of NbTiO4 and nitrogen-doped
+    carbon nanorod via synergistic electronic coupling effect
+  authors:
+  - David Kumar Yesudoss
+  - <u>Hoje Chun</u>
+  - Byungchan Han
+  - Sangaraju Shanmugam
+  publisher: 'Applied Catalysis B: Environmental 304, 120938'
+  date: '2022-05-01'
+  link: https://doi.org/hbg5z2
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.jpowsour.2020.227998
+  title: Ultrastable molybdenum disulfide-based electrocatalyst for hydrogen evolution
+    in acidic media
+  authors:
+  - Yunxing Zhao
+  - Jeemin Hwang
+  - Michael T. Tang
+  - <u>Hoje Chun</u>
+  - Xingli Wang
+  - Hu Zhao
+  - Karen Chan
+  - Byungchan Han
+  - Pingqi Gao
+  - Hong Li
+  publisher: Journal of Power Sources 456, 227998
+  date: '2020-04-01'
+  link: https://doi.org/g7kw6q
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1021/acs.jpclett.1c01140
+  title: First-Principles-Based Machine-Learning Molecular Dynamics for Crystalline
+    Polymers with van der Waals Interactions
   authors:
   - Sung Jun Hong
   - <u>Hoje Chun</u>
-  - Choah Kwon
+  - Jehyun Lee
+  - Byung-Hyun Kim
+  - Min Ho Seo
+  - Joonhee Kang
   - Byungchan Han
-  publisher: Journal of Alloys and Compounds 874, 160007
-  date: '2021-09-01'
-  link: https://doi.org/hbg5zw
-  orcid: 0000-0003-0624-536X
+  publisher: The Journal of Physical Chemistry Letters 12 (25), 6000-6006
+  date: '2021-06-24'
+  link: https://doi.org/gns8zs
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1038/s41524-024-01273-y
+  title: Towards atom-level understanding of metal oxide catalysts for the oxygen
+    evolution reaction with machine learning
+  authors:
+  - Jaclyn R. Lunger
+  - Jessica Karaguesian
+  - <u>Hoje Chun</u>
+  - Jiayu Peng
+  - Yitong Tseo
+  - Chung Hsuan Shan
+  - Byungchan Han
+  - Yang Shao-Horn
+  - "Rafael G\xF3mez-Bombarelli"
+  publisher: npj Computational Materials 10 (1)
+  date: '2024-04-22'
+  link: https://doi.org/g96fcc
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1039/d0tc01309a
+  title: First-principles mechanism study on distinct optoelectronic properties of
+    Cl-doped 2D hybrid tin iodide perovskite
+  authors:
+  - Sung Jun Hong
+  - <u>Hoje Chun</u>
+  - Kyung-Ah Min
+  - Byungchan Han
+  publisher: Journal of Materials Chemistry C 8 (28), 9540-9548
+  date: '2020-01-01'
+  link: https://doi.org/grnjf7
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.bios.2021.112979
   title: 'Optical bioelectronic nose of outstanding sensitivity and selectivity toward
     volatile organic compounds implemented with genetically engineered bacteriophage:
@@ -589,10 +406,11 @@
   publisher: Biosensors and Bioelectronics 177, 112979
   date: '2021-04-01'
   link: https://doi.org/hbg5zx
-  orcid: 0000-0003-0624-536X
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
+  orcid: 0000-0003-0624-536X
 - id: doi:10.1039/d1ta04084g
   title: 'Design of a unique anion framework in halospinels for outstanding performance
     of all solid-state Li-ion batteries: first-principles approach'
@@ -605,51 +423,11 @@
   publisher: Journal of Materials Chemistry A 9 (28), 15605-15612
   date: '2021-01-01'
   link: https://doi.org/gn3pn4
-  orcid: 0000-0003-0624-536X
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
-- id: doi:10.1021/acs.jpclett.1c01140
-  title: First-Principles-Based Machine-Learning Molecular Dynamics for Crystalline
-    Polymers with van der Waals Interactions
-  authors:
-  - Sung Jun Hong
-  - <u>Hoje Chun</u>
-  - Jehyun Lee
-  - Byung-Hyun Kim
-  - Min Ho Seo
-  - Joonhee Kang
-  - Byungchan Han
-  publisher: The Journal of Physical Chemistry Letters 12 (25), 6000-6006
-  date: '2021-06-24'
-  link: https://doi.org/gns8zs
   orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1016/j.checat.2021.06.001
-  title: First-principle-data-integrated machine-learning approach for high-throughput
-    searching of ternary electrocatalyst toward oxygen reduction reaction
-  authors:
-  - <u>Hoje Chun</u>
-  - Eunjik Lee
-  - Kyungju Nam
-  - Ji-Hoon Jang
-  - Woomin Kyoung
-  - Seung Hyo Noh
-  - Byungchan Han
-  publisher: Chem Catalysis 1 (4), 855-869
-  date: '2021-09-01'
-  link: https://doi.org/hbg5zv
-  orcid: 0000-0003-0624-536X
-  plugin: sources.py
-  file: sources.yaml
-  image: images/publications/2021_chem_catal.jpeg
-  tags:
-  - machine-learning
-  - virtual screening
-  - catalysts
-  type: paper
 - id: doi:10.1016/j.mtnano.2020.100099
   title: High quantum efficiency and stability of biohybrid quantum dots nanojunctions
     in bacteriophage-constructed perovskite
@@ -679,179 +457,11 @@
   publisher: Materials Today Nano 13, 100099
   date: '2021-03-01'
   link: https://doi.org/hbg548
-  orcid: 0000-0003-0624-536X
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
-- id: doi:10.1126/science.aax3233
-  title: Critical differences in 3D atomic structure of individual ligand-protected
-    nanocrystals in solution
-  authors:
-  - Byung Hyo Kim
-  - Junyoung Heo
-  - Sungin Kim
-  - Cyril F. Reboul
-  - <u>Hoje Chun</u>
-  - Dohun Kang
-  - Hyeonhu Bae
-  - Hyejeong Hyun
-  - Jongwoo Lim
-  - Hoonkyung Lee
-  - Byungchan Han
-  - Taeghwan Hyeon
-  - A. Paul Alivisatos
-  - Peter Ercius
-  - Hans Elmlund
-  - Jungwon Park
-  publisher: Science 368 (6486), 60-67
-  date: '2020-04-03'
-  link: https://doi.org/ggrf78
   orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1021/acssuschemeng.9b07166
-  title: "First-Principles Design of Highly Functional Sulfide Electrolyte of Li<sub>10<i>\u2212\
-    x</i></sub>SnP<sub>2</sub>S<sub>12\u2212<i>x</i></sub>Cl<sub><i>x</i></sub> for\
-    \ All Solid-State Li-Ion Battery Applications"
-  authors:
-  - Kyungju Nam
-  - <u>Hoje Chun</u>
-  - Jeemin Hwang
-  - Byungchan Han
-  publisher: ACS Sustainable Chemistry &amp; Engineering 8 (8), 3321-3327
-  date: '2020-02-12'
-  link: https://doi.org/hbg55c
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1016/j.apsusc.2019.144861
-  title: "First-principles computational study of Ni/\u03B1-Al2O3 hybrid interface\
-    \ reactions under extreme thermodynamic conditions"
-  authors:
-  - <u>Hoje Chun</u>
-  - Daehyeon Choi
-  - Joonhee Kang
-  - Jung Su Park
-  - Byungchan Han
-  publisher: Applied Surface Science 509, 144861
-  date: '2020-04-01'
-  link: https://doi.org/hbg55d
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1039/d0tc01309a
-  title: First-principles mechanism study on distinct optoelectronic properties of
-    Cl-doped 2D hybrid tin iodide perovskite
-  authors:
-  - Sung Jun Hong
-  - <u>Hoje Chun</u>
-  - Kyung-Ah Min
-  - Byungchan Han
-  publisher: Journal of Materials Chemistry C 8 (28), 9540-9548
-  date: '2020-01-01'
-  link: https://doi.org/grnjf7
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1021/acssuschemeng.0c02981
-  title: Pairing of Transition Metal Dichalcogenides and Doped Graphene for Catalytically
-    Dual Active Interfaces for the Hydrogen Evolution Reaction
-  authors:
-  - Kyungju Nam
-  - <u>Hoje Chun</u>
-  - Jeemin Hwang
-  - Kyung-Ah Min
-  - Byungchan Han
-  publisher: ACS Sustainable Chemistry &amp; Engineering
-  date: '2020-07-07'
-  link: https://doi.org/hbg549
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1016/j.jpowsour.2020.227998
-  title: Ultrastable molybdenum disulfide-based electrocatalyst for hydrogen evolution
-    in acidic media
-  authors:
-  - Yunxing Zhao
-  - Jeemin Hwang
-  - Michael T. Tang
-  - <u>Hoje Chun</u>
-  - Xingli Wang
-  - Hu Zhao
-  - Karen Chan
-  - Byungchan Han
-  - Pingqi Gao
-  - Hong Li
-  publisher: Journal of Power Sources 456, 227998
-  date: '2020-04-01'
-  link: https://doi.org/g7kw6q
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1016/j.jhazmat.2020.122857
-  title: Unique design of superior metal-organic framework for removal of toxic chemicals
-    in humid environment via direct functionalization of the metal nodes
-  authors:
-  - Ga-Young Cha
-  - <u>Hoje Chun</u>
-  - Do-Young Hong
-  - Jaegyeom Kim
-  - Kyung-Ho Cho
-  - U-Hwang Lee
-  - Jong-San Chang
-  - Sam Gon Ryu
-  - Hae Wan Lee
-  - Seung-Joo Kim
-  - Byungchan Han
-  - Young Kyu Hwang
-  publisher: Journal of Hazardous Materials 398, 122857
-  date: '2020-11-01'
-  link: https://doi.org/gpw3vk
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1016/j.cej.2019.05.115
-  title: 'Design of highly efficient adsorbents for removal of gaseous methyl iodide
-    using tertiary amine-impregnated activated carbon: Integrated experimental and
-    first-principles approach'
-  authors:
-  - Keon Ho
-  - <u>Hoje Chun</u>
-  - Hyung Chae Lee
-  - Yunjo Lee
-  - Seulah Lee
-  - Hyunwook Jung
-  - Byungchan Han
-  - Chang-Ha Lee
-  publisher: Chemical Engineering Journal 373, 1003-1011
-  date: '2019-10-01'
-  link: https://doi.org/ggrhsp
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-- id: doi:10.1016/j.jiec.2018.10.024
-  title: Elucidation of hydrolysis reaction mechanism of tungsten hexafluoride (WF6)
-    using first-principles calculations
-  authors:
-  - Hyunwook Jung
-  - Jeemin Hwang
-  - <u>Hoje Chun</u>
-  - Byungchan Han
-  publisher: Journal of Industrial and Engineering Chemistry 70, 99-102
-  date: '2019-02-01'
-  link: https://doi.org/hbg55b
-  orcid: 0000-0003-0624-536X
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
 - id: doi:10.1002/er.4064
   title: First principles computational studies of spontaneous reduction reaction
     of Eu(III) in eutectic LiCl-KCl molten salt
@@ -864,10 +474,50 @@
   publisher: International Journal of Energy Research 42 (8), 2757-2765
   date: '2018-03-26'
   link: https://doi.org/gdr99t
-  orcid: 0000-0003-0624-536X
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1038/s41524-024-01432-1
+  title: Active learning accelerated exploration of single-atom local environments
+    in multimetallic systems for oxygen electrocatalysis
+  authors:
+  - <u>Hoje Chun</u>
+  - Jaclyn R. Lunger
+  - Jeung Ku Kang
+  - "Rafael G\xF3mez-Bombarelli"
+  - Byungchan Han
+  publisher: npj Computational Materials 10 (1)
+  date: '2024-10-19'
+  link: https://doi.org/hbg5z4
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  image: images/publications/2024_npj_comp_hj.png
+  tags:
+  - machine-learning
+  - virtual screening
+  - catalysts
+- id: doi:10.1021/acssuschemeng.0c02981
+  title: Pairing of Transition Metal Dichalcogenides and Doped Graphene for Catalytically
+    Dual Active Interfaces for the Hydrogen Evolution Reaction
+  authors:
+  - Kyungju Nam
+  - <u>Hoje Chun</u>
+  - Jeemin Hwang
+  - Kyung-Ah Min
+  - Byungchan Han
+  publisher: ACS Sustainable Chemistry &amp; Engineering
+  date: '2020-07-07'
+  link: https://doi.org/hbg549
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.jhazmat.2017.08.054
   title: First principles computational study on hydrolysis of hazardous chemicals
     phosphorus trichloride and oxychloride (PCl3 and POCl3) catalyzed by molecular
@@ -880,27 +530,165 @@
   publisher: Journal of Hazardous Materials 341, 457-463
   date: '2018-01-01'
   link: https://doi.org/gv235j
-  orcid: 0000-0003-0624-536X
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
-- id: doi:10.1039/c8cp03801e
-  title: First-principles database driven computational neural network approach to
-    the discovery of active ternary nanocatalysts for oxygen reduction reaction
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1038/s41467-025-56476-8
+  title: Time-resolved Brownian tomography of single nanocrystals in liquid during
+    oxidative etching
   authors:
-  - Joonhee Kang
-  - Seung Hyo Noh
+  - Sungsu Kang
+  - Joodeok Kim
+  - Sungin Kim
+  - <u>Hoje Chun</u>
+  - Junyoung Heo
+  - Cyril F. Reboul
+  - "Rub\xE9n Meana-Pa\xF1eda"
+  - Cong T. S. Van
+  - Hyesung Choi
+  - Yunseo Lee
+  - Jinho Rhee
+  - Minyoung Lee
+  - Dohun Kang
+  - Byung Hyo Kim
+  - Taeghwan Hyeon
+  - Byungchan Han
+  - Peter Ercius
+  - Won Chul Lee
+  - Hans Elmlund
+  - Jungwon Park
+  publisher: Nature Communications 16 (1)
+  date: '2025-01-29'
+  link: https://doi.org/hbg5zq
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: ZrnibVwAAAAJ:Se3iqnhoufwC
+  title: First-principles study on ultrafast Li-ion diffusion in halospinel Li 2 Sc
+    2/3 Cl 4 through multichannels designed by aliovalent doping
+  authors:
+  - S Hyun
+  - <u>Hoje Chun</u>
+  - M Hong
+  - J Kang
+  - B Han
+  publisher: Journal of Materials Chemistry A 11 (8), 4272-4279, 2023
+  date: '2023-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:Se3iqnhoufwC
+  gsid: ZrnibVwAAAAJ
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+  type: paper
+- id: doi:10.1016/j.ensm.2025.104040
+  title: Zeolitic imidazolate framework-derived bifunctional CoO-Mn3O4 heterostructure
+    cathode enhancing oxygen reduction/evolution via dynamic O-vacancy formation and
+    healing for high-performance Zn-air batteries
+  authors:
+  - Jong Hui Choi
+  - <u>Hoje Chun</u>
+  - Dong Won Kim
+  - Mrinal Kanti Kabiraz
+  - Jeonghyeon Kim
+  - Jihoon Kim
+  - Keon-Han Kim
+  - Benzhi Wang
+  - Hyung Mo Jeong
+  - Sang-Il Choi
+  - Byungchan Han
+  - Jeung Ku Kang
+  publisher: Energy Storage Materials 75, 104040
+  date: '2025-02-01'
+  link: https://doi.org/hbg52j
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1038/s41598-023-28492-5
+  title: Method for 3D atomic structure determination of multi-element nanoparticles
+    with graphene liquid-cell TEM
+  authors:
+  - Junyoung Heo
+  - Dongjun Kim
+  - Hyesung Choi
+  - Sungin Kim
+  - <u>Hoje Chun</u>
+  - Cyril F. Reboul
+  - Cong T. S. Van
+  - Dominika Elmlund
+  - Soonmi Choi
+  - Kihyun Kim
+  - Younggil Park
+  - Hans Elmlund
+  - Byungchan Han
+  - Jungwon Park
+  publisher: Scientific Reports 13 (1)
+  date: '2023-02-01'
+  link: https://doi.org/hbg52c
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1021/acsami.1c21419
+  title: Two-Dimensional Palladium Phosphoronitride for Oxygen Reduction
+  authors:
+  - See Wee Koh
+  - Jie Hu
+  - <u>Hoje Chun</u>
+  - Peng Yu
+  - Junyu Ge
+  - Zixu Sun
+  - Wei Hong
+  - Qiunan Liu
+  - Kyungju Nam
+  - Byungchan Han
+  - Zheng Liu
+  - Hong Li
+  publisher: ACS Applied Materials &amp; Interfaces 14 (10), 12156-12167
+  date: '2022-03-07'
+  link: https://doi.org/gssb97
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.jallcom.2021.160007
+  title: n-Type thermoelectric properties of a hexagonal SiGe polymorph superior to
+    a cubic SiGe
+  authors:
+  - Sung Jun Hong
+  - <u>Hoje Chun</u>
+  - Choah Kwon
+  - Byungchan Han
+  publisher: Journal of Alloys and Compounds 874, 160007
+  date: '2021-09-01'
+  link: https://doi.org/hbg5zw
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.jiec.2018.10.024
+  title: Elucidation of hydrolysis reaction mechanism of tungsten hexafluoride (WF6)
+    using first-principles calculations
+  authors:
+  - Hyunwook Jung
   - Jeemin Hwang
   - <u>Hoje Chun</u>
-  - Hansung Kim
   - Byungchan Han
-  publisher: Physical Chemistry Chemical Physics 20 (38), 24539-24544
-  date: '2018-01-01'
-  link: https://doi.org/gnsxqt
-  orcid: 0000-0003-0624-536X
+  publisher: Journal of Industrial and Engineering Chemistry 70, 99-102
+  date: '2019-02-01'
+  link: https://doi.org/hbg55b
+  gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
   type: paper
+  orcid: 0000-0003-0624-536X
 - id: doi:10.1021/acs.jpcc.8b00721
   title: 'Universal Scaling Relationship To Screen an Efficient Metallic Adsorbent
     for Adsorptive Removal of Iodine Gas under Humid Conditions: First-Principles
@@ -912,20 +700,271 @@
   publisher: The Journal of Physical Chemistry C 122 (22), 11799-11806
   date: '2018-05-04'
   link: https://doi.org/gdscqz
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1021/acscentsci.5c00547
+  title: Accelerating and Enhancing Thermodynamic Simulations of Electrochemical Interfaces
+  authors:
+  - Xiaochen Du
+  - Mengren Liu
+  - Jiayu Peng
+  - <u>Hoje Chun</u>
+  - Alexander Hoffman
+  - Bilge Yildiz
+  - Lin Li
+  - Martin Z. Bazant
+  - "Rafael G\xF3mez-Bombarelli"
+  publisher: ACS Central Science 11 (9), 1558-1572
+  date: '2025-07-21'
+  link: https://doi.org/hbg5z3
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.apsusc.2019.144861
+  title: "First-principles computational study of Ni/\u03B1-Al2O3 hybrid interface\
+    \ reactions under extreme thermodynamic conditions"
+  authors:
+  - <u>Hoje Chun</u>
+  - Daehyeon Choi
+  - Joonhee Kang
+  - Jung Su Park
+  - Byungchan Han
+  publisher: Applied Surface Science 509, 144861
+  date: '2020-04-01'
+  link: https://doi.org/hbg55d
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: ZrnibVwAAAAJ:aqlVkmm33-oC
+  title: "Design a multiphase interfaced Ge (GeOx)/T-Nb2O5\u2212 x/C anode with synergistic\
+    \ high capacity and durability for Li-ion batteries"
+  authors:
+  - W Tao
+  - <u>Hoje Chun</u>
+  - S Hyun
+  - B Han
+  publisher: Applied Surface Science 640, 158424, 2023
+  date: '2023-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:aqlVkmm33-oC
+  gsid: ZrnibVwAAAAJ
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+  type: paper
+- id: doi:10.1073/pnas.2424950122
+  title: Multiphasic size-dependent growth dynamics of nanoparticle ensembles
+  authors:
+  - Ji-Hyun Kim
+  - Joodeok Kim
+  - Byung Hyo Kim
+  - Sanggeun Song
+  - Jingyu Kang
+  - Jinho Rhee
+  - Donghee Kim
+  - <u>Hoje Chun</u>
+  - Hyesung Choi
+  - Hyungjin Cho
+  - Yongjoon Kim
+  - Jae Won Jung
+  - Youngju Son
+  - Junhyeok Jung
+  - Kunwoo Park
+  - Sungho Jeon
+  - Minho Lee
+  - Byungchan Han
+  - Won Chul Lee
+  - Dongjun Kim
+  - Taeghwan Hyeon
+  - Jaeyoung Sung
+  - Jungwon Park
+  publisher: Proceedings of the National Academy of Sciences 122 (23)
+  date: '2025-06-04'
+  link: https://doi.org/g9zqsw
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.apsusc.2022.152955
+  title: 'Outstanding stability of Gd-doped UO2 against surface oxidation: First-principles
+    study'
+  authors:
+  - Minjoon Hong
+  - <u>Hoje Chun</u>
+  - Choah Kwon
+  - Byungchan Han
+  publisher: Applied Surface Science 589, 152955
+  date: '2022-07-01'
+  link: https://doi.org/hbg547
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1021/acs.chemmater.4c01879
+  title: Unveiling the Local Strain-Induced Structural Degradation Mechanisms in Li
+    Excess Manganese Cathodes
+  authors:
+  - Mu Geun Son
+  - Hyeonji Shin
+  - <u>Hoje Chun</u>
+  - Joonhee Kang
+  publisher: Chemistry of Materials 36 (22), 11065-11074
+  date: '2024-11-11'
+  link: https://doi.org/hbg52h
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: ZrnibVwAAAAJ:e5wmG9Sq2KIC
+  title: Method for designing ternary catalyst using machine learning
+  authors:
+  - NOH Seunghyo
+  - C Hoje
+  - HAN Byungchan
+  publisher: US Patent 12,494,270, 2025
+  date: '2025-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:e5wmG9Sq2KIC
+  gsid: ZrnibVwAAAAJ
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+  type: patent
+- id: doi:10.1021/acs.jctc.5c00090
+  title: Learning Pairwise Interaction for Extrapolative and Interpretable Machine
+    Learning Interatomic Potentials with Physics-Informed Neural Network
+  authors:
+  - <u>Hoje Chun</u>
+  - Minjoon Hong
+  - Seung Hyo Noh
+  - Byungchan Han
+  publisher: Journal of Chemical Theory and Computation 21 (8), 4030-4039
+  date: '2025-04-14'
+  link: https://doi.org/hbg5zp
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  image: images/publications/2025_jctc.png
+  tags:
+  - machine-learning
+  - algorithm
+- id: doi:10.1002/cnma.202200057
+  title: "3\u2010Dimensional Scanning of Entire Unit Cells in Single Nanoparticles."
+  authors:
+  - Junyoung Heo
+  - Dohun Kang
+  - Sungin Kim
+  - <u>Hoje Chun</u>
+  - Byungchan Han
+  - Byung Hyo Kim
+  - Jungwon Park
+  publisher: ChemNanoMat 8 (5)
+  date: '2022-03-28'
+  link: https://doi.org/hbg5zt
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: ZrnibVwAAAAJ:bEWYMUwI8FkC
+  title: Decoding structural complexity with machine learning to empower physical
+    AI driven electrocatalyst design
+  authors:
+  - W Tao
+  - <u>Hoje Chun</u>
+  - B Han
+  publisher: Applied Surface Science Advances 34, 100984, 2026
+  date: '2026-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:bEWYMUwI8FkC
+  gsid: ZrnibVwAAAAJ
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+  type: paper
+- id: ZrnibVwAAAAJ:iH-uZ7U-co4C
+  title: Towards Generating Stable Materials via Large Language Models with Reinforcement
+    Learning Finetuning
+  authors:
+  - ZW Hong
+  - N Segal
+  - A Netanyahu
+  - <u>Hoje Chun</u>
+  - R Gomez-Bombarelli
+  - '...'
+  publisher: NeurIPS 2025 AI for Science Workshop, 2025
+  date: '2025-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:iH-uZ7U-co4C
+  gsid: ZrnibVwAAAAJ
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+  type: paper
+- id: ZrnibVwAAAAJ:HDshCWvjkbEC
+  title: Method for predicting potential energy of multicomponent materials
+  authors:
+  - HAN Byungchan
+  - NOH Seunghyo
+  - C Hoje
+  publisher: US Patent App. 18/522,562, 2024
+  date: '2024-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:HDshCWvjkbEC
+  gsid: ZrnibVwAAAAJ
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+  type: patent
+- id: doi:10.48550/arXiv.2411.17839
+  title: 'Deep Learning of Mean First Passage Time Scape: Chemical Short-Range Order
+    and Kinetics of Diffusive Relaxation'
+  authors:
+  - <u>Hoje Chun</u>
+  - Hao Tang
+  - Bin Xing
+  - Rafael Gomez-Bombarelli
+  - Ju Li
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hbg52b
+  orcid: 0000-0003-0624-536X
+  plugin: sources.py
+  file: sources.yaml
+  image: images/publications/2025_mfpt.png
+  tags:
+  - machine-learning
+  - algorithm
+  type: preprint
+- id: doi:10.1016/j.apsusc.2023.158424
+  title: "Design a multiphase interfaced Ge(GeO )/T-Nb2O5\u2212/C anode with synergistic\
+    \ high capacity and durability for Li-ion batteries"
+  authors:
+  - Wei Tao
+  - <u>Hoje Chun</u>
+  - Suseong Hyun
+  - Byungchan Han
+  publisher: Applied Surface Science 640, 158424
+  date: '2023-12-01'
+  link: https://doi.org/hbg5z7
   orcid: 0000-0003-0624-536X
   plugin: orcid.py
   file: orcid.yaml
   type: paper
-- id: doi:10.1039/c6cp06483c
-  title: First principles computational study on the adsorption mechanism of organic
-    methyl iodide gas on triethylenediamine impregnated activated carbon
+- id: doi:10.1039/d2ta09592k
+  title: First-principles study on ultrafast Li-ion diffusion in halospinel Li<sub>2</sub>Sc<sub>2/3</sub>Cl<sub>4</sub>
+    through multichannels designed by aliovalent doping
   authors:
+  - Suseong Hyun
   - <u>Hoje Chun</u>
+  - Minjoon Hong
   - Joonhee Kang
   - Byungchan Han
-  publisher: Physical Chemistry Chemical Physics 18 (47), 32050-32056
-  date: '2016-01-01'
-  link: https://doi.org/g9v6rp
+  publisher: Journal of Materials Chemistry A 11 (8), 4272-4279
+  date: '2023-01-01'
+  link: https://doi.org/hbg5z9
   orcid: 0000-0003-0624-536X
   plugin: orcid.py
   file: orcid.yaml
