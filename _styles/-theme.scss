@@ -3,26 +3,26 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
+  --primary: #2353A5;        // Brand deep blue
+  --secondary: #e0f2fe;      // Soft light blue for tag background
+  --text: #0f172a;           // Soft slate black
   --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
-  --overlay: #00000020;
+  --background-alt: #f8fafc; // Soft slate-50 card background
+  --light-gray: #e2e8f0;     // slate-200 border/hover
+  --gray: #64748b;           // slate-500 muted text
+  --dark-gray: #334155;      // slate-700 secondary headers
+  --overlay: #0f172a10;
 }
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --dark-gray: #b0b0b0;
-  --overlay: #ffffff10;
+  --primary: #58a6ff;        // Vibrant glowing light blue for visibility
+  --secondary: #1e293b;      // slate-800 for tag background
+  --text: #e6edf3;           // Soft white text
+  --background: #0d1117;     // Deep slate black background (GitHub-style)
+  --background-alt: #161b22; // Slightly lighter card background
+  --light-gray: #30363d;     // slate-700 border/hover
+  --gray: #8b949e;           // slate-400 muted text
+  --dark-gray: #c9d1d9;      // slate-200 secondary headers
+  --overlay: #00000030;
 }
 
 :root {
