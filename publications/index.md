@@ -25,11 +25,9 @@ nav:
 {% include search-info.html %}
 
 <div class="publications-header">
-  <div class="publication-tabs-row">
-    <div class="publication-tabs">
-      <button id="tab-papers" class="tab-btn active" onclick="switchPubTab('papers')">Papers & Preprints</button>
-      <button id="tab-patents" class="tab-btn" onclick="switchPubTab('patents')">Patents</button>
-    </div>
+  <div class="publication-tabs">
+    <button id="tab-papers" class="tab-btn active" onclick="switchPubTab('papers')">Papers & Preprints</button>
+    <button id="tab-patents" class="tab-btn" onclick="switchPubTab('patents')">Patents</button>
     <a href="https://scholar.google.com/citations?hl=ko&user=ZrnibVwAAAAJ" class="scholar-tab-btn" target="_blank" rel="noopener">
       <i class="fa-brands fa-google"></i> Google Scholar
     </a>
