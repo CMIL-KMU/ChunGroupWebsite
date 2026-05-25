@@ -9,6 +9,16 @@ nav:
 
 {% include search-box.html %}
 
+{% assign all_citation_tags = "" | split: "," %}
+{% for citation in site.data.citations %}
+  {% if citation.tags %}
+    {% assign all_citation_tags = all_citation_tags | concat: citation.tags %}
+  {% endif %}
+{% endfor %}
+{% assign unique_citation_tags = all_citation_tags | uniq | compact | sort %}
+
+{% include tags.html tags=unique_citation_tags %}
+
 ## Selected publications
 
 {% include citation.html lookup="doi:10.48550/arXiv.2411.17839" style="rich" %}
