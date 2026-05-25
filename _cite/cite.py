@@ -50,15 +50,66 @@ def normalize_title(title):
     """
     if not title:
         return ""
+    # remove HTML tags (e.g. <sub>, <i>)
+    title = re.sub(r"<[^>]*>", "", title)
     # remove non-alphanumeric characters, convert to lowercase, and collapse whitespace
     title = re.sub(r"[^a-zA-Z0-9]", " ", title.lower())
     return " ".join(title.split())
 
 
+def is_duplicate_title(t1, t2):
+    """
+    Check if two titles are duplicates, accounting for HTML tags and potential ellipsis truncation.
+    """
+    if not t1 or not t2:
+        return False
+        
+    t1_clean = re.sub(r"<[^>]*>", "", t1).strip()
+    t2_clean = re.sub(r"<[^>]*>", "", t2).strip()
+    
+    has_ellipsis1 = t1_clean.endswith("…") or t1_clean.endswith("...")
+    has_ellipsis2 = t2_clean.endswith("…") or t2_clean.endswith("...")
+    
+    if has_ellipsis1:
+        t1_clean = t1_clean.rstrip(".… ")
+    if has_ellipsis2:
+        t2_clean = t2_clean.rstrip(".… ")
+        
+    norm1 = normalize_title(t1_clean)
+    norm2 = normalize_title(t2_clean)
+    
+    if not norm1 or not norm2:
+        return False
+        
+    if norm1 == norm2:
+        return True
+        
+    if has_ellipsis1 and norm2.startswith(norm1):
+        return True
+    if has_ellipsis2 and norm1.startswith(norm2):
+        return True
+        
+    return False
+
+
+PLUGIN_PRIORITY = {
+    "sources.py": 4,
+    "pubmed.py": 3,
+    "orcid.py": 2,
+    "google-scholar.py": 1
+}
+
+
 def merge_citations(base, secondary):
     """
-    merge two citation dicts, non-empty values from secondary override base
+    merge two citation dicts, prioritizing better sources (sources.py > pubmed.py > orcid.py > google-scholar.py)
     """
+    base_plugin = base.get("plugin", "")
+    sec_plugin = secondary.get("plugin", "")
+    
+    base_priority = PLUGIN_PRIORITY.get(base_plugin, 0)
+    sec_priority = PLUGIN_PRIORITY.get(sec_plugin, 0)
+    
     for key, value in secondary.items():
         if key == "id":
             # prioritize standard IDs (doi, pmcode, arxiv, etc.) over Google Scholar IDs
@@ -78,8 +129,15 @@ def merge_citations(base, secondary):
                 base["id"] = sec_id
             continue
 
-        # if secondary has a value and base doesn't, or secondary value is longer/better
-        if value and (not base.get(key) or len(str(value)) > len(str(base.get(key)))):
+        if not value:
+            continue
+            
+        base_value = base.get(key)
+        
+        # Override if base has no value, or secondary has higher priority, or same priority but secondary is longer
+        if (not base_value or 
+            sec_priority > base_priority or 
+            (sec_priority == base_priority and len(str(value)) > len(str(base_value)))):
             base[key] = value
     return base
 
@@ -295,22 +353,28 @@ log()
 log("Merging duplicate citations by title (removing preprint versions)")
 
 # merge citations with matching titles, keeping published version over preprint
-# use a dictionary to group by normalized title
-title_groups = {}
+# group citations by title similarity
+groups = []
 for citation in citations:
     title = get_safe(citation, "title", "").strip()
     norm_title = normalize_title(title)
     if not norm_title:
         continue
-    if norm_title not in title_groups:
-        title_groups[norm_title] = []
-    title_groups[norm_title].append(citation)
+    matched_group = None
+    for group in groups:
+        if any(is_duplicate_title(title, get_safe(item, "title", "")) for item in group):
+            matched_group = group
+            break
+    if matched_group is not None:
+        matched_group.append(citation)
+    else:
+        groups.append([citation])
 
 # process each group
 merged_citations = []
 removed_ids = set()
 
-for norm_title, group in title_groups.items():
+for group in groups:
     if len(group) == 1:
         # no duplicates, keep as is
         merged_citations.append(group[0])
