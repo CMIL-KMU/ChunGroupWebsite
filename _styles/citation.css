@@ -29,7 +29,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 20px;
   padding: 20px;
   text-align: left;
   overflow-wrap: break-word;
@@ -50,7 +50,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
   flex-shrink: 0;
   line-height: 1.4;
   margin-top: 2px;
@@ -135,15 +135,10 @@
   padding-bottom: 12px;
 }
 
-.publication-tabs-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
 .publication-tabs {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 15px;
   margin: 0;
   padding-bottom: 0;
@@ -203,14 +198,14 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
   font-size: 0.9em;
   color: var(--gray);
 }
 .publications-legend .legend-item {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   font-weight: var(--semi-bold, 500);
 }
 .publications-legend .legend-item i {
@@ -224,10 +219,9 @@
     align-items: center;
     padding-bottom: 15px;
   }
-  .publication-tabs-row {
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
+  .publication-tabs {
+    justify-content: center;
+    width: 100%;
   }
   .publications-legend {
     justify-content: center;
