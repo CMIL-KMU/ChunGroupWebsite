@@ -6,7 +6,7 @@
   display: flex;
   margin: 20px 0;
   border-radius: var(--rounded);
-  background: var(--background);
+  background: var(--background-alt);
   overflow: hidden;
   box-shadow: var(--shadow);
 }
@@ -93,7 +93,7 @@
 
 .citation-title:hover {
   text-decoration: none !important;
-  color: #2353A5;
+  color: var(--primary);
 }
 
 .citation-authors u {
@@ -103,7 +103,7 @@
 .citation-publisher {
   text-transform: capitalize;
   font-weight: var(--bold, bold);
-  color: #4B90E3;
+  color: var(--primary);
 }
 
 .citation-description {
@@ -157,10 +157,10 @@
   transition: color 0.3s ease;
 }
 .tab-btn:hover {
-  color: #2353A5;
+  color: var(--primary);
 }
 .tab-btn.active {
-  color: #2353A5;
+  color: var(--primary);
 }
 .tab-btn.active::after {
   content: "";
@@ -169,7 +169,7 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background-color: #2353A5;
+  background-color: var(--primary);
   border-radius: 2px;
 }
 
@@ -177,7 +177,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background-color: #2353A5;
+  background-color: var(--primary);
   color: #fff !important;
   font-family: inherit;
   font-size: 0.95em;
@@ -189,7 +189,7 @@
   box-shadow: 0 2px 4px rgba(35, 83, 165, 0.2);
 }
 .scholar-tab-btn:hover {
-  background-color: #1a3f80;
+  filter: brightness(0.85);
   transform: translateY(-1px);
   box-shadow: 0 4px 8px rgba(35, 83, 165, 0.3);
 }

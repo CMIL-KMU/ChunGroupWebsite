@@ -27,7 +27,8 @@
 }
 
 .tag[data-active] {
-  background: var(--light-gray);
+  background: var(--primary);
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=tags.css.map */
