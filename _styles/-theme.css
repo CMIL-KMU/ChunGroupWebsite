@@ -13,8 +13,8 @@
 }
 
 [data-dark=true] {
-  --primary: #FCDA22;
-  --accent: #FCDA22;
+  --primary: #F29005;
+  --accent: #F29005;
   --contrast-text: #0f172a;
   --secondary: #1e293b;
   --text: #e6edf3;
