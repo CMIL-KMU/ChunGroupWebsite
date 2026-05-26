@@ -25,7 +25,8 @@
 
 # {% include icon.html icon="fa-solid fa-fire" %}Featured Publications
 
-{% assign featured_publications = site.data.citations | where_exp: "citation", "citation.image != nil" | limit: 4 %}
+{% assign sorted_publications = site.data.citations | sort: "date" | reverse %}
+{% assign featured_publications = sorted_publications | where_exp: "citation", "citation.image != nil" | limit: 4 %}
 <div class="slider-wrapper">
   <button class="slider-arrow prev" onclick="scrollSlider('research-slider', -1)" aria-label="Previous slider item">❮</button>
   <div class="slider-container" id="research-slider">
@@ -52,12 +53,13 @@
 
 # {% include icon.html icon="fa-solid fa-newspaper" %}Latest Updates
 
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
 <div class="cols home-news-grid" style="--cols: 2; margin-top: 30px;">
   <div>
     <h2 class="home-news-column-title">
       {% include icon.html icon="fa-solid fa-trophy" %}Honors & achievements
     </h2>
-    {% assign honors_posts = site.posts | where_exp: "post", "post.tags contains 'honors-awards'" | limit: 5 %}
+    {% assign honors_posts = sorted_posts | where_exp: "post", "post.tags contains 'honors-awards'" | limit: 5 %}
     {% if honors_posts.size > 0 %}
       <div class="slider-wrapper">
         <button class="slider-arrow prev" onclick="scrollSlider('honors-slider', -1)" aria-label="Previous slider item">❮</button>
@@ -79,7 +81,7 @@
     <h2 class="home-news-column-title">
       {% include icon.html icon="fa-solid fa-users" %}Lab life & activities
     </h2>
-    {% assign lab_life_posts = site.posts | where_exp: "post", "post.tags contains 'lab-life'" | limit: 5 %}
+    {% assign lab_life_posts = sorted_posts | where_exp: "post", "post.tags contains 'lab-life'" | limit: 5 %}
     {% if lab_life_posts.size > 0 %}
       <div class="slider-wrapper">
         <button class="slider-arrow prev" onclick="scrollSlider('lab-life-slider', -1)" aria-label="Previous slider item">❮</button>
