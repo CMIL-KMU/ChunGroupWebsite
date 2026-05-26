@@ -373,6 +373,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/home-slider.js"></script>
+
   <script src="/_scripts/scroll-to-top.js"></script>
 
   <script src="/_scripts/search.js"></script>
@@ -505,9 +507,12 @@
     <h1 id="featured-research">
 <i class="icon fa-solid fa-fire"></i>Featured Research</h1>
 
-<div class="featured-publications-grid">
-  
+<div class="slider-wrapper">
+  <button class="slider-arrow prev" onclick="scrollSlider('research-slider', -1)" aria-label="Previous slider item">❮</button>
+  <div class="slider-container" id="research-slider">
     
+      <div class="slide">
+        
 
 <div class="citation-container">
   <div class="citation">
@@ -580,8 +585,10 @@
   </div>
 </div>
 
-  
+      </div>
     
+      <div class="slide">
+        
 
 <div class="citation-container">
   <div class="citation">
@@ -654,8 +661,10 @@
   </div>
 </div>
 
-  
+      </div>
     
+      <div class="slide">
+        
 
 <div class="citation-container">
   <div class="citation">
@@ -724,8 +733,10 @@
   </div>
 </div>
 
-  
+      </div>
     
+      <div class="slide">
+        
 
 <div class="citation-container">
   <div class="citation">
@@ -794,7 +805,10 @@
   </div>
 </div>
 
-  
+      </div>
+    
+  </div>
+  <button class="slider-arrow next" onclick="scrollSlider('research-slider', 1)" aria-label="Next slider item">❯</button>
 </div>
 
 <div style="text-align: center; margin-top: 25px;">
@@ -830,7 +844,12 @@
     </h2>
     
     
-      
+      <div class="slider-wrapper">
+        <button class="slider-arrow prev" onclick="scrollSlider('honors-slider', -1)" aria-label="Previous slider item">❮</button>
+        <div class="slider-container" id="honors-slider">
+          
+            <div class="slide">
+              
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -909,7 +928,11 @@
   </div>
 </div>
 
-    
+            </div>
+          
+        </div>
+        <button class="slider-arrow next" onclick="scrollSlider('honors-slider', 1)" aria-label="Next slider item">❯</button>
+      </div>
     
   </div>
 
@@ -919,7 +942,12 @@
     </h2>
     
     
-      
+      <div class="slider-wrapper">
+        <button class="slider-arrow prev" onclick="scrollSlider('lab-life-slider', -1)" aria-label="Previous slider item">❮</button>
+        <div class="slider-container" id="lab-life-slider">
+          
+            <div class="slide">
+              
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -998,7 +1026,11 @@
   </div>
 </div>
 
-    
+            </div>
+          
+        </div>
+        <button class="slider-arrow next" onclick="scrollSlider('lab-life-slider', 1)" aria-label="Next slider item">❯</button>
+      </div>
     
   </div>
 </div>
