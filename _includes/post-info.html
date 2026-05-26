@@ -1,5 +1,9 @@
 <div class="post-info">
-  {% assign published = include.published | date: "%B %d, %Y" %}
+  {% if include.show_day == false %}
+    {% assign published = include.published | date: "%B %Y" %}
+  {% else %}
+    {% assign published = include.published | date: "%B %d, %Y" %}
+  {% endif %}
 
   {% if published %}
     <span data-tooltip="Originally published on">
