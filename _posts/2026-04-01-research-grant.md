@@ -2,6 +2,9 @@
 title: "Research project"
 date: 2026-04-01
 show_day: false
+redirect_from:
+  - /2026/05/19/research-grant.html
+  - /2026/05/19/research-grant/
 image: images/posts/nrf.svg
 tags:
   - honors-awards
