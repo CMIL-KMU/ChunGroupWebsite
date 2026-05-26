@@ -52,5 +52,37 @@ document.addEventListener("DOMContentLoaded", () => {
       nextBtn.style.opacity = "0.8";
       nextBtn.style.pointerEvents = "auto";
     }
+
+    // Mobile touch swipe circular loop detection
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    slider.addEventListener('touchstart', e => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    slider.addEventListener('touchend', e => {
+      touchEndX = e.changedTouches[0].screenX;
+      
+      const swipeDistance = touchStartX - touchEndX;
+      const threshold = 40; // Minimum swipe distance in pixels to trigger wrap
+      const scrollLeft = slider.scrollLeft;
+      const maxScroll = slider.scrollWidth - slider.clientWidth;
+      
+      // Swipe Left -> Scroll Right (Next)
+      if (swipeDistance > threshold) {
+        if (scrollLeft >= maxScroll - 15) {
+          // At the end, wrap to beginning
+          slider.scrollTo({ left: 0, behavior: 'smooth' });
+        }
+      }
+      // Swipe Right -> Scroll Left (Prev)
+      else if (swipeDistance < -threshold) {
+        if (scrollLeft <= 15) {
+          // At the beginning, wrap to end
+          slider.scrollTo({ left: maxScroll, behavior: 'smooth' });
+        }
+      }
+    }, { passive: true });
   });
 });
