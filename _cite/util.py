@@ -10,6 +10,13 @@ from pathlib import Path
 from datetime import date, datetime
 from rich import print
 from diskcache import Cache
+import os
+import site
+
+# Add python user base bin directory to PATH so user-installed CLI tools (like manubot) are found
+user_bin = Path(site.getuserbase()) / "bin"
+if user_bin.exists() and str(user_bin) not in os.environ.get("PATH", ""):
+    os.environ["PATH"] = str(user_bin) + os.pathsep + os.environ.get("PATH", "")
 
 
 # cache for time-consuming network requests

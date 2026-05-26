@@ -289,18 +289,40 @@ for index, source in enumerate(sources):
         except Exception as e:
             plugin = get_safe(source, "plugin", "")
             file = get_safe(source, "file", "")
-            # if regular source (id entered by user), throw error
-            if plugin == "sources.py":
-                log(e, indent=3, level="ERROR")
-                errors.append(f"Manubot could not generate citation for source {_id}")
-            # otherwise, if from metasource (id retrieved from some third-party api), just warn
+            
+            # Try to recover from currently compiled _data/citations.yaml
+            fallback_citation = None
+            try:
+                import yaml
+                with open("_data/citations.yaml", "r", encoding="utf-8") as f:
+                    existing_data = yaml.safe_load(f)
+                    if isinstance(existing_data, list):
+                        for cit in existing_data:
+                            if str(cit.get("id", "")).lower() == _id.lower():
+                                fallback_citation = cit.copy()
+                                # Clean up plugin/file properties that cite.py will re-append
+                                fallback_citation.pop("plugin", None)
+                                fallback_citation.pop("file", None)
+                                break
+            except Exception:
+                pass
+                
+            if fallback_citation:
+                log(f"Manubot failed for {_id}. Recovered citation from existing _data/citations.yaml.", level="SUCCESS")
+                citation = fallback_citation
             else:
-                log(e, indent=3, level="WARNING")
-                warnings.append(
-                    f"Manubot could not generate citation for source {_id} (from {file} with {plugin})"
-                )
-                # fall back to metadata retrieved by the plugin instead of discarding it
-                citation = {}
+                # if regular source (id entered by user), throw error
+                if plugin == "sources.py":
+                    log(e, indent=3, level="ERROR")
+                    errors.append(f"Manubot could not generate citation for source {_id}")
+                # otherwise, if from metasource (id retrieved from some third-party api), just warn
+                else:
+                    log(e, indent=3, level="WARNING")
+                    warnings.append(
+                        f"Manubot could not generate citation for source {_id} (from {file} with {plugin})"
+                    )
+                    # fall back to metadata retrieved by the plugin instead of discarding it
+                    citation = {}
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)

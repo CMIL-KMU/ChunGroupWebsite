@@ -3,8 +3,9 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #2353A5;        // Brand deep blue
-  --secondary: #e0f2fe;      // Soft light blue for tag background
+  --primary: #4B95F7;        // Vibrant sky blue
+  --accent: #FCDA22;         // Contrasting gold/yellow
+  --secondary: #eff6ff;      // Soft light blue for tag background
   --text: #0f172a;           // Soft slate black
   --background: #ffffff;
   --background-alt: #f8fafc; // Soft slate-50 card background
@@ -14,10 +15,11 @@
   --overlay: #0f172a10;
 }
 [data-dark="true"] {
-  --primary: #58a6ff;        // Vibrant glowing light blue for visibility
+  --primary: #4B95F7;        // Vibrant sky blue for links and headers
+  --accent: #FCDA22;         // Glowing gold/yellow for active elements
   --secondary: #1e293b;      // slate-800 for tag background
   --text: #e6edf3;           // Soft white text
-  --background: #0d1117;     // Deep slate black background (GitHub-style)
+  --background: #0d1117;     // Deep slate black background
   --background-alt: #161b22; // Slightly lighter card background
   --light-gray: #30363d;     // slate-700 border/hover
   --gray: #8b949e;           // slate-400 muted text
