@@ -144,22 +144,15 @@
   background: var(--primary);
   color: var(--contrast-text);
   border-color: var(--primary);
+  opacity: 1 !important;
 }
 .slider-arrow.prev {
-  left: -20px;
+  left: 15px;
 }
 .slider-arrow.next {
-  right: -20px;
+  right: 15px;
 }
 
-@media (max-width: 800px) {
-  .slider-arrow.prev {
-    left: 5px;
-  }
-  .slider-arrow.next {
-    right: 5px;
-  }
-}
 @media (max-width: 500px) {
   .slider-arrow {
     display: none;
