@@ -73,4 +73,11 @@
   display: none;
 }
 
+@media (max-width: 500px) {
+  .portrait:not([data-style=small]):not([data-style=tiny]) {
+    margin: 15px 5px;
+    width: calc(50% - 12px);
+  }
+}
+
 /*# sourceMappingURL=portrait.css.map */
