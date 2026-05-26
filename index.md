@@ -103,7 +103,8 @@
     include button.html
     link="news"
     text="More news & posts"
-    icon="fa-solid fa-newspaper"
+    icon="fa-solid fa-arrow-right"
+    flip=true
     style="bare"
   %}
 </div>
