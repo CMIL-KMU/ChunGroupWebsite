@@ -52,7 +52,7 @@
 
 # {% include icon.html icon="fa-solid fa-newspaper" %}Latest Updates
 
-<div class="cols" style="--cols: 2; margin-top: 30px;">
+<div class="cols home-news-grid" style="--cols: 2; margin-top: 30px;">
   <div>
     <h2 class="home-news-column-title">
       {% include icon.html icon="fa-solid fa-trophy" %}Honors & achievements
