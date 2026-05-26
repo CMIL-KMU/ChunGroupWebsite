@@ -1,6 +1,6 @@
 ---
 title: "Research project"
-date: 2026-04-01
+date: 2026-04-24
 show_day: false
 redirect_from:
   - /2026/05/19/research-grant.html
