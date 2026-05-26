@@ -1,6 +1,6 @@
 ---
 title: "Welcome Jun Hyeok"
-date: 2026-04
+date: 2026-04-01
 show_day: false
 image: images/posts/welcome.png
 tags:

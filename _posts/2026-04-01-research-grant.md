@@ -1,6 +1,6 @@
 ---
 title: "Research project"
-date: 2026-04
+date: 2026-04-01
 show_day: false
 image: images/posts/nrf.svg
 tags:
