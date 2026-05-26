@@ -25,7 +25,7 @@
 
 # {% include icon.html icon="fa-solid fa-fire" %}Featured Research
 
-{% assign featured_publications = site.data.citations | where_exp: "citation", "citation.image != nil" | limit: 10 %}
+{% assign featured_publications = site.data.citations | where_exp: "citation", "citation.image != nil" | limit: 4 %}
 <div class="slider-wrapper">
   <button class="slider-arrow prev" onclick="scrollSlider('research-slider', -1)" aria-label="Previous slider item">❮</button>
   <div class="slider-container" id="research-slider">

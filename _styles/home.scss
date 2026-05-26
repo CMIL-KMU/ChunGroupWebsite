@@ -157,25 +157,15 @@
     background: var(--primary);
     color: var(--contrast-text);
     border-color: var(--primary);
+    opacity: 1 !important;
   }
 
   &.prev {
-    left: -20px;
+    left: 15px; // Clip-safe inside bounds
   }
 
   &.next {
-    right: -20px;
-  }
-}
-
-@media (max-width: 800px) {
-  .slider-arrow {
-    &.prev {
-      left: 5px;
-    }
-    &.next {
-      right: 5px;
-    }
+    right: 15px; // Clip-safe inside bounds
   }
 }
 
