@@ -27,7 +27,7 @@ jobs:
 
       - name: Checkout branch contents
         if: github.event.action != 'closed'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
@@ -42,7 +42,7 @@ jobs:
       - name: Get Pages url
         if: github.event.action != 'closed'
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v6
 
       - name: SSH debug
         if: runner.debug == '1'
@@ -61,7 +61,7 @@ jobs:
           umbrella-dir: ${{ env.PREVIEWS_FOLDER }}
 
       - name: Checkout Pages branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: gh-pages
 
