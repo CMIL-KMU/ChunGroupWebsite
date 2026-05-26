@@ -41,7 +41,7 @@ jobs:
 
       - name: Set up Python
         if: github.event.action != 'closed'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
@@ -73,7 +73,7 @@ jobs:
       - name: Check if citations changed
         if: github.event.action != 'closed'
         id: changed
-        uses: tj-actions/verify-changed-files@v18
+        uses: tj-actions/verify-changed-files@v20
         with:
           files: |
             _data/citations.yaml
