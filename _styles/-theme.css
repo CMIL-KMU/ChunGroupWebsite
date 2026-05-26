@@ -1,6 +1,7 @@
 [data-dark=false] {
-  --primary: #4B95F7;
-  --accent: #FCDA22;
+  --primary: #5B92F0;
+  --accent: #5B92F0;
+  --contrast-text: #ffffff;
   --secondary: #eff6ff;
   --text: #0f172a;
   --background: #ffffff;
@@ -12,8 +13,9 @@
 }
 
 [data-dark=true] {
-  --primary: #4B95F7;
+  --primary: #FCDA22;
   --accent: #FCDA22;
+  --contrast-text: #0f172a;
   --secondary: #1e293b;
   --text: #e6edf3;
   --background: #0d1117;
