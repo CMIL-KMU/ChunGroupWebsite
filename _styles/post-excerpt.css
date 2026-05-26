@@ -59,6 +59,12 @@
 
 .post-excerpt-text > p {
   width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.4;
+  color: var(--gray) !important;
 }
 
 @container (max-width: 800px) {
