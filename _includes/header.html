@@ -8,7 +8,7 @@
 
 <header class="background" style="--image: url('{{ image | relative_url | uri_escape }}')" {% if dark==true or
     dark==false %} data-dark="{{ dark }}" {% endif %} {% if page.url=="/" %} data-big {% endif %}>
-    <a href="{{ " /" | relative_url }}" class="home">
+    <a href="{{ "/" | relative_url }}" class="home">
         {% if logo %}
         <span class="logo">
             {% if svg %}
