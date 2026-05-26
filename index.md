@@ -1,84 +1,108 @@
 ---
 ---
 
-# Computational Materials Intelligence Lab
+<div class="home-hero">
+  <h1 class="home-hero-title">Computational Materials Intelligence Lab</h1>
+  <p class="home-hero-desc">
+    We are a computational research group working at the interface of artificial intelligence and atomistic simulations, with a focus on the predictive design of functional materials. We develop AI-accelerated computational frameworks that enable efficient exploration of complex materials design spaces.
+  </p>
+  <p class="home-hero-desc-kr">
+    인공지능과 원자 시뮬레이션의 접점에서 기능성 소재의 예측 설계를 목표로 하는 계산 과학 연구 그룹입니다. 복잡한 소재 설계 공간을 효율적으로 탐색할 수 있도록 AI 가속 계산 프레임워크를 개발하고 있습니다.
+  </p>
+  <div class="home-hero-cta">
+    {%
+      include button.html
+      link="research"
+      text="Explore Our Research"
+      icon="fa-solid fa-arrow-right"
+      flip=true
+      style="bare"
+    %}
+  </div>
+</div>
 
-We are a computational research group working at the interface of artificial intelligence and atomistic simulations, with a focus on the predictive design of functional materials. We develop AI-accelerated computational frameworks that enable efficient exploration of complex materials design spaces. Our approaches integrate deep reinforcement learning, machine-learned interatomic potentials, and automated workflows to advance atomistic modeling/simulation for materials discovery. Through these efforts, we aim to understand and predict materials formation, evolution, and functionality, while addressing fundamental questions in chemical bonding, materials processing, and ion and defect transport.
+<!-- section break -->
 
-인공지능과 원자 시뮬레이션의 접점에서 기능성 소재의 예측 설계를 목표로 하는 계산 과학 연구 그룹입니다. 복잡한 소재 설계 공간을 효율적으로 탐색할 수 있도록 AI 가속 계산 프레임워크를 개발하고 있습니다. 제일원리기반의 시뮬레이션과 강화 학습, 머신러닝포텐셜, 그리고 자동화된 워크플로우 등을 활용하여 신소재 발견을 위한 원자 모델링 및 시뮬레이션 기술을 개발하고 있습니다. 이를 통해 소재의 구조-물성-공정 상관관계 등에 대한 근본적인 질문들에 대해 연구합니다.
+# {% include icon.html icon="fa-solid fa-fire" %}Featured Research
 
-{% include section.html %}
+Discover some of our latest publications and research highlights.
 
-{% capture text %}
+{% assign featured_publications = site.data.citations | where_exp: "citation", "citation.image != nil" | limit: 3 %}
+<div class="featured-publications-grid">
+  {% for pub in featured_publications %}
+    {% include citation.html style="rich" lookup=pub.id %}
+  {% endfor %}
+</div>
 
-We use computational tools to understand and design materials, including electronic materials, ionic conductors for energy storage, and heterogeneous (electro)catalysts.
+<div style="text-align: center; margin-top: 25px;">
+  {%
+    include button.html
+    link="publications"
+    text="See All Publications"
+    icon="fa-solid fa-book"
+    style="bare"
+  %}
+</div>
 
-계산 툴을 활용하여 전자 소재, 에너지 저장용 이온 전도체, 그리고 불균일계 (전기)촉매를 포함한 다양한 기능성 소재를 이해하고 설계합니다.
+<!-- section break -->
 
-{%
-  include button.html
-  link="research"
-  text="See more"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+# {% include icon.html icon="fa-solid fa-newspaper" %}Latest Updates
 
-{% endcapture %}
+<div class="cols" style="--cols: 2; margin-top: 30px;">
+  <div>
+    <h2 class="home-news-column-title">
+      {% include icon.html icon="fa-solid fa-trophy" %}Honors & Achievements
+    </h2>
+    {% assign honors_posts = site.posts | where_exp: "post", "post.tags contains 'honors-awards'" | limit: 3 %}
+    {% for post in honors_posts %}
+      {% include post-excerpt.html lookup=post.slug %}
+    {% endfor %}
+    {% if honors_posts.size == 0 %}
+      <p style="color: var(--gray); font-style: italic; margin-top: 15px;">No achievements posted yet.</p>
+    {% endif %}
+  </div>
 
-{%
-  include feature.html
-  image="images/research_areas.png"
-  link="research"
-  title="Research areas"
-  text=text
-%}
+  <div>
+    <h2 class="home-news-column-title">
+      {% include icon.html icon="fa-solid fa-users" %}Lab Life & Activities
+    </h2>
+    {% assign lab_life_posts = site.posts | where_exp: "post", "post.tags contains 'lab-life'" | limit: 3 %}
+    {% for post in lab_life_posts %}
+      {% include post-excerpt.html lookup=post.slug %}
+    {% endfor %}
+    {% if lab_life_posts.size == 0 %}
+      <p style="color: var(--gray); font-style: italic; margin-top: 15px;">No lab life updates posted yet.</p>
+    {% endif %}
+  </div>
+</div>
 
-{% capture text %}
+<div style="text-align: center; margin-top: 30px;">
+  {%
+    include button.html
+    link="news"
+    text="More News & Posts"
+    icon="fa-solid fa-arrow-right"
+    style="bare"
+  %}
+</div>
 
-Our latest research in materials design, digital discovery, and algorithm developments.
+<!-- section break -->
 
-소재 설계, 디지털 디스커버리 및 알고리즘 개발 분야의 연구 성과를 확인해 보세요.
-{%
-  include button.html
-  link="publications"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/publications.png"
-  link="publications"
-  title="Publications"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-<!-- {% capture text %}
-
-We are always looking for motivated undergraduate interns and MS and PhD students. We are building a collaborative and supportive research environments in the lab.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our team"
-  text=text
-%} -->
+<div class="home-recruitment-banner">
+  <h2>{% include icon.html icon="fa-solid fa-user-plus" %}Join Our Team!</h2>
+  <p>
+    We welcome applications from motivated graduate and undergraduate students with diverse backgrounds in Chemistry, Physics, Materials Science, Chemical Engineering, Computer Science, and energy engineering who are interested in computational materials chemistry.
+  </p>
+  <p class="recruitment-desc-kr">
+    인공지능과 전산재료과학 연구에 관심있는 화학, 물리, 신소재공학, 화학공학, 컴퓨터공학 등 다양한 전공의 학생들의 지원을 환영합니다!
+  </p>
+  <div class="recruitment-cta">
+    {%
+      include button.html
+      link="recruitment"
+      text="Admission Details"
+      icon="fa-solid fa-circle-info"
+      style="bare"
+    %}
+  </div>
+</div>
