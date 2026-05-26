@@ -1,7 +1,7 @@
 .home-hero {
   text-align: center;
   margin: 40px auto 20px auto;
-  max-width: 800px;
+  max-width: 850px;
 }
 
 .home-hero-title {
@@ -90,10 +90,17 @@
   justify-content: center;
 }
 
+.home-news-grid {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .slider-wrapper {
   position: relative;
   width: 100%;
-  margin: 20px 0;
+  max-width: 850px;
+  margin: 20px auto;
   display: flex;
   align-items: center;
 }
