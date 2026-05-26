@@ -24,8 +24,8 @@
   date: '2020-04-03'
   link: https://doi.org/ggrf78
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1038/s41586-021-04391-5
@@ -68,8 +68,8 @@
   date: '2022-03-23'
   link: https://doi.org/gthvk2
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1021/acscatal.3c01441
@@ -93,8 +93,8 @@
   date: '2023-06-26'
   link: https://doi.org/hbg5zs
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1021/acsnano.2c02324
@@ -112,8 +112,8 @@
   date: '2022-07-14'
   link: https://doi.org/g6d4fg
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.checat.2021.06.001
@@ -132,7 +132,7 @@
   link: https://doi.org/hbg5zv
   gsid: ZrnibVwAAAAJ
   plugin: sources.py
-  file: sources-full.yaml
+  file: sources.yaml
   type: paper
   orcid: 0000-0003-0624-536X
   image: images/publications/2021_chem_catal.jpeg
@@ -140,7 +140,7 @@
   - machine-learning
   - virtual screening
   - catalysts
-- id: doi:10.1039/C8CP03801E
+- id: doi:10.1039/c8cp03801e
   title: First-principles database driven computational neural network approach to
     the discovery of active ternary nanocatalysts for oxygen reduction reaction
   authors:
@@ -154,8 +154,8 @@
   date: '2018-01-01'
   link: https://doi.org/gnsxqt
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.cej.2019.05.115
@@ -175,13 +175,13 @@
   date: '2019-10-01'
   link: https://doi.org/ggrhsp
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.apcatb.2022.121504
-  title: Tuning the electronic structure and inverse degree of inverse spinel ferrites
-    by integrating samarium orthoferrite for efficient water oxidation
+  title: Tuning the Electronic Structure and Inverse Degree of Inverse Spinel Ferrites
+    by Integrating Samarium Orthoferrite for Efficient Water Oxidation
   authors:
   - Juhyung Choi
   - Daekyu Kim
@@ -193,27 +193,27 @@
   - Lawrence Yoon Suk Lee
   - Yuanzhe Piao
   publisher: 'Applied Catalysis B: Environmental 315, 121504'
-  date: '2022-10-01'
-  link: https://doi.org/hbg52g
+  date: '2022-01-01'
+  link: https://doi.org/hbmcx5
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.apsusc.2022.153715
-  title: 'N- and B-doped fullerene as peroxidase- and catalase-like metal-free nanozymes
-    with pH-switchable catalytic activity: A first-principles approach'
+  title: 'N- and B-Doped Fullerene as Peroxidase- and Catalase-Like Metal-Free Nanozymes
+    with Ph-Switchable Catalytic Activity: A First-Principles Approach'
   authors:
   - Sung Jun Hong
   - <u>Hoje Chun</u>
   - Minjoon Hong
   - Byungchan Han
   publisher: Applied Surface Science 598, 153715
-  date: '2022-10-01'
-  link: https://doi.org/hbg52f
+  date: '2022-01-01'
+  link: https://doi.org/hbmcx3
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.jhazmat.2020.122857
@@ -236,11 +236,11 @@
   date: '2020-11-01'
   link: https://doi.org/gpw3vk
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
-- id: doi:10.1039/C6CP06483C
+- id: doi:10.1039/c6cp06483c
   title: First principles computational study on the adsorption mechanism of organic
     methyl iodide gas on triethylenediamine impregnated activated carbon
   authors:
@@ -251,8 +251,8 @@
   date: '2016-01-01'
   link: https://doi.org/g9v6rp
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1021/acssuschemeng.9b07166
@@ -268,8 +268,8 @@
   date: '2020-02-12'
   link: https://doi.org/hbg55c
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.bios.2023.115882
@@ -288,8 +288,8 @@
   date: '2024-02-01'
   link: https://doi.org/hbg5z6
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.apcatb.2021.120938
@@ -304,8 +304,8 @@
   date: '2022-05-01'
   link: https://doi.org/hbg5z2
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.jpowsour.2020.227998
@@ -326,8 +326,8 @@
   date: '2020-04-01'
   link: https://doi.org/g7kw6q
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1021/acs.jpclett.1c01140
@@ -366,11 +366,11 @@
   date: '2024-04-22'
   link: https://doi.org/g96fcc
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
-- id: doi:10.1039/D0TC01309A
+- id: doi:10.1039/d0tc01309a
   title: First-principles mechanism study on distinct optoelectronic properties of
     Cl-doped 2D hybrid tin iodide perovskite
   authors:
@@ -382,8 +382,8 @@
   date: '2020-01-01'
   link: https://doi.org/grnjf7
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.bios.2021.112979
@@ -411,7 +411,7 @@
   file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
-- id: doi:10.1039/D1TA04084G
+- id: doi:10.1039/d1ta04084g
   title: 'Design of a unique anion framework in halospinels for outstanding performance
     of all solid-state Li-ion batteries: first-principles approach'
   authors:
@@ -424,8 +424,8 @@
   date: '2021-01-01'
   link: https://doi.org/gn3pn4
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.mtnano.2020.100099
@@ -458,8 +458,8 @@
   date: '2021-03-01'
   link: https://doi.org/hbg548
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1002/er.4064
@@ -475,8 +475,8 @@
   date: '2018-03-26'
   link: https://doi.org/gdr99t
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1038/s41524-024-01432-1
@@ -493,7 +493,7 @@
   link: https://doi.org/hbg5z4
   gsid: ZrnibVwAAAAJ
   plugin: sources.py
-  file: sources-full.yaml
+  file: sources.yaml
   type: paper
   orcid: 0000-0003-0624-536X
   image: images/publications/2024_npj_comp_hj.png
@@ -514,8 +514,8 @@
   date: '2020-07-07'
   link: https://doi.org/hbg549
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.jhazmat.2017.08.054
@@ -531,8 +531,8 @@
   date: '2018-01-01'
   link: https://doi.org/gv235j
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1038/s41467-025-56476-8
@@ -563,8 +563,8 @@
   date: '2025-01-29'
   link: https://doi.org/hbg5zq
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: ZrnibVwAAAAJ:Se3iqnhoufwC
@@ -604,8 +604,8 @@
   date: '2025-02-01'
   link: https://doi.org/hbg52j
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1038/s41598-023-28492-5
@@ -630,8 +630,8 @@
   date: '2023-02-01'
   link: https://doi.org/hbg52c
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1021/acsami.1c21419
@@ -653,8 +653,8 @@
   date: '2022-03-07'
   link: https://doi.org/gssb97
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.jallcom.2021.160007
@@ -685,8 +685,8 @@
   date: '2019-02-01'
   link: https://doi.org/hbg55b
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1021/acs.jpcc.8b00721
@@ -701,8 +701,8 @@
   date: '2018-05-04'
   link: https://doi.org/gdscqz
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1021/acscentsci.5c00547
@@ -721,8 +721,8 @@
   date: '2025-07-21'
   link: https://doi.org/hbg5z3
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.apsusc.2019.144861
@@ -738,8 +738,8 @@
   date: '2020-04-01'
   link: https://doi.org/hbg55d
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: ZrnibVwAAAAJ:aqlVkmm33-oC
@@ -787,8 +787,8 @@
   date: '2025-06-04'
   link: https://doi.org/g9zqsw
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.apsusc.2022.152955
@@ -803,8 +803,8 @@
   date: '2022-07-01'
   link: https://doi.org/hbg547
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: doi:10.1021/acs.chemmater.4c01879
@@ -819,8 +819,8 @@
   date: '2024-11-11'
   link: https://doi.org/hbg52h
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
 - id: ZrnibVwAAAAJ:e5wmG9Sq2KIC
@@ -849,7 +849,7 @@
   link: https://doi.org/hbg5zp
   gsid: ZrnibVwAAAAJ
   plugin: sources.py
-  file: sources-full.yaml
+  file: sources.yaml
   type: paper
   orcid: 0000-0003-0624-536X
   image: images/publications/2025_jctc.png
@@ -932,7 +932,7 @@
   link: https://doi.org/hbg52b
   orcid: 0000-0003-0624-536X
   plugin: sources.py
-  file: sources-full.yaml
+  file: sources.yaml
   image: images/publications/2025_mfpt.png
   tags:
   - machine-learning
@@ -950,10 +950,10 @@
   date: '2023-12-01'
   link: https://doi.org/hbg5z7
   orcid: 0000-0003-0624-536X
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
-- id: doi:10.1039/D2TA09592K
+- id: doi:10.1039/d2ta09592k
   title: First-principles study on ultrafast Li-ion diffusion in halospinel Li<sub>2</sub>Sc<sub>2/3</sub>Cl<sub>4</sub>
     through multichannels designed by aliovalent doping
   authors:
@@ -966,55 +966,6 @@
   date: '2023-01-01'
   link: https://doi.org/hbg5z9
   orcid: 0000-0003-0624-536X
-  plugin: sources.py
-  file: sources-full.yaml
-  type: paper
-- id: doi:10.48550/arXiv.2512.22370
-  title: Thermal Equilibrium Vacancy Concentration in an Alloy with Chemical Short-Range
-    Order
-  authors:
-  - Hao Tang
-  - <u>Hoje Chun</u>
-  - Rafael Gomez-Bombarelli
-  - Yuri Mishin
-  - Ju Li
-  publisher: arXiv
-  date: '2025-01-01'
-  link: https://doi.org/hbjk49
-  tags:
-  - machine-learning
-  - algorithm
-  plugin: sources.py
-  file: sources-full.yaml
-  type: preprint
-- id: doi:10.20517/jmi.2025.65
-  title: 'Exploring materials data through collaboration: 2024 KRICT ChemDX Hackathon'
-  authors:
-  - Su-Hyun Yoo
-  - Andre K. Y. Low
-  - Jose Recatala-Gomez
-  - Harikrishna Sahu
-  - Chiho Kim
-  - Joonyoung F. Joung
-  - <u>Hoje Chun</u>
-  - Katerina A. Christofidou
-  - Joshua Berry
-  - Michail Minotakis
-  - Kisung Kang
-  - Kwang-soo Kim
-  - Gaheun Shin
-  - Hyunwoo Jang
-  - Sanghyuk Lee
-  - Minkyu Park
-  - Byung-Hyun Kim
-  - Kihyun Shin
-  - Jungho Shin
-  - Aloysius Soon
-  - Joshua Schrier
-  - Woosun Jang
-  publisher: Journal of Materials Informatics 5 (4)
-  date: '2025-11-20'
-  link: https://doi.org/hbg546
-  plugin: sources.py
-  file: sources-full.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
