@@ -1,20 +1,20 @@
 {% assign filename = page.path | split: "/" | last %}
 {% if page.name and page.name != filename %}
-  {% assign title = page.name %}
+{% assign title = page.name %}
 {% elsif page.title %}
-  {% assign title = page.title %}
+{% assign title = page.title %}
 {% else %}
-  {% assign title = nil %}
+{% assign title = nil %}
 {% endif %}
 
 {% assign title = title | xml_escape %}
 
 {% assign fulltitle = "" | split: "," %}
 {% if title and title != "" %}
-  {% assign fulltitle = fulltitle | push: title %}
+{% assign fulltitle = fulltitle | push: title %}
 {% endif %}
 {% if site.title and site.title != "" %}
-  {% assign fulltitle = fulltitle | push: site.title %}
+{% assign fulltitle = fulltitle | push: site.title %}
 {% endif %}
 {% assign fulltitle = fulltitle | join: " | " %}
 
@@ -22,22 +22,22 @@
 
 {% assign description = page.description | default: site.description %}
 {% if site.subtitle %}
-  {% capture description -%}
-    {{ site.subtitle }}. {{ description }}
-  {%- endcapture %}
+{% capture description -%}
+{{ site.subtitle }}. {{ description }}
+{%- endcapture %}
 {% endif %}
 {% capture url -%}
-  {{ site.url }}{{ site.baseurl }}
+{{ site.url }}{{ site.baseurl }}
 {%- endcapture %}
 
 {% assign description = description | xml_escape %}
 
-{% assign png = "images/icon.png" | file_exists %}
-{% assign jpg = "images/icon.jpg" | file_exists %}
+{% assign png = "images/logos/icon.png" | file_exists %}
+{% assign jpg = "images/logos/icon.jpg" | file_exists %}
 {% assign icon = png | default: jpg | relative_url %}
 
-{% assign jpg = "images/share.jpg" | file_exists %}
-{% assign png = "images/share.png" | file_exists %}
+{% assign jpg = "images/logos/logo_full.jpg" | file_exists %}
+{% assign png = "images/logos/logo_full.png" | file_exists %}
 {% assign share = jpg | default: png | relative_url %}
 
 {% assign published = page.date | date_to_xmlschema %}
@@ -68,14 +68,14 @@
 <meta property="twitter:image" content="{{ share }}">
 
 {% if page.author %}
-  <meta name="author" content="{{ page.author | xml_escape }}">
-  <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="{{ updated }}">
-  <meta property="article:published_time" content="{{ published }}">
-  <meta property="article:modified_time" content="{{ updated }}">
-  <meta name="revised" content="{{ updated }}">
+<meta name="author" content="{{ page.author | xml_escape }}">
+<meta property="og:type" content="article">
+<meta property="og:updated_time" content="{{ updated }}">
+<meta property="article:published_time" content="{{ published }}">
+<meta property="article:modified_time" content="{{ updated }}">
+<meta name="revised" content="{{ updated }}">
 {% else %}
-  <meta property="og:type" content="website">
+<meta property="og:type" content="website">
 {% endif %}
 
 <script type="application/ld+json">
