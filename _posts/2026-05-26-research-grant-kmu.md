@@ -7,7 +7,7 @@ tags:
   - honors-awards
 ---
 <!-- excerpt start -->
-Our group has been started a research project funded by the Kookmin University.
+Our group has started a research project funded by the Kookmin University.
 <!-- excerpt end -->
 
 "AI-powered autonomous exploration and computational framework development for high-entropy energy materials (인공지능활용 고엔트로피 에너지소재 자율탐색 계산 프레임워크 구축)"
