@@ -57,3 +57,16 @@
   --shadow: 0 0 10px 0 var(--overlay);
   --transition: 0.2s ease;
 }
+
+html[data-dark="false"] {
+  header, footer {
+    --primary: #4B95F7;
+    --accent: #4B95F7;
+  }
+}
+html[data-dark="true"] {
+  header, footer {
+    --primary: #F29005;
+    --accent: #F29005;
+  }
+}
