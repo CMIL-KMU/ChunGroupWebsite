@@ -21,7 +21,11 @@ $wrap: 800px;
   position: relative;
   width: $thumb-size;
   flex-shrink: 0;
-  // box-shadow: var(--shadow);
+  background: var(--background-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .post-excerpt-image img {
@@ -29,7 +33,8 @@ $wrap: 800px;
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 8px;
 }
 
 .post-excerpt-text {

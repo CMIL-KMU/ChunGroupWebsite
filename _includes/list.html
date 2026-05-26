@@ -36,46 +36,48 @@
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
-  {% for d in data %}
-    {% assign counter = counter | plus: 1 %}
-    {% comment %} 역순 표시이므로 번호는 total_count - counter + 1 {% endcomment %}
-    {% assign number = total_count | minus: counter | plus: 1 %}
-    {% assign style = d.style | default: include.style %}
+  <div class="list-grid" data-component="{{ include.component }}">
+    {% for d in data %}
+      {% assign counter = counter | plus: 1 %}
+      {% comment %} 역순 표시이므로 번호는 total_count - counter + 1 {% endcomment %}
+      {% assign number = total_count | minus: counter | plus: 1 %}
+      {% assign style = d.style | default: include.style %}
 
-    {%
-      include {{ include.component | append: ".html" }}
-      affiliation=d.affiliation
-      author=d.author
-      authors=d.authors
-      buttons=d.buttons
-      caption=d.caption
-      content=d.content
-      date=d.date
-      description=d.description
-      excerpt=d.excerpt
-      height=d.height
-      icon=d.icon
-      id=d.id
-      image=d.image
-      last_modified_at=d.last_modified_at
-      link=d.link
-      lookup=d.lookup
-      name=d.name
-      number=number
-      publisher=d.publisher
-      repo=d.repo
-      role=d.role
-      show_day=d.show_day
-      slug=d.slug
-      style=style
-      subtitle=d.subtitle
-      tags=d.tags
-      text=d.text
-      title=d.title
-      tooltip=d.tooltip
-      type=d.type
-      url=d.url
-      width=d.width
-    %}
-  {% endfor %}
+      {%
+        include {{ include.component | append: ".html" }}
+        affiliation=d.affiliation
+        author=d.author
+        authors=d.authors
+        buttons=d.buttons
+        caption=d.caption
+        content=d.content
+        date=d.date
+        description=d.description
+        excerpt=d.excerpt
+        height=d.height
+        icon=d.icon
+        id=d.id
+        image=d.image
+        last_modified_at=d.last_modified_at
+        link=d.link
+        lookup=d.lookup
+        name=d.name
+        number=number
+        publisher=d.publisher
+        repo=d.repo
+        role=d.role
+        show_day=d.show_day
+        slug=d.slug
+        style=style
+        subtitle=d.subtitle
+        tags=d.tags
+        text=d.text
+        title=d.title
+        tooltip=d.tooltip
+        type=d.type
+        url=d.url
+        width=d.width
+      %}
+    {% endfor %}
+  </div>
 {% endfor %}
