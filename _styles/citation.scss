@@ -190,7 +190,7 @@ $wrap: 800px;
     align-items: center;
     gap: 8px;
     background-color: var(--primary);
-    color: #fff !important;
+    color: var(--contrast-text) !important;
     font-family: inherit;
     font-size: 0.95em;
     font-weight: var(--semi-bold, 600);

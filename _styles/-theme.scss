@@ -3,8 +3,9 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #4B95F7;        // Vibrant sky blue
-  --accent: #FCDA22;         // Contrasting gold/yellow
+  --primary: #5B92F0;        // Sky blue for all light mode accents
+  --accent: #5B92F0;         // Sky blue for light mode active tags
+  --contrast-text: #ffffff;  // White text on blue background
   --secondary: #eff6ff;      // Soft light blue for tag background
   --text: #0f172a;           // Soft slate black
   --background: #ffffff;
@@ -15,8 +16,9 @@
   --overlay: #0f172a10;
 }
 [data-dark="true"] {
-  --primary: #4B95F7;        // Vibrant sky blue for links and headers
-  --accent: #FCDA22;         // Glowing gold/yellow for active elements
+  --primary: #FCDA22;        // Glowing gold/yellow for all dark mode accents
+  --accent: #FCDA22;         // Glowing gold/yellow for dark mode active tags
+  --contrast-text: #0f172a;  // Dark text on yellow background
   --secondary: #1e293b;      // slate-800 for tag background
   --text: #e6edf3;           // Soft white text
   --background: #0d1117;     // Deep slate black background
