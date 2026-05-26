@@ -46,4 +46,14 @@
   --transition: 0.2s ease;
 }
 
+html[data-dark=false] header, html[data-dark=false] footer {
+  --primary: #4B95F7;
+  --accent: #4B95F7;
+}
+
+html[data-dark=true] header, html[data-dark=true] footer {
+  --primary: #F29005;
+  --accent: #F29005;
+}
+
 /*# sourceMappingURL=-theme.css.map */
