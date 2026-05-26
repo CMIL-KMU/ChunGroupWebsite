@@ -25,11 +25,17 @@
 
 # {% include icon.html icon="fa-solid fa-fire" %}Featured Research
 
-{% assign featured_publications = site.data.citations | where_exp: "citation", "citation.image != nil" | limit: 3 %}
-<div class="featured-publications-grid">
-  {% for pub in featured_publications %}
-    {% include citation.html style="rich" lookup=pub.id %}
-  {% endfor %}
+{% assign featured_publications = site.data.citations | where_exp: "citation", "citation.image != nil" | limit: 10 %}
+<div class="slider-wrapper">
+  <button class="slider-arrow prev" onclick="scrollSlider('research-slider', -1)" aria-label="Previous slider item">❮</button>
+  <div class="slider-container" id="research-slider">
+    {% for pub in featured_publications %}
+      <div class="slide">
+        {% include citation.html style="rich" lookup=pub.id %}
+      </div>
+    {% endfor %}
+  </div>
+  <button class="slider-arrow next" onclick="scrollSlider('research-slider', 1)" aria-label="Next slider item">❯</button>
 </div>
 
 <div style="text-align: center; margin-top: 25px;">
@@ -51,11 +57,20 @@
     <h2 class="home-news-column-title">
       {% include icon.html icon="fa-solid fa-trophy" %}Honors & achievements
     </h2>
-    {% assign honors_posts = site.posts | where_exp: "post", "post.tags contains 'honors-awards'" | limit: 3 %}
-    {% for post in honors_posts %}
-      {% include post-excerpt.html lookup=post.slug %}
-    {% endfor %}
-    {% if honors_posts.size == 0 %}
+    {% assign honors_posts = site.posts | where_exp: "post", "post.tags contains 'honors-awards'" | limit: 5 %}
+    {% if honors_posts.size > 0 %}
+      <div class="slider-wrapper">
+        <button class="slider-arrow prev" onclick="scrollSlider('honors-slider', -1)" aria-label="Previous slider item">❮</button>
+        <div class="slider-container" id="honors-slider">
+          {% for post in honors_posts %}
+            <div class="slide">
+              {% include post-excerpt.html lookup=post.slug %}
+            </div>
+          {% endfor %}
+        </div>
+        <button class="slider-arrow next" onclick="scrollSlider('honors-slider', 1)" aria-label="Next slider item">❯</button>
+      </div>
+    {% else %}
       <p style="color: var(--gray); font-style: italic; margin-top: 15px;">No achievements posted yet.</p>
     {% endif %}
   </div>
@@ -64,11 +79,20 @@
     <h2 class="home-news-column-title">
       {% include icon.html icon="fa-solid fa-users" %}Lab life & activities
     </h2>
-    {% assign lab_life_posts = site.posts | where_exp: "post", "post.tags contains 'lab-life'" | limit: 3 %}
-    {% for post in lab_life_posts %}
-      {% include post-excerpt.html lookup=post.slug %}
-    {% endfor %}
-    {% if lab_life_posts.size == 0 %}
+    {% assign lab_life_posts = site.posts | where_exp: "post", "post.tags contains 'lab-life'" | limit: 5 %}
+    {% if lab_life_posts.size > 0 %}
+      <div class="slider-wrapper">
+        <button class="slider-arrow prev" onclick="scrollSlider('lab-life-slider', -1)" aria-label="Previous slider item">❮</button>
+        <div class="slider-container" id="lab-life-slider">
+          {% for post in lab_life_posts %}
+            <div class="slide">
+              {% include post-excerpt.html lookup=post.slug %}
+            </div>
+          {% endfor %}
+        </div>
+        <button class="slider-arrow next" onclick="scrollSlider('lab-life-slider', 1)" aria-label="Next slider item">❯</button>
+      </div>
+    {% else %}
       <p style="color: var(--gray); font-style: italic; margin-top: 15px;">No lab life updates posted yet.</p>
     {% endif %}
   </div>
