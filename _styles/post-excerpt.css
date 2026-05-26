@@ -39,12 +39,18 @@
 
 .post-excerpt-text > a:first-child {
   width: 100%;
-  font-weight: var(--semi-bold);
+  font-weight: var(--bold, bold);
+  color: var(--text) !important;
+  text-decoration: none !important;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   line-height: 1.3;
+}
+.post-excerpt-text > a:first-child:hover {
+  color: var(--primary) !important;
+  text-decoration: none !important;
 }
 
 .post-excerpt-text > div {
