@@ -59,7 +59,7 @@
     <h2 class="home-news-column-title">
       {% include icon.html icon="fa-solid fa-trophy" %}Honors & achievements
     </h2>
-    {% assign honors_posts = sorted_posts | where_exp: "post", "post.tags contains 'honors-awards'" | limit: 5 %}
+    {% assign honors_posts = sorted_posts | where_exp: "post", "post.tags contains 'achievements'" | limit: 5 %}
     {% if honors_posts.size > 0 %}
       <div class="slider-wrapper">
         <button class="slider-arrow prev" onclick="scrollSlider('honors-slider', -1)" aria-label="Previous slider item">❮</button>
