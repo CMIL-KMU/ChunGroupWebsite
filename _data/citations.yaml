@@ -757,6 +757,22 @@
   type: paper
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1016/j.apsusc.2022.152955
+  title: 'Outstanding stability of Gd-doped UO2 against surface oxidation: First-principles
+    study'
+  authors:
+  - Minjoon Hong
+  - <u>Hoje Chun</u>
+  - Choah Kwon
+  - Byungchan Han
+  publisher: Applied Surface Science 589, 152955
+  date: '2022-07-01'
+  link: https://doi.org/hbg547
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
 - id: doi:10.1073/pnas.2424950122
   title: Multiphasic size-dependent growth dynamics of nanoparticle ensembles
   authors:
@@ -786,22 +802,6 @@
   publisher: Proceedings of the National Academy of Sciences 122 (23)
   date: '2025-06-04'
   link: https://doi.org/g9zqsw
-  gsid: ZrnibVwAAAAJ
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-- id: doi:10.1016/j.apsusc.2022.152955
-  title: 'Outstanding stability of Gd-doped UO2 against surface oxidation: First-principles
-    study'
-  authors:
-  - Minjoon Hong
-  - <u>Hoje Chun</u>
-  - Choah Kwon
-  - Byungchan Han
-  publisher: Applied Surface Science 589, 152955
-  date: '2022-07-01'
-  link: https://doi.org/hbg547
   gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
