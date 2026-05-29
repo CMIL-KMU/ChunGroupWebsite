@@ -9,7 +9,8 @@ nav:
 
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 {% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
-{% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and role != 'postdoc' and group == 'team'" %}
+{% include list.html data="members" component="portrait" filter="role == 'grad' and group == 'team'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad' and group == 'team'" %}
 
 
 ## Alumni
