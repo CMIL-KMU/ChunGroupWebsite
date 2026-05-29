@@ -32,4 +32,10 @@ main > section:nth-of-type(even) {
   background: var(--background-alt);
 }
 
+@media (max-width: 600px) {
+  section {
+    padding: 20px 15px;
+  }
+}
+
 /*# sourceMappingURL=section.css.map */
