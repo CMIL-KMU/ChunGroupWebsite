@@ -4,7 +4,7 @@ date: 2026-04-01
 show_day: false
 image: images/logos/kmu_signature.jpg
 tags:
-  - honors-awards
+  - achievements
 ---
 <!-- excerpt start -->
 Our group has started a research project funded by the Kookmin University.

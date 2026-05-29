@@ -1,5 +1,5 @@
 ---
-title: "Welcome Jaeyoung"
+title: "Welcome Jaeyoung!"
 date: 2026-05-01
 show_day: false
 image: images/logos/logo_full.png

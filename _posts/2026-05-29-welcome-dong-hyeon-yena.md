@@ -1,5 +1,5 @@
 ---
-title: "Welcome Dong Hyeon & Yena"
+title: "Welcome Dong Hyeon and Yena!"
 date: 2026-05-29
 show_day: false
 image: images/logos/logo_full.png

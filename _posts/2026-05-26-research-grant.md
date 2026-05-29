@@ -7,7 +7,7 @@ redirect_from:
   - /2026/05/19/research-grant/
 image: images/posts/nrf.svg
 tags:
-  - honors-awards
+  - achievements
 ---
 <!-- excerpt start -->
 Our group has been selected for the research project by the National Research Foundation (NRF) of Korea.
