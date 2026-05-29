@@ -1,6 +1,6 @@
 ---
 name: Dong Hyeon Kim
-image: images/members/dong-hyeon-kim.jpg
+image: images/members/dong-hyeon-kim.png
 role: undergrad
 group: team
 aliases:

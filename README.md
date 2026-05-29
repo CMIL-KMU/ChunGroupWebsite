@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # HojeChun's Website
+  # Chun research group Website
 
   Visit **[chunlab.kookmin.ac.kr](https://chunlab.kookmin.ac.kr)** 🚀
 
