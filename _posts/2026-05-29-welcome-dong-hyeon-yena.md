@@ -1,6 +1,6 @@
 ---
 title: "Welcome Dong Hyeon & Yena"
-date: 2026-04-01
+date: 2026-05-29
 show_day: false
 image: images/logos/logo_full.png
 tags:
