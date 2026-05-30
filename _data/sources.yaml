@@ -2,21 +2,21 @@
   image: images/publications/2024_npj_comp_hj.png
   tags:
     - machine-learning
-    - virtual screening
     - catalysts
 - id: doi:10.1016/j.checat.2021.06.001
   image: images/publications/2021_chem_catal.jpeg
   tags:
     - machine-learning
-    - virtual screening
     - catalysts
 - id: doi:10.48550/arXiv.2411.17839
   image: images/publications/2025_mfpt.png
   tags:
     - machine-learning
-    - algorithm
 - id: doi:10.1021/acs.jctc.5c00090
   image: images/publications/2025_jctc.png
   tags:
     - machine-learning
-    - algorithm
+- id: doi:10.48550/arXiv.2605.24002
+  image: images/publications/2026_agent_skill.png
+  tags:
+    - machine-learning
