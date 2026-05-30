@@ -138,7 +138,6 @@
   image: images/publications/2021_chem_catal.jpeg
   tags:
   - machine-learning
-  - virtual screening
   - catalysts
 - id: doi:10.1039/c8cp03801e
   title: First-principles database driven computational neural network approach to
@@ -153,6 +152,30 @@
   publisher: Physical Chemistry Chemical Physics 20 (38), 24539-24544
   date: '2018-01-01'
   link: https://doi.org/gnsxqt
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.jhazmat.2020.122857
+  title: Unique design of superior metal-organic framework for removal of toxic chemicals
+    in humid environment via direct functionalization of the metal nodes
+  authors:
+  - Ga-Young Cha
+  - <u>Hoje Chun</u>
+  - Do-Young Hong
+  - Jaegyeom Kim
+  - Kyung-Ho Cho
+  - U-Hwang Lee
+  - Jong-San Chang
+  - Sam Gon Ryu
+  - Hae Wan Lee
+  - Seung-Joo Kim
+  - Byungchan Han
+  - Young Kyu Hwang
+  publisher: Journal of Hazardous Materials 398, 122857
+  date: '2020-11-01'
+  link: https://doi.org/gpw3vk
   gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
@@ -211,30 +234,6 @@
   publisher: Applied Surface Science 598, 153715
   date: '2022-01-01'
   link: https://doi.org/hbmcx3
-  gsid: ZrnibVwAAAAJ
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-- id: doi:10.1016/j.jhazmat.2020.122857
-  title: Unique design of superior metal-organic framework for removal of toxic chemicals
-    in humid environment via direct functionalization of the metal nodes
-  authors:
-  - Ga-Young Cha
-  - <u>Hoje Chun</u>
-  - Do-Young Hong
-  - Jaegyeom Kim
-  - Kyung-Ho Cho
-  - U-Hwang Lee
-  - Jong-San Chang
-  - Sam Gon Ryu
-  - Hae Wan Lee
-  - Seung-Joo Kim
-  - Byungchan Han
-  - Young Kyu Hwang
-  publisher: Journal of Hazardous Materials 398, 122857
-  date: '2020-11-01'
-  link: https://doi.org/gpw3vk
   gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
@@ -499,7 +498,6 @@
   image: images/publications/2024_npj_comp_hj.png
   tags:
   - machine-learning
-  - virtual screening
   - catalysts
 - id: doi:10.1021/acssuschemeng.0c02981
   title: Pairing of Transition Metal Dichalcogenides and Doped Graphene for Catalytically
@@ -757,22 +755,6 @@
   type: paper
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1016/j.apsusc.2022.152955
-  title: 'Outstanding stability of Gd-doped UO2 against surface oxidation: First-principles
-    study'
-  authors:
-  - Minjoon Hong
-  - <u>Hoje Chun</u>
-  - Choah Kwon
-  - Byungchan Han
-  publisher: Applied Surface Science 589, 152955
-  date: '2022-07-01'
-  link: https://doi.org/hbg547
-  gsid: ZrnibVwAAAAJ
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
 - id: doi:10.1073/pnas.2424950122
   title: Multiphasic size-dependent growth dynamics of nanoparticle ensembles
   authors:
@@ -802,6 +784,22 @@
   publisher: Proceedings of the National Academy of Sciences 122 (23)
   date: '2025-06-04'
   link: https://doi.org/g9zqsw
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.apsusc.2022.152955
+  title: 'Outstanding stability of Gd-doped UO2 against surface oxidation: First-principles
+    study'
+  authors:
+  - Minjoon Hong
+  - <u>Hoje Chun</u>
+  - Choah Kwon
+  - Byungchan Han
+  publisher: Applied Surface Science 589, 152955
+  date: '2022-07-01'
+  link: https://doi.org/hbg547
   gsid: ZrnibVwAAAAJ
   plugin: orcid.py
   file: orcid.yaml
@@ -855,7 +853,6 @@
   image: images/publications/2025_jctc.png
   tags:
   - machine-learning
-  - algorithm
 - id: doi:10.1002/cnma.202200057
   title: "3\u2010Dimensional Scanning of Entire Unit Cells in Single Nanoparticles."
   authors:
@@ -936,7 +933,6 @@
   image: images/publications/2025_mfpt.png
   tags:
   - machine-learning
-  - algorithm
   type: preprint
 - id: doi:10.1016/j.apsusc.2023.158424
   title: "Design a multiphase interfaced Ge(GeO )/T-Nb2O5\u2212/C anode with synergistic\
@@ -969,3 +965,38 @@
   plugin: orcid.py
   file: orcid.yaml
   type: paper
+- id: doi:10.48550/arXiv.2605.24002
+  title: Harnessing AtomisticSkills for Agentic Atomistic Research
+  authors:
+  - Bowen Deng
+  - Bohan Li
+  - Matthew Cox
+  - <u>Hoje Chun</u>
+  - Juno Nam
+  - Artur Lyssenko
+  - Sathya Edamadaka
+  - Jurgis Ruza
+  - Xiaochen Du
+  - Nofit Segal
+  - Jesus Diaz Sanchez
+  - Mingrou Xie
+  - Ty Perez
+  - Yu Yao
+  - Miguel Steiner
+  - Sauradeep Majumdar
+  - Charles B. Musgrave
+  - Anirban Chandra
+  - Abhirup Patra
+  - Detlef Hohl
+  - Connor W. Coley
+  - Ju Li
+  - "Rafael G\xF3mez-Bombarelli"
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hb54r5
+  image: images/publications/2026_agent_skill.png
+  tags:
+  - machine-learning
+  plugin: sources.py
+  file: sources.yaml
+  type: preprint
