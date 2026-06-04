@@ -21,6 +21,9 @@ nav:
 
 ## Selected publications
 
+{% include citation.html lookup="doi:10.48550/arXiv.2605.24002" style="rich" %}
+
+
 {% include citation.html lookup="doi:10.48550/arXiv.2411.17839" style="rich" %}
 
 {% include citation.html lookup="doi:10.1021/acs.jctc.5c00090" style="rich" %}
