@@ -631,10 +631,10 @@
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:Se3iqnhoufwC
   gsid: ZrnibVwAAAAJ
   type: paper
-  plugin: sources.py
-  file: sources.yaml
   tags:
   - energy materials
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.ensm.2025.104040
   title: Zeolitic imidazolate framework-derived bifunctional CoO-Mn3O4 heterostructure
     cathode enhancing oxygen reduction/evolution via dynamic O-vacancy formation and
@@ -825,10 +825,10 @@
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:aqlVkmm33-oC
   gsid: ZrnibVwAAAAJ
   type: paper
-  plugin: sources.py
-  file: sources.yaml
   tags:
   - energy materials
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1073/pnas.2424950122
   title: Multiphasic size-dependent growth dynamics of nanoparticle ensembles
   authors:
@@ -910,11 +910,11 @@
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:e5wmG9Sq2KIC
   gsid: ZrnibVwAAAAJ
   type: patent
-  plugin: sources.py
-  file: sources.yaml
   tags:
   - machine learning
   - methods
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1021/acs.jctc.5c00090
   title: Learning Pairwise Interaction for Extrapolative and Interpretable Machine
     Learning Interatomic Potentials with Physics-Informed Neural Network
@@ -950,11 +950,11 @@
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:iH-uZ7U-co4C
   gsid: ZrnibVwAAAAJ
   type: paper
-  plugin: sources.py
-  file: sources.yaml
   tags:
   - machine learning
   - methods
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1002/cnma.202200057
   title: "3\u2010Dimensional Scanning of Entire Unit Cells in Single Nanoparticles."
   authors:
@@ -1000,11 +1000,11 @@
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:HDshCWvjkbEC
   gsid: ZrnibVwAAAAJ
   type: patent
-  plugin: sources.py
-  file: sources.yaml
   tags:
   - machine learning
   - methods
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.48550/arXiv.2411.17839
   title: 'Deep Learning of Mean First Passage Time Scape: Chemical Short-Range Order
     and Kinetics of Diffusive Relaxation'
