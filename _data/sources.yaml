@@ -1,22 +1,156 @@
 - id: doi:10.1038/s41524-024-01432-1
   image: images/publications/2024_npj_comp_hj.png
   tags:
-    - machine-learning
-    - catalysts
+    - machine learning
+    - energy materials
+    - catalysis
 - id: doi:10.1016/j.checat.2021.06.001
   image: images/publications/2021_chem_catal.jpeg
   tags:
-    - machine-learning
-    - catalysts
+    - machine learning
+    - energy materials
+    - catalysis
 - id: doi:10.48550/arXiv.2411.17839
   image: images/publications/2025_mfpt.png
   tags:
-    - machine-learning
+    - machine learning
+    - methods
 - id: doi:10.1021/acs.jctc.5c00090
   image: images/publications/2025_jctc.png
   tags:
-    - machine-learning
+    - machine learning
+    - methods
 - id: doi:10.48550/arXiv.2605.24002
   image: images/publications/2026_agent_skill.png
   tags:
-    - machine-learning
+    - machine learning
+    - methods
+- id: doi:10.1126/science.aax3233
+  tags:
+    - phenomena
+- id: doi:10.1038/s41586-021-04391-5
+  tags:
+    - phenomena
+- id: doi:10.1021/acscatal.3c01441
+  tags:
+    - energy materials
+- id: doi:10.1021/acsnano.2c02324
+  tags:
+    - energy materials
+    - catalysis
+- id: doi:10.1039/c8cp03801e
+  tags:
+    - machine learning
+    - energy materials
+    - catalysis
+- id: doi:10.1016/j.jhazmat.2020.122857
+  tags:
+    - environmental materials
+- id: doi:10.1016/j.cej.2019.05.115
+  tags:
+    - environmental materials
+- id: doi:10.1016/j.apcatb.2022.121504
+  tags:
+    - energy materials
+- id: doi:10.1016/j.apsusc.2022.153715
+  tags:
+    - catalysis
+- id: doi:10.1039/c6cp06483c
+   tags:
+    - environmental materials
+- id: doi:10.1021/acssuschemeng.9b07166
+  tags:
+    - energy materials
+- id: doi:10.1016/j.bios.2023.115882
+  tags:
+    - catalysis
+- id: doi:10.1016/j.apcatb.2021.120938
+  tags:
+    - energy materials
+    - catalysis
+- id: doi:10.1016/j.jpowsour.2020.227998
+  tags:
+    - energy materials
+    - catalysis
+- id: doi:10.1021/acs.jpclett.1c01140
+  tags:
+    - machine learning
+- id: doi:10.1038/s41524-024-01273-y
+  tags:
+    - machine learning
+    - energy materials
+    - catalysis
+- id: doi:10.1039/d0tc01309a
+  tags:
+    - electronic materials
+- id: doi:10.1039/d1ta04084g
+  tags:
+    - energy materials
+- id: doi:10.1016/j.mtnano.2020.100099
+  tags:
+    - electronic materials
+- id: doi:10.1021/acssuschemeng.0c02981
+  tags:
+    - energy materials
+    - catalysis
+- id: doi:10.1038/s41467-025-56476-8
+  tags:
+    - phenomena
+- id: ZrnibVwAAAAJ:Se3iqnhoufwC
+  tags:
+    - energy materials
+- id: doi:10.1016/j.ensm.2025.104040
+  tags:
+    - machine learning
+    - energy materials
+    - catalysis
+- id: doi:10.1038/s41598-023-28492-5
+  tags:
+    - methods
+- id: doi:10.1021/acsami.1c21419
+  tags:
+    - energy materials
+    - catalysis
+- id: doi:10.1016/j.jallcom.2021.160007
+  tags:
+    - electronic materials
+- id: doi:10.1021/acs.jpcc.8b00721
+  tags:
+    - environmental materials
+- id: doi:10.1021/acscentsci.5c00547
+  tags:
+    - machine learning
+    - methods
+- id: doi:10.1016/j.apsusc.2019.144861
+  tags:
+    - methods
+- id: ZrnibVwAAAAJ:aqlVkmm33-oC
+  tags:
+    - energy materials
+- id: doi:10.1073/pnas.2424950122
+  tags:
+    - phenomena
+- id: doi:10.1021/acs.chemmater.4c01879
+  tags:
+    - energy materials
+- id: ZrnibVwAAAAJ:e5wmG9Sq2KIC
+  tags:
+    - machine learning
+    - methods
+- id: doi:10.1002/cnma.202200057
+  tags:
+    - methods
+- id: ZrnibVwAAAAJ:iH-uZ7U-co4C
+  tags:
+    - machine learning
+    - methods
+- id: ZrnibVwAAAAJ:HDshCWvjkbEC
+  tags:
+    - machine learning
+    - methods
+- id: doi:10.1016/j.apsusc.2023.158424
+  tags:
+    - energy materials
+- id: doi:10.1039/d2ta09592k
+  tags:
+    - energy materials
