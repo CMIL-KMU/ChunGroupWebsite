@@ -806,12 +806,10 @@
   date: '2020-04-01'
   link: https://doi.org/hbg55d
   gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
-  tags:
-  - methods
 - id: ZrnibVwAAAAJ:aqlVkmm33-oC
   title: "Design a multiphase interfaced Ge (GeOx)/T-Nb2O5\u2212 x/C anode with synergistic\
     \ high capacity and durability for Li-ion batteries"
