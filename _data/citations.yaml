@@ -409,24 +409,6 @@
   - machine learning
   - energy materials
   - catalysis
-- id: doi:10.1039/d0tc01309a
-  title: First-principles mechanism study on distinct optoelectronic properties of
-    Cl-doped 2D hybrid tin iodide perovskite
-  authors:
-  - Sung Jun Hong
-  - <u>Hoje Chun</u>
-  - Kyung-Ah Min
-  - Byungchan Han
-  publisher: Journal of Materials Chemistry C 8 (28), 9540-9548
-  date: '2020-01-01'
-  link: https://doi.org/grnjf7
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - electronic materials
 - id: doi:10.1016/j.bios.2021.112979
   title: 'Optical bioelectronic nose of outstanding sensitivity and selectivity toward
     volatile organic compounds implemented with genetically engineered bacteriophage:
@@ -452,6 +434,24 @@
   file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
+- id: doi:10.1039/d0tc01309a
+  title: First-principles mechanism study on distinct optoelectronic properties of
+    Cl-doped 2D hybrid tin iodide perovskite
+  authors:
+  - Sung Jun Hong
+  - <u>Hoje Chun</u>
+  - Kyung-Ah Min
+  - Byungchan Han
+  publisher: Journal of Materials Chemistry C 8 (28), 9540-9548
+  date: '2020-01-01'
+  link: https://doi.org/grnjf7
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - electronic materials
 - id: doi:10.1039/d1ta04084g
   title: 'Design of a unique anion framework in halospinels for outstanding performance
     of all solid-state Li-ion batteries: first-principles approach'
@@ -718,6 +718,29 @@
   tags:
   - energy materials
   - catalysis
+- id: doi:10.1021/acscentsci.5c00547
+  title: Accelerating and Enhancing Thermodynamic Simulations of Electrochemical Interfaces
+  authors:
+  - Xiaochen Du
+  - Mengren Liu
+  - Jiayu Peng
+  - <u>Hoje Chun</u>
+  - Alexander Hoffman
+  - Bilge Yildiz
+  - Lin Li
+  - Martin Z. Bazant
+  - "Rafael G\xF3mez-Bombarelli"
+  publisher: ACS Central Science 11 (9), 1558-1572
+  date: '2025-07-21'
+  link: https://doi.org/hbg5z3
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - machine learning
+  - methods
 - id: doi:10.1016/j.jallcom.2021.160007
   title: n-Type thermoelectric properties of a hexagonal SiGe polymorph superior to
     a cubic SiGe
@@ -770,46 +793,6 @@
   orcid: 0000-0003-0624-536X
   tags:
   - environmental materials
-- id: doi:10.1021/acscentsci.5c00547
-  title: Accelerating and Enhancing Thermodynamic Simulations of Electrochemical Interfaces
-  authors:
-  - Xiaochen Du
-  - Mengren Liu
-  - Jiayu Peng
-  - <u>Hoje Chun</u>
-  - Alexander Hoffman
-  - Bilge Yildiz
-  - Lin Li
-  - Martin Z. Bazant
-  - "Rafael G\xF3mez-Bombarelli"
-  publisher: ACS Central Science 11 (9), 1558-1572
-  date: '2025-07-21'
-  link: https://doi.org/hbg5z3
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - machine learning
-  - methods
-- id: doi:10.1016/j.apsusc.2019.144861
-  title: "First-principles computational study of Ni/\u03B1-Al2O3 hybrid interface\
-    \ reactions under extreme thermodynamic conditions"
-  authors:
-  - <u>Hoje Chun</u>
-  - Daehyeon Choi
-  - Joonhee Kang
-  - Jung Su Park
-  - Byungchan Han
-  publisher: Applied Surface Science 509, 144861
-  date: '2020-04-01'
-  link: https://doi.org/hbg55d
-  gsid: ZrnibVwAAAAJ
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
 - id: ZrnibVwAAAAJ:aqlVkmm33-oC
   title: "Design a multiphase interfaced Ge (GeOx)/T-Nb2O5\u2212 x/C anode with synergistic\
     \ high capacity and durability for Li-ion batteries"
@@ -827,6 +810,23 @@
   - energy materials
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1016/j.apsusc.2019.144861
+  title: "First-principles computational study of Ni/\u03B1-Al2O3 hybrid interface\
+    \ reactions under extreme thermodynamic conditions"
+  authors:
+  - <u>Hoje Chun</u>
+  - Daehyeon Choi
+  - Joonhee Kang
+  - Jung Su Park
+  - Byungchan Han
+  publisher: Applied Surface Science 509, 144861
+  date: '2020-04-01'
+  link: https://doi.org/hbg55d
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
 - id: doi:10.1073/pnas.2424950122
   title: Multiphasic size-dependent growth dynamics of nanoparticle ensembles
   authors:
