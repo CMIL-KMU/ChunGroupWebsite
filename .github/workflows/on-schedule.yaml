@@ -20,4 +20,4 @@ jobs:
     uses: ./.github/workflows/update-citations.yaml
     secrets: inherit
     with:
-      open-pr: true
+      open-pr: false
