@@ -220,6 +220,24 @@
   orcid: 0000-0003-0624-536X
   tags:
   - environmental materials
+- id: doi:10.1016/j.apsusc.2022.153715
+  title: 'N- and B-doped fullerene as peroxidase- and catalase-like metal-free nanozymes
+    with pH-switchable catalytic activity: A first-principles approach'
+  authors:
+  - Sung Jun Hong
+  - <u>Hoje Chun</u>
+  - Minjoon Hong
+  - Byungchan Han
+  publisher: Applied Surface Science 598, 153715
+  date: '2022-10-01'
+  link: https://doi.org/hbg52f
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - catalysis
 - id: doi:10.1016/j.apcatb.2022.121504
   title: Tuning the electronic structure and inverse degree of inverse spinel ferrites
     by integrating samarium orthoferrite for efficient water oxidation
@@ -243,24 +261,6 @@
   orcid: 0000-0003-0624-536X
   tags:
   - energy materials
-- id: doi:10.1016/j.apsusc.2022.153715
-  title: 'N- and B-doped fullerene as peroxidase- and catalase-like metal-free nanozymes
-    with pH-switchable catalytic activity: A first-principles approach'
-  authors:
-  - Sung Jun Hong
-  - <u>Hoje Chun</u>
-  - Minjoon Hong
-  - Byungchan Han
-  publisher: Applied Surface Science 598, 153715
-  date: '2022-10-01'
-  link: https://doi.org/hbg52f
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - catalysis
 - id: doi:10.1039/c6cp06483c
   title: First principles computational study on the adsorption mechanism of organic
     methyl iodide gas on triethylenediamine impregnated activated carbon
@@ -278,25 +278,6 @@
   orcid: 0000-0003-0624-536X
   tags:
   - environmental materials
-- id: doi:10.1021/acssuschemeng.9b07166
-  title: "First-Principles Design of Highly Functional Sulfide Electrolyte of Li<sub>10<i>\u2212\
-    x</i></sub>SnP<sub>2</sub>S<sub>12\u2212<i>x</i></sub>Cl<sub><i>x</i></sub> for\
-    \ All Solid-State Li-Ion Battery Applications"
-  authors:
-  - Kyungju Nam
-  - <u>Hoje Chun</u>
-  - Jeemin Hwang
-  - Byungchan Han
-  publisher: ACS Sustainable Chemistry &amp; Engineering 8 (8), 3321-3327
-  date: '2020-02-12'
-  link: https://doi.org/hbg55c
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - energy materials
 - id: doi:10.1016/j.bios.2023.115882
   title: Active site engineering of Zn-doped mesoporous ceria toward highly efficient
     organophosphorus hydrolase-mimicking nanozyme
@@ -319,6 +300,25 @@
   orcid: 0000-0003-0624-536X
   tags:
   - catalysis
+- id: doi:10.1021/acssuschemeng.9b07166
+  title: "First-Principles Design of Highly Functional Sulfide Electrolyte of Li<sub>10<i>\u2212\
+    x</i></sub>SnP<sub>2</sub>S<sub>12\u2212<i>x</i></sub>Cl<sub><i>x</i></sub> for\
+    \ All Solid-State Li-Ion Battery Applications"
+  authors:
+  - Kyungju Nam
+  - <u>Hoje Chun</u>
+  - Jeemin Hwang
+  - Byungchan Han
+  publisher: ACS Sustainable Chemistry &amp; Engineering 8 (8), 3321-3327
+  date: '2020-02-12'
+  link: https://doi.org/hbg55c
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - energy materials
 - id: doi:10.1016/j.apcatb.2021.120938
   title: Accelerated N2 reduction kinetics in hybrid interfaces of NbTiO4 and nitrogen-doped
     carbon nanorod via synergistic electronic coupling effect
@@ -330,31 +330,6 @@
   publisher: 'Applied Catalysis B: Environmental 304, 120938'
   date: '2022-05-01'
   link: https://doi.org/hbg5z2
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - energy materials
-  - catalysis
-- id: doi:10.1016/j.jpowsour.2020.227998
-  title: Ultrastable molybdenum disulfide-based electrocatalyst for hydrogen evolution
-    in acidic media
-  authors:
-  - Yunxing Zhao
-  - Jeemin Hwang
-  - Michael T. Tang
-  - <u>Hoje Chun</u>
-  - Xingli Wang
-  - Hu Zhao
-  - Karen Chan
-  - Byungchan Han
-  - Pingqi Gao
-  - Hong Li
-  publisher: Journal of Power Sources 456, 227998
-  date: '2020-04-01'
-  link: https://doi.org/g7kw6q
   gsid: ZrnibVwAAAAJ
   plugin: sources.py
   file: sources.yaml
@@ -384,6 +359,31 @@
   orcid: 0000-0003-0624-536X
   tags:
   - machine learning
+- id: doi:10.1016/j.jpowsour.2020.227998
+  title: Ultrastable molybdenum disulfide-based electrocatalyst for hydrogen evolution
+    in acidic media
+  authors:
+  - Yunxing Zhao
+  - Jeemin Hwang
+  - Michael T. Tang
+  - <u>Hoje Chun</u>
+  - Xingli Wang
+  - Hu Zhao
+  - Karen Chan
+  - Byungchan Han
+  - Pingqi Gao
+  - Hong Li
+  publisher: Journal of Power Sources 456, 227998
+  date: '2020-04-01'
+  link: https://doi.org/g7kw6q
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - energy materials
+  - catalysis
 - id: doi:10.1038/s41524-024-01273-y
   title: Towards atom-level understanding of metal oxide catalysts for the oxygen
     evolution reaction with machine learning
@@ -692,6 +692,29 @@
   orcid: 0000-0003-0624-536X
   tags:
   - methods
+- id: doi:10.1021/acscentsci.5c00547
+  title: Accelerating and Enhancing Thermodynamic Simulations of Electrochemical Interfaces
+  authors:
+  - Xiaochen Du
+  - Mengren Liu
+  - Jiayu Peng
+  - <u>Hoje Chun</u>
+  - Alexander Hoffman
+  - Bilge Yildiz
+  - Lin Li
+  - Martin Z. Bazant
+  - "Rafael G\xF3mez-Bombarelli"
+  publisher: ACS Central Science 11 (9), 1558-1572
+  date: '2025-07-21'
+  link: https://doi.org/hbg5z3
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - machine learning
+  - methods
 - id: doi:10.1021/acsami.1c21419
   title: Two-Dimensional Palladium Phosphoronitride for Oxygen Reduction
   authors:
@@ -718,29 +741,6 @@
   tags:
   - energy materials
   - catalysis
-- id: doi:10.1021/acscentsci.5c00547
-  title: Accelerating and Enhancing Thermodynamic Simulations of Electrochemical Interfaces
-  authors:
-  - Xiaochen Du
-  - Mengren Liu
-  - Jiayu Peng
-  - <u>Hoje Chun</u>
-  - Alexander Hoffman
-  - Bilge Yildiz
-  - Lin Li
-  - Martin Z. Bazant
-  - "Rafael G\xF3mez-Bombarelli"
-  publisher: ACS Central Science 11 (9), 1558-1572
-  date: '2025-07-21'
-  link: https://doi.org/hbg5z3
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - machine learning
-  - methods
 - id: doi:10.1016/j.jallcom.2021.160007
   title: n-Type thermoelectric properties of a hexagonal SiGe polymorph superior to
     a cubic SiGe
