@@ -471,42 +471,6 @@
   orcid: 0000-0003-0624-536X
   tags:
   - energy materials
-- id: doi:10.1016/j.mtnano.2020.100099
-  title: High quantum efficiency and stability of biohybrid quantum dots nanojunctions
-    in bacteriophage-constructed perovskite
-  authors:
-  - Jong-Min Lee
-  - Jin Woo Choi
-  - Il Jeon
-  - Ye Zhu
-  - Tao Yang
-  - <u>Hoje Chun</u>
-  - Jongmoon Shin
-  - Juyun Park
-  - Joohee Bang
-  - Kyounga Lim
-  - Won-Geun Kim
-  - Yeji Kim
-  - Hyuk Jeong
-  - Eun Jung Choi
-  - Vasanthan Devaraj
-  - Jeong Seok Nam
-  - Hyungju Ahn
-  - Yong-Cheol Kang
-  - Byungchan Han
-  - Myungkwan Song
-  - Jin-Woo Oh
-  - Chuanbin Mao
-  publisher: Materials Today Nano 13, 100099
-  date: '2021-03-01'
-  link: https://doi.org/hbg548
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - electronic materials
 - id: doi:10.1002/er.4064
   title: First principles computational studies of spontaneous reduction reaction
     of Eu(III) in eutectic LiCl-KCl molten salt
@@ -546,6 +510,42 @@
   - machine learning
   - energy materials
   - catalysis
+- id: doi:10.1016/j.mtnano.2020.100099
+  title: High quantum efficiency and stability of biohybrid quantum dots nanojunctions
+    in bacteriophage-constructed perovskite
+  authors:
+  - Jong-Min Lee
+  - Jin Woo Choi
+  - Il Jeon
+  - Ye Zhu
+  - Tao Yang
+  - <u>Hoje Chun</u>
+  - Jongmoon Shin
+  - Juyun Park
+  - Joohee Bang
+  - Kyounga Lim
+  - Won-Geun Kim
+  - Yeji Kim
+  - Hyuk Jeong
+  - Eun Jung Choi
+  - Vasanthan Devaraj
+  - Jeong Seok Nam
+  - Hyungju Ahn
+  - Yong-Cheol Kang
+  - Byungchan Han
+  - Myungkwan Song
+  - Jin-Woo Oh
+  - Chuanbin Mao
+  publisher: Materials Today Nano 13, 100099
+  date: '2021-03-01'
+  link: https://doi.org/hbg548
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - electronic materials
 - id: doi:10.1021/acssuschemeng.0c02981
   title: Pairing of Transition Metal Dichalcogenides and Doped Graphene for Catalytically
     Dual Active Interfaces for the Hydrogen Evolution Reaction
