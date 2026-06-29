@@ -171,6 +171,24 @@
   - machine learning
   - energy materials
   - catalysis
+- id: doi:10.1016/j.apsusc.2022.153715
+  title: 'N- and B-doped fullerene as peroxidase- and catalase-like metal-free nanozymes
+    with pH-switchable catalytic activity: A first-principles approach'
+  authors:
+  - Sung Jun Hong
+  - <u>Hoje Chun</u>
+  - Minjoon Hong
+  - Byungchan Han
+  publisher: Applied Surface Science 598, 153715
+  date: '2022-10-01'
+  link: https://doi.org/hbg52f
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - catalysis
 - id: doi:10.1016/j.jhazmat.2020.122857
   title: Unique design of superior metal-organic framework for removal of toxic chemicals
     in humid environment via direct functionalization of the metal nodes
@@ -220,24 +238,6 @@
   orcid: 0000-0003-0624-536X
   tags:
   - environmental materials
-- id: doi:10.1016/j.apsusc.2022.153715
-  title: 'N- and B-doped fullerene as peroxidase- and catalase-like metal-free nanozymes
-    with pH-switchable catalytic activity: A first-principles approach'
-  authors:
-  - Sung Jun Hong
-  - <u>Hoje Chun</u>
-  - Minjoon Hong
-  - Byungchan Han
-  publisher: Applied Surface Science 598, 153715
-  date: '2022-10-01'
-  link: https://doi.org/hbg52f
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - catalysis
 - id: doi:10.1016/j.apcatb.2022.121504
   title: Tuning the electronic structure and inverse degree of inverse spinel ferrites
     by integrating samarium orthoferrite for efficient water oxidation
@@ -319,25 +319,6 @@
   orcid: 0000-0003-0624-536X
   tags:
   - energy materials
-- id: doi:10.1016/j.apcatb.2021.120938
-  title: Accelerated N2 reduction kinetics in hybrid interfaces of NbTiO4 and nitrogen-doped
-    carbon nanorod via synergistic electronic coupling effect
-  authors:
-  - David Kumar Yesudoss
-  - <u>Hoje Chun</u>
-  - Byungchan Han
-  - Sangaraju Shanmugam
-  publisher: 'Applied Catalysis B: Environmental 304, 120938'
-  date: '2022-05-01'
-  link: https://doi.org/hbg5z2
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - energy materials
-  - catalysis
 - id: doi:10.1021/acs.jpclett.1c01140
   title: First-Principles-Based Machine-Learning Molecular Dynamics for Crystalline
     Polymers with van der Waals Interactions
@@ -359,31 +340,6 @@
   orcid: 0000-0003-0624-536X
   tags:
   - machine learning
-- id: doi:10.1016/j.jpowsour.2020.227998
-  title: Ultrastable molybdenum disulfide-based electrocatalyst for hydrogen evolution
-    in acidic media
-  authors:
-  - Yunxing Zhao
-  - Jeemin Hwang
-  - Michael T. Tang
-  - <u>Hoje Chun</u>
-  - Xingli Wang
-  - Hu Zhao
-  - Karen Chan
-  - Byungchan Han
-  - Pingqi Gao
-  - Hong Li
-  publisher: Journal of Power Sources 456, 227998
-  date: '2020-04-01'
-  link: https://doi.org/g7kw6q
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - energy materials
-  - catalysis
 - id: doi:10.1038/s41524-024-01273-y
   title: Towards atom-level understanding of metal oxide catalysts for the oxygen
     evolution reaction with machine learning
@@ -407,6 +363,50 @@
   orcid: 0000-0003-0624-536X
   tags:
   - machine learning
+  - energy materials
+  - catalysis
+- id: doi:10.1016/j.apcatb.2021.120938
+  title: Accelerated N2 reduction kinetics in hybrid interfaces of NbTiO4 and nitrogen-doped
+    carbon nanorod via synergistic electronic coupling effect
+  authors:
+  - David Kumar Yesudoss
+  - <u>Hoje Chun</u>
+  - Byungchan Han
+  - Sangaraju Shanmugam
+  publisher: 'Applied Catalysis B: Environmental 304, 120938'
+  date: '2022-05-01'
+  link: https://doi.org/hbg5z2
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - energy materials
+  - catalysis
+- id: doi:10.1016/j.jpowsour.2020.227998
+  title: Ultrastable molybdenum disulfide-based electrocatalyst for hydrogen evolution
+    in acidic media
+  authors:
+  - Yunxing Zhao
+  - Jeemin Hwang
+  - Michael T. Tang
+  - <u>Hoje Chun</u>
+  - Xingli Wang
+  - Hu Zhao
+  - Karen Chan
+  - Byungchan Han
+  - Pingqi Gao
+  - Hong Li
+  publisher: Journal of Power Sources 456, 227998
+  date: '2020-04-01'
+  link: https://doi.org/g7kw6q
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
   - energy materials
   - catalysis
 - id: doi:10.1016/j.bios.2021.112979
@@ -471,6 +471,42 @@
   orcid: 0000-0003-0624-536X
   tags:
   - energy materials
+- id: doi:10.1016/j.mtnano.2020.100099
+  title: High quantum efficiency and stability of biohybrid quantum dots nanojunctions
+    in bacteriophage-constructed perovskite
+  authors:
+  - Jong-Min Lee
+  - Jin Woo Choi
+  - Il Jeon
+  - Ye Zhu
+  - Tao Yang
+  - <u>Hoje Chun</u>
+  - Jongmoon Shin
+  - Juyun Park
+  - Joohee Bang
+  - Kyounga Lim
+  - Won-Geun Kim
+  - Yeji Kim
+  - Hyuk Jeong
+  - Eun Jung Choi
+  - Vasanthan Devaraj
+  - Jeong Seok Nam
+  - Hyungju Ahn
+  - Yong-Cheol Kang
+  - Byungchan Han
+  - Myungkwan Song
+  - Jin-Woo Oh
+  - Chuanbin Mao
+  publisher: Materials Today Nano 13, 100099
+  date: '2021-03-01'
+  link: https://doi.org/hbg548
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - electronic materials
 - id: doi:10.1002/er.4064
   title: First principles computational studies of spontaneous reduction reaction
     of Eu(III) in eutectic LiCl-KCl molten salt
@@ -510,42 +546,6 @@
   - machine learning
   - energy materials
   - catalysis
-- id: doi:10.1016/j.mtnano.2020.100099
-  title: High quantum efficiency and stability of biohybrid quantum dots nanojunctions
-    in bacteriophage-constructed perovskite
-  authors:
-  - Jong-Min Lee
-  - Jin Woo Choi
-  - Il Jeon
-  - Ye Zhu
-  - Tao Yang
-  - <u>Hoje Chun</u>
-  - Jongmoon Shin
-  - Juyun Park
-  - Joohee Bang
-  - Kyounga Lim
-  - Won-Geun Kim
-  - Yeji Kim
-  - Hyuk Jeong
-  - Eun Jung Choi
-  - Vasanthan Devaraj
-  - Jeong Seok Nam
-  - Hyungju Ahn
-  - Yong-Cheol Kang
-  - Byungchan Han
-  - Myungkwan Song
-  - Jin-Woo Oh
-  - Chuanbin Mao
-  publisher: Materials Today Nano 13, 100099
-  date: '2021-03-01'
-  link: https://doi.org/hbg548
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - electronic materials
 - id: doi:10.1021/acssuschemeng.0c02981
   title: Pairing of Transition Metal Dichalcogenides and Doped Graphene for Catalytically
     Dual Active Interfaces for the Hydrogen Evolution Reaction
@@ -664,6 +664,29 @@
   - machine learning
   - energy materials
   - catalysis
+- id: doi:10.1021/acscentsci.5c00547
+  title: Accelerating and Enhancing Thermodynamic Simulations of Electrochemical Interfaces
+  authors:
+  - Xiaochen Du
+  - Mengren Liu
+  - Jiayu Peng
+  - <u>Hoje Chun</u>
+  - Alexander Hoffman
+  - Bilge Yildiz
+  - Lin Li
+  - Martin Z. Bazant
+  - "Rafael G\xF3mez-Bombarelli"
+  publisher: ACS Central Science 11 (9), 1558-1572
+  date: '2025-07-21'
+  link: https://doi.org/hbg5z3
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - machine learning
+  - methods
 - id: doi:10.1038/s41598-023-28492-5
   title: Method for 3D atomic structure determination of multi-element nanoparticles
     with graphene liquid-cell TEM
@@ -691,29 +714,6 @@
   type: paper
   orcid: 0000-0003-0624-536X
   tags:
-  - methods
-- id: doi:10.1021/acscentsci.5c00547
-  title: Accelerating and Enhancing Thermodynamic Simulations of Electrochemical Interfaces
-  authors:
-  - Xiaochen Du
-  - Mengren Liu
-  - Jiayu Peng
-  - <u>Hoje Chun</u>
-  - Alexander Hoffman
-  - Bilge Yildiz
-  - Lin Li
-  - Martin Z. Bazant
-  - "Rafael G\xF3mez-Bombarelli"
-  publisher: ACS Central Science 11 (9), 1558-1572
-  date: '2025-07-21'
-  link: https://doi.org/hbg5z3
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - machine learning
   - methods
 - id: doi:10.1021/acsami.1c21419
   title: Two-Dimensional Palladium Phosphoronitride for Oxygen Reduction
