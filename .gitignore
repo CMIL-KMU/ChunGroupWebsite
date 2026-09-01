@@ -12,3 +12,7 @@ package-lock.json
 yarn.lock
 node_modules
 _cite/.cache/
+
+# AI design skills (impeccable, ui-ux-pro-max, taste) - local only for now
+.claude/
+skills-lock.json
