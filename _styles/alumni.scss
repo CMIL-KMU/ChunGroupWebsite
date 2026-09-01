@@ -1,0 +1,66 @@
+---
+---
+
+.alumni-list {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.alumni-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  gap: 4px 30px;
+  align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.alumni-item:last-child {
+  border-bottom: none;
+}
+
+.alumni-who {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 10px;
+}
+
+.alumni-name {
+  font-weight: var(--bold);
+  color: var(--text);
+}
+
+.alumni-role {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+.alumni-role:before {
+  content: "\00b7";
+  margin-right: 9px;
+  color: var(--gray);
+  opacity: 0.55;
+}
+
+.alumni-now {
+  color: var(--dark-gray);
+  font-size: 0.95rem;
+  line-height: var(--spacing);
+}
+
+.alumni-empty {
+  color: var(--gray);
+}
+
+@media (max-width: 700px) {
+  .alumni-item {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .alumni-who {
+    gap: 0 8px;
+  }
+}
