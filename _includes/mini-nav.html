@@ -1,0 +1,23 @@
+{% comment %}
+  compact nav bar, shown once the tall home banner has scrolled out of view
+{% endcomment %}
+
+<div class="mini-nav" data-shown="false" aria-hidden="true">
+  <a class="mini-nav-home" href="{{ "/" | relative_url }}">
+    <img src="{{ "images/logos/logo.png" | relative_url }}" alt="">
+    <span>{{ site.title }}</span>
+  </a>
+
+  <nav aria-label="Compact navigation">
+    {% assign pages = site.pages
+      | where_exp: "page", "page.nav"
+      | sort: "nav.order"
+    %}
+    {% for page in pages %}
+      {% if page.nav %}
+        <a href="{{ page.dir | relative_url | uri_escape }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+    {% include lang-toggle.html %}
+  </nav>
+</div>
