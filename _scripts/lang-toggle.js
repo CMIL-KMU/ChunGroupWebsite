@@ -4,12 +4,9 @@
 */
 
 {
-  // load saved (or browser-derived) language before the page renders
-  const saved = window.localStorage.getItem("site-lang");
-  const fromBrowser = (navigator.language || "en").toLowerCase().startsWith("ko")
-    ? "ko"
-    : "en";
-  document.documentElement.dataset.lang = saved ?? fromBrowser;
+  // load saved language before the page renders; English is the default
+  document.documentElement.dataset.lang =
+    window.localStorage.getItem("site-lang") ?? "en";
 
   const sync = () => {
     const current = document.documentElement.dataset.lang;
