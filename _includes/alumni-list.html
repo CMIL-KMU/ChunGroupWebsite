@@ -1,0 +1,54 @@
+{% comment %}
+  Alumni roster — a text list. No photos, no years shown.
+
+  Each alumnus is a file in _members/ (copy _members/_alumnus-template.md):
+
+    group: alumni                                   required
+    name: Gildong Hong                              required
+    left: "2026-08"                                 when they left — sorting only, never displayed
+    description: Ph.D. Student                      role while in the lab
+    affiliation: Senior Researcher, POSCO Holdings  where they are now
+
+  Order: most recent departure at the top, oldest at the bottom.
+  `left` is a QUOTED "YYYY-MM" string so YAML keeps it a string.
+  People who left in the same month are ordered by name, and anyone
+  without `left` is listed last, also by name.
+
+  `description` falls back to the label for `role` in _data/types.yaml.
+{% endcomment %}
+
+{% assign alumni = site.members | where_exp: "m", "m.group == 'alumni'" %}
+
+{% assign dated = alumni | where_exp: "m", "m.left" %}
+{% assign undated = alumni | where_exp: "m", "m.left == nil" | sort: "name" %}
+
+{% assign ordered = "" | split: "" %}
+{% assign months = dated | group_by: "left" | sort: "name" | reverse %}
+{% for month in months %}
+  {% assign people = month.items | sort: "name" %}
+  {% assign ordered = ordered | concat: people %}
+{% endfor %}
+{% assign ordered = ordered | concat: undated %}
+
+{% if ordered.size > 0 %}
+  <ul class="alumni-list">
+    {% for m in ordered %}
+      {% assign type = site.data.types[m.role] %}
+      {% assign label = m.description | default: type.description %}
+      <li class="alumni-item">
+        <span class="alumni-who">
+          <span class="alumni-name">{{ m.name }}</span>
+          {% if label %}<span class="alumni-role">{{ label }}</span>{% endif %}
+        </span>
+        {% if m.affiliation %}<span class="alumni-now">{{ m.affiliation }}</span>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="alumni-empty lang" data-lang="en">
+    Our first alumni will be listed here.
+  </p>
+  <p class="alumni-empty lang" data-lang="ko">
+    첫 졸업생이 나오면 이곳에 기록됩니다.
+  </p>
+{% endif %}

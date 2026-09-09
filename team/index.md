@@ -7,15 +7,15 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
-{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
-{% include list.html data="members" component="portrait" filter="role == 'grad' and group == 'team'" %}
-{% include list.html data="members" component="portrait" filter="role == 'undergrad' and group == 'team'" %}
+{% include member-row.html role="principal-investigator" %}
+{% include member-row.html role="postdoc" %}
+{% include member-row.html role="grad" %}
+{% include member-row.html role="undergrad" %}
 
 
 ## Alumni
 
-{% include list.html  data="members"  component="portrait"  filter="group == 'alumni'" %}
+{% include alumni-list.html %}
 
 {% include section.html %}
 

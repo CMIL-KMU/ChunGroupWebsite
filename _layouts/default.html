@@ -3,6 +3,9 @@
   {% include head.html %}
   <body>
     {% include header.html %}
+    {% if page.url == "/" %}
+      {% include mini-nav.html %}
+    {% endif %}
     <main>
       {% include content.html content=content %}
     </main>

@@ -6,9 +6,13 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-user-plus" %}Join our team
+<div class="lang" data-lang="en" markdown="1">
 We welcome applications from students with diverse backgrounds, including Chemistry, Physics, Materials Science, Chemical Engineering, Computer Science, Environmental Engineering, and Convergence Energy Engineering, who are interested in research on computational materials chemistry.
+</div>
 
+<div class="lang" data-lang="ko" markdown="1">
 인공지능과 전산재료과학 연구에 관심있는 화학/물리/신소재공학/화학공학/컴퓨터공학/환경공학/융합에너지공학 등 다양한 전공의 학생들의 지원을 환영합니다!
+</div>
 
 {%
   include button.html

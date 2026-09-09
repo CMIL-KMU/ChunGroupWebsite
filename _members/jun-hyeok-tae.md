@@ -3,6 +3,7 @@ name: Jun Hyeok Tae
 image: images/members/jun-hyeok-tae.jpg
 role: undergrad
 group: team
+joined: "2026-04"
 aliases:
   - J. H. Tae
   - J H Tae
