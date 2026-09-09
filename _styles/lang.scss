@@ -16,6 +16,12 @@ html[data-lang="ko"] .lang[data-lang="en"] {
   margin-bottom: 0;
 }
 
+// on the tall home banner the header stacks, so the toggle lands on its
+// own row under the nav links; elsewhere it sits at the end of the header
+header[data-big] .lang-toggle {
+  margin-top: -4px;
+}
+
 .lang-toggle {
   display: inline-flex;
   align-items: stretch;
