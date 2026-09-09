@@ -118,6 +118,10 @@
   
 
   
+    <link href="/_styles/alumni.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/anchor.css" rel="stylesheet">
   
 
@@ -218,6 +222,10 @@
   
 
   
+    <link href="/_styles/lang.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/link.css" rel="stylesheet">
   
 
@@ -227,6 +235,10 @@
 
   
     <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/mini-nav.css" rel="stylesheet">
   
 
   
@@ -353,6 +365,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -373,6 +387,10 @@
   <script src="/_scripts/fetch-tags.js"></script>
 
   <script src="/_scripts/home-slider.js"></script>
+
+  <script src="/_scripts/lang-toggle.js"></script>
+
+  <script src="/_scripts/mini-nav.js"></script>
 
   <script src="/_scripts/scroll-to-top.js"></script>
 
@@ -396,7 +414,7 @@
 
 
 
-<header class="background" style="--image: url('/images/background.png')" data-dark="true">
+<header class="background" style="--image: url('/images/hero-landscape.webp')" data-dark="true">
     <a href="/" class="home">
         
         <span class="logo">
@@ -450,8 +468,14 @@
         </a>
         
         
+        <div class="lang-toggle" role="group" aria-label="Content language">
+  <button type="button" data-set-lang="ko" aria-pressed="false" onclick="onLangToggle('ko')">KOR</button>
+  <button type="button" data-set-lang="en" aria-pressed="true" onclick="onLangToggle('en')">ENG</button>
+</div>
+
     </nav>
 </header>
+    
     <main>
       <!--
   modify main content of page:
@@ -802,7 +826,7 @@ Our group has started a research project funded by the Kookmin University.
     
 
 
-<footer class="background" style="--image: url('/images/background.png')" data-dark="true" data-size="wide">
+<footer class="background" style="--image: url('/images/hero-landscape.webp')" data-dark="true" data-size="wide">
   <!--
     <div>
       Extra details like contact info or address

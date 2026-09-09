@@ -58,5 +58,26 @@
     max-width: 400px;
   }
 }
+.feature[data-diagram] {
+  flex-direction: column-reverse !important;
+  gap: 24px;
+}
+
+.feature[data-diagram] .feature-image {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: auto;
+  box-shadow: none;
+  border: 1px solid var(--light-gray);
+}
+
+.feature[data-diagram] .feature-image img {
+  height: auto;
+  object-fit: contain;
+}
+
+.feature[data-diagram] .feature-text {
+  width: 100%;
+}
 
 /*# sourceMappingURL=feature.css.map */
