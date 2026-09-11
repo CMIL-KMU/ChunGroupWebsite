@@ -40,11 +40,16 @@ header a {
 
 .logo {
   height: $logo;
+  flex-shrink: 0;
 }
 
+// keep the mark's proportions: without this the flex parent squeezes the
+// element horizontally while the image still fills its height
 .logo > * {
-  width: unset;
+  width: auto;
   height: 100%;
+  max-width: none;
+  flex-shrink: 0;
 }
 
 .title-text {
