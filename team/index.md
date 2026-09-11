@@ -7,10 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-{% include member-row.html role="principal-investigator" %}
-{% include member-row.html role="postdoc" %}
-{% include member-row.html role="grad" %}
-{% include member-row.html role="undergrad" %}
+{% include member-list.html %}
 
 
 ## Alumni

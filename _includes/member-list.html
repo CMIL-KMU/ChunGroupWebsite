@@ -1,0 +1,54 @@
+{% comment %}
+  The whole team in one flow — no separate row per role.
+
+  Order: principal investigator, postdoc, graduate, undergraduate; and
+  within each of those, by the `joined` date (earliest first), then by
+  name for people who arrived in the same month. Anyone without `joined`
+  comes after their role group's dated members, alphabetically.
+
+  Roles are used only for ordering, so nobody is dropped: a member whose
+  role is not in the list below is appended at the end rather than
+  vanishing from the page.
+{% endcomment %}
+
+{% assign team = site.members | where_exp: "m", "m.group == 'team'" %}
+{% assign role_order = "principal-investigator,postdoc,grad,undergrad" | split: "," %}
+{% assign ordered = "" | split: "" %}
+
+{% for role in role_order %}
+  {% assign group = team | where_exp: "m", "m.role == role" %}
+  {% assign dated = group | where_exp: "m", "m.joined" %}
+  {% assign undated = group | where_exp: "m", "m.joined == nil" | sort: "name" %}
+  {% assign months = dated | group_by: "joined" | sort: "name" %}
+  {% for month in months %}
+    {% assign people = month.items | sort: "name" %}
+    {% assign ordered = ordered | concat: people %}
+  {% endfor %}
+  {% assign ordered = ordered | concat: undated %}
+{% endfor %}
+
+{% comment %} safety net for a role that is not listed above {% endcomment %}
+{% for m in team %}
+  {% unless role_order contains m.role %}
+    {% assign stray = team | where_exp: "x", "x.name == m.name" %}
+    {% assign ordered = ordered | concat: stray %}
+  {% endunless %}
+{% endfor %}
+
+{% if ordered.size > 0 %}
+  <div class="list-grid" data-component="portrait">
+    {% for m in ordered %}
+      {%
+        include portrait.html
+        name=m.name
+        image=m.image
+        role=m.role
+        description=m.description
+        affiliation=m.affiliation
+        slug=m.slug
+        url=m.url
+        style=m.style
+      %}
+    {% endfor %}
+  </div>
+{% endif %}
