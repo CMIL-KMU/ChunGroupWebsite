@@ -37,7 +37,7 @@
   border-radius: 999px;
   background: var(--background);
   box-shadow: var(--shadow);
-  transform: translate(14%, 14%);
+  transform: translate(8%, 8%);
 }
 
 .portrait[data-style=small] .icon {
@@ -52,8 +52,8 @@
 .portrait-image {
   width: 100%;
   margin-bottom: 20px;
-  aspect-ratio: 1/1;
-  border-radius: 999px;
+  aspect-ratio: 4/5;
+  border-radius: var(--rounded);
   object-fit: cover;
   box-shadow: var(--shadow);
 }
@@ -61,6 +61,8 @@
 .portrait[data-style=tiny] .portrait-image {
   width: 50px;
   margin: 0;
+  aspect-ratio: 1/1;
+  border-radius: 999px;
 }
 
 .portrait-name {

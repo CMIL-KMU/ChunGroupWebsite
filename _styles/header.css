@@ -28,11 +28,14 @@ header a {
 
 .logo {
   height: 40px;
+  flex-shrink: 0;
 }
 
 .logo > * {
-  width: unset;
+  width: auto;
   height: 100%;
+  max-width: none;
+  flex-shrink: 0;
 }
 
 .title-text {
