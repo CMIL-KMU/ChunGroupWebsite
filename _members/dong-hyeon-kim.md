@@ -1,6 +1,6 @@
 ---
 name: Dong Hyeon Kim
-image: images/members/dong-hyeon-kim.png
+image: images/members/dong-hyeon-kim.jpg
 role: undergrad
 group: team
 joined: "2026-05"
