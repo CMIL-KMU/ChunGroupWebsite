@@ -10,7 +10,5 @@ aliases:
   - Jaeyoung Cha
   - jaeyoung cha
   - jaeyoungcha
-links:
-  email: t6hyuck@gmail.com
 ---
 
