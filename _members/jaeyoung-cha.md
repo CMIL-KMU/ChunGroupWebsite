@@ -10,5 +10,7 @@ aliases:
   - Jaeyoung Cha
   - jaeyoung cha
   - jaeyoungcha
+links:
+  email: jaeyoungcha212@yonsei.ac.kr
 ---
 
