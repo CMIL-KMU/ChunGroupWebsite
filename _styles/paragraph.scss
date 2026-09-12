@@ -4,5 +4,9 @@
 p {
   margin: 20px 0;
   text-align: left;
+  // generous leading: Hangul glyphs fill their em box far more than Latin, so
+  // 1.75 is what makes mixed Korean/English copy readable rather than cramped.
+  // The measure is already capped by section.scss ($page: 1000px), so no
+  // width cap is needed here.
   line-height: var(--spacing);
 }

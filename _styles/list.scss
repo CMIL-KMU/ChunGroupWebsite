@@ -4,7 +4,8 @@
 ul,
 ol {
   margin: 20px 0;
-  padding-left: 40px;
+  // 40px of indent is a lot on a 360px phone; scale it with the viewport
+  padding-left: clamp(20px, 5vw, 40px);
 }
 
 ul {

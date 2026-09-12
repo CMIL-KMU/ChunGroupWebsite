@@ -49,9 +49,9 @@
 .mini-nav nav a {
   color: var(--text);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: var(--small);
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--track-caps);
 }
 
 .mini-nav nav a:hover {

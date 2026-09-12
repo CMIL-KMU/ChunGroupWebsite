@@ -39,8 +39,8 @@ header[data-big] .lang-toggle {
   background: none;
   color: inherit;
   font: inherit;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
+  font-size: var(--small);
+  letter-spacing: var(--track-caps);
   padding: 6px 11px;
   cursor: pointer;
   opacity: 0.6;

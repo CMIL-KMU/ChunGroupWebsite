@@ -31,16 +31,21 @@
 
 :root {
   // font families
-  --title: "Imperial Sans", Arial, sans-serif;
-  --heading: "Imperial Sans", Arial, sans-serif;
-  --body: "Imperial Sans", Arial, sans-serif;
-  --code: "Roboto Mono", monospace;
+  // one superfamily for Latin and Hangul, so the two never disagree
+  --sans:
+    "IBM Plex Sans KR", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Malgun Gothic", "Segoe UI", Roboto, sans-serif;
+  --title: var(--sans);
+  --heading: var(--sans);
+  --body: var(--sans);
+  --code: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
-  // font sizes
-  --medium: 1rem;
-  --large: 1.2rem;
-  --xl: 1.6rem;
-  --xxl: 1.8rem;
+  // font sizes: fluid between a 360px phone and a 1400px desktop
+  --small: clamp(0.8rem, 0.77rem + 0.13vw, 0.875rem);
+  --medium: clamp(0.95rem, 0.91rem + 0.17vw, 1.0625rem);
+  --large: clamp(1.05rem, 0.98rem + 0.32vw, 1.25rem);
+  --xl: clamp(1.3rem, 1.16rem + 0.62vw, 1.7rem);
+  --xxl: clamp(1.5rem, 1.33rem + 0.77vw, 2rem);
 
   // font weights
   --thin: 200;
@@ -48,9 +53,13 @@
   --semi-bold: 500;
   --bold: 600;
 
-  // text line spacing
-  --spacing: 1.5;
-  --compact: 1.2;
+  // text line spacing - Hangul needs more leading than Latin to stay readable
+  --spacing: 1.75;
+  --compact: 1.35;
+
+  // tracking
+  --track-tight: -0.012em;   // large headings
+  --track-caps: 0.08em;      // uppercase labels
 
   // effects
   --rounded: 3px;

@@ -34,7 +34,7 @@
 
 .alumni-role {
   color: var(--gray);
-  font-size: 0.9rem;
+  font-size: var(--small);
 }
 
 .alumni-role:before {
@@ -46,7 +46,7 @@
 
 .alumni-now {
   color: var(--dark-gray);
-  font-size: 0.95rem;
+  font-size: var(--small);
   line-height: var(--spacing);
 }
 

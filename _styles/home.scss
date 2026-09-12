@@ -11,8 +11,9 @@
 
 .home-hero-title {
   font-family: var(--title);
-  font-size: 2.2rem;
+  font-size: var(--xxl);
   font-weight: var(--bold);
+  letter-spacing: var(--track-tight);
   color: var(--text);
   margin-bottom: 25px;
   line-height: var(--compact);
@@ -20,14 +21,14 @@
 }
 
 .home-hero-desc {
-  font-size: 1.15rem;
+  font-size: var(--large);
   color: var(--text);
   line-height: var(--spacing);
   margin-bottom: 15px;
 }
 
 .home-hero-desc-kr {
-  font-size: 0.95rem;
+  font-size: var(--medium);
   color: var(--gray);
   line-height: var(--spacing);
   margin-bottom: 25px;
@@ -47,7 +48,7 @@
 }
 
 .home-news-column-title {
-  font-size: 1.4rem !important;
+  font-size: var(--xl) !important;
   font-weight: var(--semi-bold) !important;
   margin-top: 0 !important;
   border-bottom: 2px solid var(--light-gray) !important;
@@ -70,7 +71,7 @@
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: var(--xl);
     font-weight: var(--semi-bold);
     color: var(--text);
     margin-top: 0;
@@ -89,7 +90,7 @@
   }
 
   .recruitment-desc-kr {
-    font-size: 0.95rem;
+    font-size: var(--medium);
     color: var(--gray);
   }
 

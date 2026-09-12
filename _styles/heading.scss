@@ -1,6 +1,10 @@
 ---
 ---
 
+// Headings all draw from the same fluid scale in -theme.scss, so a phone and a
+// desktop get proportional - not identical - type, and no heading has its own
+// hard-coded rem size any more.
+
 h1,
 h2,
 h3,
@@ -11,38 +15,55 @@ h6 {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
   text-align: left;
-  letter-spacing: 1px;
+  // tight tracking suits large type; the old blanket 1px was far too loose at
+  // small sizes and pulled Hangul syllables apart
+  letter-spacing: var(--track-tight);
+  line-height: var(--compact);
+  // Korean breaks at any character by default, which strands single syllables;
+  // keep-all breaks at word boundaries instead, with anywhere as the escape
+  // hatch for long unbroken strings (URLs, formulas) on narrow screens
+  word-break: keep-all;
+  overflow-wrap: anywhere;
 }
 
 h1 {
   margin: 40px 0;
-  font-size: 1.6rem;
+  font-size: var(--xxl);
   font-weight: var(--regular);
   text-transform: uppercase;
   text-align: center;
+  // uppercase needs the opposite treatment: open it up so the caps breathe
+  letter-spacing: var(--track-caps);
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: var(--xl);
   padding-bottom: 5px;
   border-bottom: solid 1px var(--light-gray);
   font-weight: var(--regular);
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: var(--large);
+  font-weight: var(--semi-bold);
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: var(--medium);
+  font-weight: var(--bold);
 }
 
 h5 {
-  font-size: 1.15rem;
+  font-size: var(--medium);
+  font-weight: var(--semi-bold);
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: var(--small);
+  font-weight: var(--bold);
+  letter-spacing: var(--track-caps);
+  text-transform: uppercase;
+  color: var(--gray);
 }
 
 :where(h1, h2, h3, h4, h5, h6) > .icon {

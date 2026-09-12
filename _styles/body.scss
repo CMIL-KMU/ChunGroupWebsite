@@ -10,6 +10,20 @@ body {
   background: var(--background);
   color: var(--text);
   font-family: var(--body);
+  // body text is on the same fluid scale as the headings, so a phone gets
+  // slightly smaller copy and a wide monitor slightly larger
+  font-size: var(--medium);
+  font-weight: var(--regular);
   text-align: center;
   line-height: var(--compact);
+  // Korean has no spaces to break at inside a phrase, so the default
+  // break-anywhere behaviour strands syllables; keep-all breaks at word
+  // boundaries instead
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  // iOS text inflation is already switched off by the universal reset in
+  // all.scss, which the fluid clamp() scale depends on
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
