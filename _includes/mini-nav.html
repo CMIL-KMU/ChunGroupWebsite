@@ -1,12 +1,50 @@
 {% comment %}
-  compact nav bar, shown once the tall home banner has scrolled out of view
+  Compact nav bar for the home page.
+
+  The home banner is too tall to pin to the top of the window, so it is left
+  to scroll away and this bar takes over. It deliberately mirrors the header
+  that every other page pins - same hero image, same dark treatment, same
+  logo, same type - so that scrolling looks the same wherever you are.
 {% endcomment %}
 
-<div class="mini-nav" data-shown="false" aria-hidden="true">
+{% assign image = page.header | default: site.header %}
+{% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
+
+{% assign svg = "images/logos/logo_white.svg" | file_exists %}
+{% assign png = "images/logos/logo_white.png" | file_exists %}
+{% assign jpg = "images/logos/logo.jpg" | file_exists %}
+{% assign logo = svg | default: png | default: jpg | default: nil %}
+
+<div
+  class="mini-nav"
+  data-shown="false"
+  aria-hidden="true"
+  style="--image: url('{{ image | relative_url | uri_escape }}')"
+  {% if dark == true or dark == false %}
+    data-dark="{{ dark }}"
+  {% endif %}
+>
   <a class="mini-nav-home" href="{{ "/" | relative_url }}">
-    <img src="{{ "images/logos/logo.png" | relative_url }}" alt="">
-    <span>{{ site.title }}</span>
+    {% if logo %}
+      <span class="mini-nav-logo">
+        {% if svg %}
+          {{ svg | file_read }}
+        {% else %}
+          <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
+        {% endif %}
+      </span>
+    {% endif %}
+    {% if site.title and site.show-title != false %}
+      <span class="title">{{ site.title }}</span>
+    {% endif %}
   </a>
+
+  {% comment %}
+    Same CSS-only disclosure the header uses on narrow screens. Without it
+    the links were simply hidden below 700px, leaving a bar with no way to
+    navigate.
+  {% endcomment %}
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
   <nav aria-label="Compact navigation">
     {% assign pages = site.pages
@@ -18,6 +56,11 @@
         <a href="{{ page.dir | relative_url | uri_escape }}">{% include t.html en=page.title ko=page.title_ko %}</a>
       {% endif %}
     {% endfor %}
-    {% include lang-toggle.html %}
   </nav>
+
+  {% comment %}
+    Outside <nav> on purpose, so the language toggle survives the collapse
+    into the hamburger - exactly as it does in the header.
+  {% endcomment %}
+  {% include lang-toggle.html %}
 </div>

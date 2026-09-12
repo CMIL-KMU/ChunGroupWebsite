@@ -1,6 +1,11 @@
 ---
 ---
 
+// Matches header.scss, so the bar that appears when you scroll the home page
+// is the same bar that stays pinned on every other page.
+$collapse: 700px;
+$logo: 40px;
+
 .mini-nav {
   position: fixed;
   top: 0;
@@ -11,56 +16,119 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding: 10px 20px;
-  background: var(--background);
+  padding: 20px;
   box-shadow: var(--shadow);
   transform: translateY(-100%);
   transition: transform var(--transition);
+
+  // same two layers as .background in background.scss, inlined rather than
+  // borrowed: that class also sets position and z-index, which would fight
+  // the fixed positioning above depending on stylesheet order
+  background: var(--background);
+  color: var(--text);
+}
+
+.mini-nav:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  opacity: 0.2;
+  z-index: -1;
 }
 
 .mini-nav[data-shown="true"] {
   transform: translateY(0);
 }
 
+.mini-nav a {
+  color: var(--text);
+  text-decoration: none;
+}
+
 .mini-nav-home {
   display: flex;
   align-items: center;
-  gap: 8px;
-  color: var(--text);
-  text-decoration: none;
+  gap: 10px;
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
   font-family: var(--title);
-  font-weight: var(--semi-bold);
-  white-space: nowrap;
 }
 
-.mini-nav-home img {
-  height: 26px;
+.mini-nav-logo {
+  height: $logo;
+  flex-shrink: 0;
+}
+
+// keep the mark's proportions inside the flex row
+.mini-nav-logo > * {
   width: auto;
+  height: 100%;
+  max-width: none;
+  flex-shrink: 0;
+}
+
+.mini-nav .title {
+  font-size: var(--large);
+  font-weight: var(--bold);
+  letter-spacing: var(--track-tight);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mini-nav nav {
   display: flex;
   align-items: center;
-  gap: 18px;
   flex-wrap: wrap;
   justify-content: flex-end;
-}
-
-.mini-nav nav a {
-  color: var(--text);
-  text-decoration: none;
-  // matches the main nav: 500 weight, no uppercasing
-  font-size: var(--medium);
+  gap: 10px;
+  font-family: var(--heading);
   font-weight: var(--semi-bold);
+  font-size: var(--large);
   letter-spacing: 0;
 }
 
-.mini-nav nav a:hover {
+.mini-nav nav > a {
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.mini-nav nav > a:hover {
   color: var(--primary);
 }
 
-@media (max-width: 700px) {
+// narrow screens: collapse the links behind the hamburger instead of hiding
+// them outright, the same way the header does. `order` keeps the language
+// toggle up on the first row with the hamburger, so opening the menu adds one
+// row rather than pushing the toggle down to a third.
+@media (max-width: $collapse) {
+  .mini-nav {
+    flex-wrap: wrap;
+    gap: 10px 16px;
+  }
+
+  .mini-nav .lang-toggle {
+    order: 1;
+  }
+
+  .mini-nav .nav-toggle {
+    order: 2;
+    display: flex;
+  }
+
   .mini-nav nav {
+    order: 3;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .mini-nav .nav-toggle:not(:checked) + nav {
     display: none;
   }
 }

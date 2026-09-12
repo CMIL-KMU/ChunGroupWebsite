@@ -134,18 +134,27 @@ header:not([data-big]) {
   @media (max-width: $collapse) {
     justify-content: flex-end;
 
+    // keep the language toggle on the first row next to the hamburger;
+    // without this it followed nav in source order and was pushed onto a
+    // third row every time the menu was opened
+    .lang-toggle {
+      order: 1;
+    }
+
     .nav-toggle {
+      order: 2;
       display: flex;
+    }
+
+    nav {
+      order: 3;
+      align-items: flex-end;
+      flex-direction: column;
+      width: 100%;
     }
 
     .nav-toggle:not(:checked) + nav {
       display: none;
-    }
-
-    nav {
-      align-items: flex-end;
-      flex-direction: column;
-      width: 100%;
     }
   }
 }
