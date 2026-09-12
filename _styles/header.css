@@ -115,16 +115,21 @@ nav > a:hover {
   header:not([data-big]) {
     justify-content: flex-end;
   }
+  header:not([data-big]) .lang-toggle {
+    order: 1;
+  }
   header:not([data-big]) .nav-toggle {
+    order: 2;
     display: flex;
   }
-  header:not([data-big]) .nav-toggle:not(:checked) + nav {
-    display: none;
-  }
   header:not([data-big]) nav {
+    order: 3;
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
+  }
+  header:not([data-big]) .nav-toggle:not(:checked) + nav {
+    display: none;
   }
 }
 
