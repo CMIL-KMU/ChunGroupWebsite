@@ -1,7 +1,25 @@
 p {
   margin: 20px 0;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
   line-height: var(--spacing);
+}
+
+:is(.citation, .card, .post-excerpt, .portrait, .tags, td, th, footer, .search-info) :where(p, li) {
+  text-align: left;
+  text-justify: auto;
+}
+
+.center p {
+  text-align: center;
+}
+
+.right p {
+  text-align: right;
+}
+
+.left p {
+  text-align: left;
 }
 
 /*# sourceMappingURL=paragraph.css.map */
