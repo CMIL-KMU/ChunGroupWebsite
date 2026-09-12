@@ -3,10 +3,39 @@
 
 p {
   margin: 20px 0;
-  text-align: left;
+  // justified, so copy sits flush against both edges of the measure
+  text-align: justify;
+  text-justify: inter-word;
   // generous leading: Hangul glyphs fill their em box far more than Latin, so
   // 1.75 is what makes mixed Korean/English copy readable rather than cramped.
   // The measure is already capped by section.scss ($page: 1000px), so no
   // width cap is needed here.
   line-height: var(--spacing);
+}
+
+// Justification needs a line long enough to distribute the slack across.
+// In a narrow card, a clamped excerpt or a table cell there is nowhere for
+// the extra space to go, so it opens holes between the words instead -
+// those stay ragged-right.
+// (`:is` rather than `:where` on the container, so this carries a class's
+// worth of specificity and actually outranks the bare `p` rule above)
+:is(.citation, .card, .post-excerpt, .portrait, .tags, td, th, footer, .search-info)
+  :where(p, li) {
+  text-align: left;
+  text-justify: auto;
+}
+
+// a paragraph inherits nothing from an aligned parent, because the `p` rule
+// above sets alignment directly on it - so an explicitly aligned block has to
+// hand its alignment down
+.center p {
+  text-align: center;
+}
+
+.right p {
+  text-align: right;
+}
+
+.left p {
+  text-align: left;
 }

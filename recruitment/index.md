@@ -1,6 +1,6 @@
 ---
 title: Join us!
-title_ko: 함께하기
+title_ko: 지원
 nav:
   order: 5
   tooltip: Join our team
