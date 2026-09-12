@@ -86,10 +86,17 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://chunlab.kookmin.ac.kr/feed.xml">
   <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Imperial+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<!--
+  Declared explicitly rather than derived from the theme file. The
+  google_fonts filter only replaces the first space in a family name and
+  always asks for italic axes, so a family like "IBM Plex Sans KR" - which
+  has no italics - came back as an error and nothing loaded.
+  IBM Plex Sans KR draws Latin and Hangul as one design, so English and
+  Korean match instead of Korean falling through to each OS's default.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -381,32 +388,27 @@
         
         
         
-        <a href="/research/" data-tooltip="Research areas">
-            Research
+        <a href="/research/" data-tooltip="Research areas"><span class="lang" data-lang="en">Research</span><span class="lang" data-lang="ko">연구</span>
         </a>
         
         
         
-        <a href="/team/" data-tooltip="About our team">
-            Team
+        <a href="/team/" data-tooltip="About our team"><span class="lang" data-lang="en">Team</span><span class="lang" data-lang="ko">구성원</span>
         </a>
         
         
         
-        <a href="/publications/" data-tooltip="Published works">
-            Publications
+        <a href="/publications/" data-tooltip="Published works"><span class="lang" data-lang="en">Publications</span><span class="lang" data-lang="ko">논문</span>
         </a>
         
         
         
-        <a href="/news/" data-tooltip="Latest news from the lab">
-            News
+        <a href="/news/" data-tooltip="Latest news from the lab"><span class="lang" data-lang="en">News</span><span class="lang" data-lang="ko">소식</span>
         </a>
         
         
         
-        <a href="/recruitment/" data-tooltip="Join our team">
-            Join us!
+        <a href="/recruitment/" data-tooltip="Join our team"><span class="lang" data-lang="en">Join us!</span><span class="lang" data-lang="ko">함께하기</span>
         </a>
         
         
@@ -454,8 +456,11 @@
     
 
     
+    
+
+    
       <span class="portrait-description">
-        Undergraduate Student
+        <span class="lang" data-lang="en">Undergraduate Student</span><span class="lang" data-lang="ko">학부연구생</span>
       </span>
     
 
@@ -488,7 +493,13 @@
 </div>
 
 
-<p>Whese Cha is an undergraduate research student in the School of Applied Chemistry, majoring in Nanomaterials, at Kookmin University. Whese joined the research group in July 2026 and works on generative approaches to materials design, with a focus on solid electrolytes for energy storage.</p>
+<div class="lang" data-lang="en">
+  <p>Whese Cha is an undergraduate research student in the School of Applied Chemistry, majoring in Nanomaterials, at Kookmin University. Whese joined the research group in July 2026 and works on generative approaches to materials design, with a focus on solid electrolytes for energy storage.</p>
+</div>
+
+<div class="lang" data-lang="ko">
+  <p>차휘세 학생은 국민대학교 응용화학부 나노소재전공 학부연구생입니다. 2026년 7월에 연구실에 합류하여, 에너지 저장용 고체 전해질을 중심으로 생성 모델 기반 소재 설계 연구를 수행하고 있습니다.</p>
+</div>
   </section>
 
   
@@ -502,12 +513,17 @@
   <size></size>
 -->
 
-<h2 id="education-and-experience">Education and Experience</h2>
+<h2 id="education-and-experience학력-및-경력">
+<span class="lang" data-lang="en">Education and experience</span><span class="lang" data-lang="ko">학력 및 경력</span>
+</h2>
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-period">2026-present</div>
-    <div class="timeline-content">Undergraduate Research Student, Kookmin University, Seoul, Korea</div>
+    <div class="timeline-period">2026-<span class="lang" data-lang="en">present</span><span class="lang" data-lang="ko">현재</span>
+</div>
+    <div class="timeline-content">
+<span class="lang" data-lang="en">Undergraduate Research Student, Kookmin University, Seoul, Korea</span><span class="lang" data-lang="ko">학부연구생, 국민대학교, 서울</span>
+</div>
   </div>
   <!-- 학부 입학 연도를 아시면 아래 줄의 주석을 풀고 연도만 채우세요
   <div class="timeline-item">
@@ -529,11 +545,25 @@
   <size></size>
 -->
 
-<h2 id="research-interests">Research Interests</h2>
+<h2 id="research-interests연구-관심-분야">
+<span class="lang" data-lang="en">Research interests</span><span class="lang" data-lang="ko">연구 관심 분야</span>
+</h2>
 
-<ul>
-  <li>Generative materials design for solid electrolytes</li>
-</ul>
+<div class="lang" data-lang="en">
+  <ul>
+    <li>Generative materials design for solid electrolytes</li>
+  </ul>
+</div>
+
+<div class="lang" data-lang="ko">
+  <ul>
+    <li>고체 전해질을 위한 생성 모델 기반 소재 설계</li>
+  </ul>
+</div>
+
+
+
+
 
 
 
@@ -542,7 +572,7 @@
 
 <p class="center">
   <a href="/publications/?search=%22W.%20Cha%22%20%22Whese%20Cha%22%20%22whese%22%20%22whese%20cha%22%20%22whesecha%22%20">
-    Search for Whese Cha's papers on the Publications page
+    <span class="lang" data-lang="en">Search for Whese Cha's papers on the Publications page</span><span class="lang" data-lang="ko">Whese Cha님의 논문을 논문 페이지에서 찾아보기</span>
   </a>
 </p>
 
@@ -606,7 +636,7 @@
   <div>
     © 2026
     Chun research group
-      |   Built with
+      |   <span class="lang" data-lang="en">Built with</span><span class="lang" data-lang="ko">제작 기반</span>
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>

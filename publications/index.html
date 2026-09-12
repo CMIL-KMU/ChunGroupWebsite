@@ -86,10 +86,17 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://chunlab.kookmin.ac.kr/feed.xml">
   <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Imperial+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<!--
+  Declared explicitly rather than derived from the theme file. The
+  google_fonts filter only replaces the first space in a family name and
+  always asks for italic axes, so a family like "IBM Plex Sans KR" - which
+  has no italics - came back as an error and nothing loaded.
+  IBM Plex Sans KR draws Latin and Hangul as one design, so English and
+  Korean match instead of Korean falling through to each OS's default.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -439,32 +446,27 @@
         
         
         
-        <a href="/research/" data-tooltip="Research areas">
-            Research
+        <a href="/research/" data-tooltip="Research areas"><span class="lang" data-lang="en">Research</span><span class="lang" data-lang="ko">연구</span>
         </a>
         
         
         
-        <a href="/team/" data-tooltip="About our team">
-            Team
+        <a href="/team/" data-tooltip="About our team"><span class="lang" data-lang="en">Team</span><span class="lang" data-lang="ko">구성원</span>
         </a>
         
         
         
-        <a href="/publications/" data-tooltip="Published works">
-            Publications
+        <a href="/publications/" data-tooltip="Published works"><span class="lang" data-lang="en">Publications</span><span class="lang" data-lang="ko">논문</span>
         </a>
         
         
         
-        <a href="/news/" data-tooltip="Latest news from the lab">
-            News
+        <a href="/news/" data-tooltip="Latest news from the lab"><span class="lang" data-lang="en">News</span><span class="lang" data-lang="ko">소식</span>
         </a>
         
         
         
-        <a href="/recruitment/" data-tooltip="Join our team">
-            Join us!
+        <a href="/recruitment/" data-tooltip="Join our team"><span class="lang" data-lang="en">Join us!</span><span class="lang" data-lang="ko">함께하기</span>
         </a>
         
         
@@ -495,11 +497,12 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="-publications">
-<i class="icon fa-solid fa-book-open"></i> Publications</h1>
+    <h1 id="-publications논문">
+<i class="icon fa-solid fa-book-open"></i> <span class="lang" data-lang="en">Publications</span><span class="lang" data-lang="ko">논문</span>
+</h1>
 
 <div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page" data-t-attr="placeholder" data-t-en="Search items on this page" data-t-ko="이 페이지에서 검색">
   <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
     <i class="icon fa-solid fa-magnifying-glass"></i>
   </button>
@@ -537,7 +540,9 @@
     
   </div>
 
-<h2 id="selected-publications">Selected publications</h2>
+<h2 id="selected-publications주요-논문">
+<span class="lang" data-lang="en">Selected publications</span><span class="lang" data-lang="ko">주요 논문</span>
+</h2>
 
 <div class="citation-container">
   <div class="citation">
@@ -898,16 +903,16 @@
 
 <div class="publications-header">
   <div class="publication-tabs">
-    <button id="tab-papers" class="tab-btn active" onclick="switchPubTab('papers')">Papers &amp; Preprints</button>
-    <button id="tab-patents" class="tab-btn" onclick="switchPubTab('patents')">Patents</button>
+    <button id="tab-papers" class="tab-btn active" onclick="switchPubTab('papers')"><span class="lang" data-lang="en">Papers &amp; Preprints</span><span class="lang" data-lang="ko">논문 및 프리프린트</span></button>
+    <button id="tab-patents" class="tab-btn" onclick="switchPubTab('patents')"><span class="lang" data-lang="en">Patents</span><span class="lang" data-lang="ko">특허</span></button>
     <a href="https://scholar.google.com/citations?hl=ko&user=ZrnibVwAAAAJ" class="scholar-tab-btn" target="_blank" rel="noopener">
       <i class="fa-brands fa-google"></i> Google Scholar
     </a>
   </div>
   <div class="publications-legend">
-    <span class="legend-item"><i class="fa-solid fa-book-open"></i> Paper</span>
-    <span class="legend-item"><i class="fa-regular fa-eye"></i> Preprint</span>
-    <span class="legend-item"><i class="fa-solid fa-file-signature"></i> Patent</span>
+    <span class="legend-item"><i class="fa-solid fa-book-open"></i> <span class="lang" data-lang="en">Paper</span><span class="lang" data-lang="ko">논문</span></span>
+    <span class="legend-item"><i class="fa-regular fa-eye"></i> <span class="lang" data-lang="en">Preprint</span><span class="lang" data-lang="ko">프리프린트</span></span>
+    <span class="legend-item"><i class="fa-solid fa-file-signature"></i> <span class="lang" data-lang="en">Patent</span><span class="lang" data-lang="ko">특허</span></span>
   </div>
 </div>
 
@@ -4240,7 +4245,7 @@
   <div>
     © 2026
     Chun research group
-      |   Built with
+      |   <span class="lang" data-lang="en">Built with</span><span class="lang" data-lang="ko">제작 기반</span>
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>

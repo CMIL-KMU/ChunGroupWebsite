@@ -86,10 +86,17 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://chunlab.kookmin.ac.kr/feed.xml">
   <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Imperial+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<!--
+  Declared explicitly rather than derived from the theme file. The
+  google_fonts filter only replaces the first space in a family name and
+  always asks for italic axes, so a family like "IBM Plex Sans KR" - which
+  has no italics - came back as an error and nothing loaded.
+  IBM Plex Sans KR draws Latin and Hangul as one design, so English and
+  Korean match instead of Korean falling through to each OS's default.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -439,32 +446,27 @@
         
         
         
-        <a href="/research/" data-tooltip="Research areas">
-            Research
+        <a href="/research/" data-tooltip="Research areas"><span class="lang" data-lang="en">Research</span><span class="lang" data-lang="ko">연구</span>
         </a>
         
         
         
-        <a href="/team/" data-tooltip="About our team">
-            Team
+        <a href="/team/" data-tooltip="About our team"><span class="lang" data-lang="en">Team</span><span class="lang" data-lang="ko">구성원</span>
         </a>
         
         
         
-        <a href="/publications/" data-tooltip="Published works">
-            Publications
+        <a href="/publications/" data-tooltip="Published works"><span class="lang" data-lang="en">Publications</span><span class="lang" data-lang="ko">논문</span>
         </a>
         
         
         
-        <a href="/news/" data-tooltip="Latest news from the lab">
-            News
+        <a href="/news/" data-tooltip="Latest news from the lab"><span class="lang" data-lang="en">News</span><span class="lang" data-lang="ko">소식</span>
         </a>
         
         
         
-        <a href="/recruitment/" data-tooltip="Join our team">
-            Join us!
+        <a href="/recruitment/" data-tooltip="Join our team"><span class="lang" data-lang="en">Join us!</span><span class="lang" data-lang="ko">함께하기</span>
         </a>
         
         
@@ -489,23 +491,23 @@
     
     
       
-        <a href="/research/">Research</a>
+        <a href="/research/"><span class="lang" data-lang="en">Research</span><span class="lang" data-lang="ko">연구</span></a>
       
     
       
-        <a href="/team/">Team</a>
+        <a href="/team/"><span class="lang" data-lang="en">Team</span><span class="lang" data-lang="ko">구성원</span></a>
       
     
       
-        <a href="/publications/">Publications</a>
+        <a href="/publications/"><span class="lang" data-lang="en">Publications</span><span class="lang" data-lang="ko">논문</span></a>
       
     
       
-        <a href="/news/">News</a>
+        <a href="/news/"><span class="lang" data-lang="en">News</span><span class="lang" data-lang="ko">소식</span></a>
       
     
       
-        <a href="/recruitment/">Join us!</a>
+        <a href="/recruitment/"><span class="lang" data-lang="en">Join us!</span><span class="lang" data-lang="ko">함께하기</span></a>
       
     
     <div class="lang-toggle" role="group" aria-label="Content language">
@@ -536,7 +538,9 @@
 
   <section class="background" data-size="page">
     <div class="home-hero">
-  <h1 class="home-hero-title">Computational Materials Intelligence Lab</h1>
+  <h1 class="home-hero-title">
+<span class="lang" data-lang="en">Computational Materials Intelligence Lab</span><span class="lang" data-lang="ko">계산 소재 지능 연구실</span>
+</h1>
   <p class="home-hero-desc lang" data-lang="en">
     We are a computational research group working at the interface of artificial intelligence and atomistic simulations, with a focus on the predictive design of functional materials. We develop AI-accelerated computational frameworks that enable efficient exploration of complex materials design spaces.
   </p>
@@ -552,7 +556,7 @@
     <a class="button" href="/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>Explore our research</span>
+        <span><span class="lang" data-lang="en">Explore our research</span><span class="lang" data-lang="ko">연구 살펴보기</span></span>
       
     </a>
   </div>
@@ -567,8 +571,9 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="featured-publications">
-<i class="icon fa-solid fa-fire"></i>Featured Publications</h1>
+    <h1 id="featured-publications주요-논문">
+<i class="icon fa-solid fa-fire"></i><span class="lang" data-lang="en">Featured publications</span><span class="lang" data-lang="ko">주요 논문</span>
+</h1>
 
 <div class="slider-wrapper">
   <button class="slider-arrow prev" onclick="scrollSlider('research-slider', -1)" aria-label="Previous slider item">❮</button>
@@ -955,7 +960,7 @@
     <a class="button" href="/publications" data-style="bare" aria-label="fa-solid fa-book">
       <i class="icon fa-solid fa-book"></i>
       
-        <span>See all publications</span>
+        <span><span class="lang" data-lang="en">See all publications</span><span class="lang" data-lang="ko">전체 논문 보기</span></span>
       
     </a>
   </div>
@@ -969,13 +974,14 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="latest-updates">
-<i class="icon fa-solid fa-newspaper"></i>Latest Updates</h1>
+    <h1 id="latest-updates최근-소식">
+<i class="icon fa-solid fa-newspaper"></i><span class="lang" data-lang="en">Latest updates</span><span class="lang" data-lang="ko">최근 소식</span>
+</h1>
 
 <div class="cols home-news-grid" style="--cols: 2; margin-top: 30px;">
   <div>
     <h2 class="home-news-column-title">
-      <i class="icon fa-solid fa-trophy"></i>Honors &amp; achievements
+      <i class="icon fa-solid fa-trophy"></i><span class="lang" data-lang="en">Honors &amp; achievements</span><span class="lang" data-lang="ko">수상 및 성과</span>
     </h2>
     
     
@@ -999,7 +1005,7 @@
     
 
     <div class="post-excerpt-text">
-      <a href="/2026/04/24/research-grant.html">Research project</a>
+      <a href="/2026/04/24/research-grant.html"><span class="lang" data-lang="en">Research project</span><span class="lang" data-lang="ko">국가 연구과제 선정</span></a>
 
       <div class="post-info">
   
@@ -1030,10 +1036,11 @@
 
       
       
-      <p data-search="Our group has been selected for the research project by the National Research Foundation NRF of Korea. Construction of Data Hub and Development of AI-driven Intelligent Material amp; Process Design Technology for Metal-halide Color Conversion Materials in Next-generation Displays 차세대 디스플레이용 금속-할라이드 색변환 소재 데이터 HUB 구축 및 AI 기반 소재 공정 지능형 설계 기술 개발 Total period: 2026.04 - 2030.12 Total budget: 9,687,500,000 KRW Role: Participating Researcher">
-        
-Our group has been selected for the research project by the National Research Foundation (NRF) of Korea.
-
+      
+      <p data-search="Our group has been selected for the research project by the National Research Foundation NRF of Korea. Construction of Data Hub and Development of AI-driven Intelligent Material amp; Process Design Technology for Metal-halide Color Conversion Materials in Next-generation Displays 차세대 디스플레이용 금속-할라이드 색변환 소재 데이터 HUB 구축 및 AI 기반 소재 공정 지능형 설계 기술 개발 Total period: 2026.04 - 2030.12 Total budget: 9,687,500,000 KRW Role: Participating Researcher 한국연구재단 NRF 의 연구과제에 선정되었습니다. 차세대 디스플레이용 금속-할라이드 색변환 소재 데이터 HUB 구축 및 AI 기반 소재 공정 지능형 설계 기술 개발 연구 기간: 2026.04 - 2030.12 총 연구비: 96억 8,750만 원 역할: 공동연구원">
+        <span class="lang" data-lang="en">
+  Our group has been selected for the research project by the National Research Foundation (NRF) of Korea.
+</span><span class="lang" data-lang="ko">한국연구재단(NRF)의 연구과제에 공동연구기관으로 선정되었습니다.</span>
       </p>
     </div>
   </div>
@@ -1057,7 +1064,7 @@ Our group has been selected for the research project by the National Research Fo
     
 
     <div class="post-excerpt-text">
-      <a href="/2026/04/01/research-grant-kmu.html">Research project</a>
+      <a href="/2026/04/01/research-grant-kmu.html"><span class="lang" data-lang="en">Research project</span><span class="lang" data-lang="ko">교내 연구과제 선정</span></a>
 
       <div class="post-info">
   
@@ -1088,10 +1095,11 @@ Our group has been selected for the research project by the National Research Fo
 
       
       
-      <p data-search="Our group has started a research project funded by the Kookmin University. AI-powered autonomous exploration and computational framework development for high-entropy energy materials 인공지능활용 고엔트로피 에너지소재 자율탐색 계산 프레임워크 구축 Total period: 2026.04 - 2027.12 Total budget: 30,000,000 KRW Role: Principal Investigator">
-        
-Our group has started a research project funded by the Kookmin University.
-
+      
+      <p data-search="Our group has started a research project funded by the Kookmin University. AI-powered autonomous exploration and computational framework development for high-entropy energy materials 인공지능활용 고엔트로피 에너지소재 자율탐색 계산 프레임워크 구축 Total period: 2026.04 - 2027.12 Total budget: 30,000,000 KRW Role: Principal Investigator 국민대학교 교내 연구과제에 선정되어 연구를 시작했습니다. 인공지능활용 고엔트로피 에너지소재 자율탐색 계산 프레임워크 구축 연구 기간: 2026.04 - 2027.12 연구비: 3,000만 원 역할: 연구책임자">
+        <span class="lang" data-lang="en">
+  Our group has started a research project funded by the Kookmin University.
+</span><span class="lang" data-lang="ko">국민대학교 교내 연구과제에 선정되어 연구를 시작했습니다.</span>
       </p>
     </div>
   </div>
@@ -1107,7 +1115,7 @@ Our group has started a research project funded by the Kookmin University.
 
   <div>
     <h2 class="home-news-column-title">
-      <i class="icon fa-solid fa-users"></i>Lab life &amp; activities
+      <i class="icon fa-solid fa-users"></i><span class="lang" data-lang="en">Lab life &amp; activities</span><span class="lang" data-lang="ko">연구실 활동</span>
     </h2>
     
     
@@ -1131,7 +1139,7 @@ Our group has started a research project funded by the Kookmin University.
     
 
     <div class="post-excerpt-text">
-      <a href="/2026/05/29/welcome-dong-hyeon-yena.html">Welcome Dong Hyeon and Yena!</a>
+      <a href="/2026/05/29/welcome-dong-hyeon-yena.html"><span class="lang" data-lang="en">Welcome Dong Hyeon and Yena!</span><span class="lang" data-lang="ko">김동현·이예나 학생이 합류했습니다</span></a>
 
       <div class="post-info">
   
@@ -1162,10 +1170,11 @@ Our group has started a research project funded by the Kookmin University.
 
       
       
-      <p data-search="Dong Hyeon and Yena from Kookmin University joined our group as an undergraduate intern">
-        
-Dong Hyeon and Yena from Kookmin University joined our group as an undergraduate intern!
-
+      
+      <p data-search="Dong Hyeon and Yena from Kookmin University joined our group as an undergraduate intern 국민대학교 김동현, 이예나 학생이 학부연구생으로 합류했습니다">
+        <span class="lang" data-lang="en">
+  Dong Hyeon and Yena from Kookmin University joined our group as an undergraduate intern!
+</span><span class="lang" data-lang="ko">국민대학교 김동현, 이예나 학생이 학부연구생으로 합류했습니다.</span>
       </p>
     </div>
   </div>
@@ -1189,7 +1198,7 @@ Dong Hyeon and Yena from Kookmin University joined our group as an undergraduate
     
 
     <div class="post-excerpt-text">
-      <a href="/2026/05/01/welcome-jaeyoung.html">Welcome Jaeyoung!</a>
+      <a href="/2026/05/01/welcome-jaeyoung.html"><span class="lang" data-lang="en">Welcome Jaeyoung!</span><span class="lang" data-lang="ko">차재영 학생이 합류했습니다</span></a>
 
       <div class="post-info">
   
@@ -1220,10 +1229,11 @@ Dong Hyeon and Yena from Kookmin University joined our group as an undergraduate
 
       
       
-      <p data-search="Jaeyoung from Yonsei University Prof. Aloysius Soon group joined our group as a co-advised graduate student">
-        
-Jaeyoung from Yonsei University (Prof. Aloysius Soon group) joined our group as a co-advised graduate student!
-
+      
+      <p data-search="Jaeyoung from Yonsei University Prof. Aloysius Soon group joined our group as a co-advised graduate student 연세대학교 Aloysius Soon 교수님 연구실의 차재영 학생이 공동지도 대학원생으로 합류했습니다">
+        <span class="lang" data-lang="en">
+  Jaeyoung from Yonsei University (Prof. Aloysius Soon group) joined our group as a co-advised graduate student!
+</span><span class="lang" data-lang="ko">연세대학교 Aloysius Soon 교수님 연구실의 차재영 학생이 공동지도 대학원생으로 합류했습니다.</span>
       </p>
     </div>
   </div>
@@ -1247,7 +1257,7 @@ Jaeyoung from Yonsei University (Prof. Aloysius Soon group) joined our group as 
     
 
     <div class="post-excerpt-text">
-      <a href="/2026/04/01/welcome-jun-hyeok.html">Welcome Jun Hyeok!</a>
+      <a href="/2026/04/01/welcome-jun-hyeok.html"><span class="lang" data-lang="en">Welcome Jun Hyeok!</span><span class="lang" data-lang="ko">태준혁 학생이 합류했습니다</span></a>
 
       <div class="post-info">
   
@@ -1278,10 +1288,11 @@ Jaeyoung from Yonsei University (Prof. Aloysius Soon group) joined our group as 
 
       
       
-      <p data-search="Jun Hyeok from Kookmin University joined our group as an undergraduate intern">
-        
-Jun Hyeok from Kookmin University joined our group as an undergraduate intern!
-
+      
+      <p data-search="Jun Hyeok from Kookmin University joined our group as an undergraduate intern 국민대학교 태준혁 학생이 학부연구생으로 합류했습니다">
+        <span class="lang" data-lang="en">
+  Jun Hyeok from Kookmin University joined our group as an undergraduate intern!
+</span><span class="lang" data-lang="ko">국민대학교 태준혁 학생이 학부연구생으로 합류했습니다.</span>
       </p>
     </div>
   </div>
@@ -1305,7 +1316,7 @@ Jun Hyeok from Kookmin University joined our group as an undergraduate intern!
     <a class="button" href="/news" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>More news &amp; posts</span>
+        <span><span class="lang" data-lang="en">More news &amp; posts</span><span class="lang" data-lang="ko">소식 더 보기</span></span>
       
     </a>
   </div>
@@ -1321,7 +1332,8 @@ Jun Hyeok from Kookmin University joined our group as an undergraduate intern!
   <section class="background" data-size="page">
     <div class="home-recruitment-banner">
   <h2>
-<i class="icon fa-solid fa-user-plus"></i>Join Our Team!</h2>
+<i class="icon fa-solid fa-user-plus"></i><span class="lang" data-lang="en">Join our team!</span><span class="lang" data-lang="ko">함께할 사람을 찾습니다</span>
+</h2>
   <p class="lang" data-lang="en">
     We welcome applications from motivated people with diverse backgrounds in Chemistry, Physics, Materials Science, Chemical Engineering, Computer Science, and energy engineering who are interested in computational materials chemistry.
   </p>
@@ -1337,7 +1349,7 @@ Jun Hyeok from Kookmin University joined our group as an undergraduate intern!
     <a class="button" href="/recruitment" data-style="bare" aria-label="fa-solid fa-circle-info">
       <i class="icon fa-solid fa-circle-info"></i>
       
-        <span>Recruitment details</span>
+        <span><span class="lang" data-lang="en">Recruitment details</span><span class="lang" data-lang="ko">모집 안내 보기</span></span>
       
     </a>
   </div>
@@ -1396,7 +1408,7 @@ Jun Hyeok from Kookmin University joined our group as an undergraduate intern!
   <div>
     © 2026
     Chun research group
-      |   Built with
+      |   <span class="lang" data-lang="en">Built with</span><span class="lang" data-lang="ko">제작 기반</span>
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>

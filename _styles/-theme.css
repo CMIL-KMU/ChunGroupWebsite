@@ -27,20 +27,26 @@
 }
 
 :root {
-  --title: "Imperial Sans", Arial, sans-serif;
-  --heading: "Imperial Sans", Arial, sans-serif;
-  --body: "Imperial Sans", Arial, sans-serif;
-  --code: "Roboto Mono", monospace;
-  --medium: 1rem;
-  --large: 1.2rem;
-  --xl: 1.6rem;
-  --xxl: 1.8rem;
+  --sans:
+    "IBM Plex Sans KR", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Malgun Gothic", "Segoe UI", Roboto, sans-serif;
+  --title: var(--sans);
+  --heading: var(--sans);
+  --body: var(--sans);
+  --code: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --small: clamp(0.8rem, 0.77rem + 0.13vw, 0.875rem);
+  --medium: clamp(0.95rem, 0.91rem + 0.17vw, 1.0625rem);
+  --large: clamp(1.05rem, 0.98rem + 0.32vw, 1.25rem);
+  --xl: clamp(1.3rem, 1.16rem + 0.62vw, 1.7rem);
+  --xxl: clamp(1.5rem, 1.33rem + 0.77vw, 2rem);
   --thin: 200;
   --regular: 400;
   --semi-bold: 500;
   --bold: 600;
-  --spacing: 1.5;
-  --compact: 1.2;
+  --spacing: 1.75;
+  --compact: 1.35;
+  --track-tight: -0.012em;
+  --track-caps: 0.08em;
   --rounded: 3px;
   --shadow: 0 0 10px 0 var(--overlay);
   --transition: 0.2s ease;

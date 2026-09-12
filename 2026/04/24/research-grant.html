@@ -86,10 +86,17 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://chunlab.kookmin.ac.kr/feed.xml">
   <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Imperial+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<!--
+  Declared explicitly rather than derived from the theme file. The
+  google_fonts filter only replaces the first space in a family name and
+  always asks for italic axes, so a family like "IBM Plex Sans KR" - which
+  has no italics - came back as an error and nothing loaded.
+  IBM Plex Sans KR draws Latin and Hangul as one design, so English and
+  Korean match instead of Korean falling through to each OS's default.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -381,32 +388,27 @@
         
         
         
-        <a href="/research/" data-tooltip="Research areas">
-            Research
+        <a href="/research/" data-tooltip="Research areas"><span class="lang" data-lang="en">Research</span><span class="lang" data-lang="ko">연구</span>
         </a>
         
         
         
-        <a href="/team/" data-tooltip="About our team">
-            Team
+        <a href="/team/" data-tooltip="About our team"><span class="lang" data-lang="en">Team</span><span class="lang" data-lang="ko">구성원</span>
         </a>
         
         
         
-        <a href="/publications/" data-tooltip="Published works">
-            Publications
+        <a href="/publications/" data-tooltip="Published works"><span class="lang" data-lang="en">Publications</span><span class="lang" data-lang="ko">논문</span>
         </a>
         
         
         
-        <a href="/news/" data-tooltip="Latest news from the lab">
-            News
+        <a href="/news/" data-tooltip="Latest news from the lab"><span class="lang" data-lang="en">News</span><span class="lang" data-lang="ko">소식</span>
         </a>
         
         
         
-        <a href="/recruitment/" data-tooltip="Join our team">
-            Join us!
+        <a href="/recruitment/" data-tooltip="Join our team"><span class="lang" data-lang="en">Join us!</span><span class="lang" data-lang="ko">함께하기</span>
         </a>
         
         
@@ -444,7 +446,9 @@
 -->
 
 
-<h1 class="center">Research project</h1>
+<h1 class="center">
+<span class="lang" data-lang="en">Research project</span><span class="lang" data-lang="ko">국가 연구과제 선정</span>
+</h1>
 
 <div class="post-info">
   
@@ -482,20 +486,37 @@
 -->
 
 
-<!-- excerpt start -->
-<p>Our group has been selected for the research project by the National Research Foundation (NRF) of Korea.
+<div class="lang" data-lang="en">
+  <!-- excerpt start -->
+  <p>Our group has been selected for the research project by the National Research Foundation (NRF) of Korea.
 <!-- excerpt end --></p>
 
-<p>“Construction of Data Hub and Development of AI-driven Intelligent Material &amp; Process Design Technology for Metal-halide Color Conversion Materials in Next-generation Displays (차세대 디스플레이용 금속-할라이드 색변환 소재 데이터 HUB 구축 및 AI 기반 소재·공정 지능형 설계 기술 개발)”</p>
+  <p>“Construction of Data Hub and Development of AI-driven Intelligent Material &amp; Process Design Technology for Metal-halide Color Conversion Materials in Next-generation Displays (차세대 디스플레이용 금속-할라이드 색변환 소재 데이터 HUB 구축 및 AI 기반 소재·공정 지능형 설계 기술 개발)”</p>
 
-<ul>
-  <li>
+  <ul>
+    <li>
 <strong>Total period:</strong> 2026.04 - 2030.12</li>
-  <li>
+    <li>
 <strong>Total budget:</strong> 9,687,500,000 KRW</li>
-  <li>
+    <li>
 <strong>Role:</strong> Participating Researcher</li>
-</ul>
+  </ul>
+</div>
+
+<div class="lang" data-lang="ko">
+  <p>한국연구재단(NRF)의 연구과제에 선정되었습니다.</p>
+
+  <p>“차세대 디스플레이용 금속-할라이드 색변환 소재 데이터 HUB 구축 및 AI 기반 소재·공정 지능형 설계 기술 개발”</p>
+
+  <ul>
+    <li>
+<strong>연구 기간:</strong> 2026.04 - 2030.12</li>
+    <li>
+<strong>총 연구비:</strong> 96억 8,750만 원</li>
+    <li>
+<strong>역할:</strong> 공동연구원</li>
+  </ul>
+</div>
   </section>
 
   
@@ -513,7 +534,7 @@
 <div class="post-nav">
   <span>
     
-      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
+      <i class="icon fa-solid fa-angle-left"></i> <span class="lang" data-lang="en">Previous post</span><span class="lang" data-lang="ko">이전 글</span><br>
       <a href="/2026/04/01/welcome-jun-hyeok.html">
         Welcome Jun Hyeok!
       </a>
@@ -521,7 +542,7 @@
   </span>
   <span>
     
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
+      <span class="lang" data-lang="en">Next post</span><span class="lang" data-lang="ko">다음 글</span> <i class="icon fa-solid fa-angle-right"></i><br>
       <a href="/2026/05/01/welcome-jaeyoung.html">
         Welcome Jaeyoung!
       </a>
@@ -579,7 +600,7 @@
   <div>
     © 2026
     Chun research group
-      |   Built with
+      |   <span class="lang" data-lang="en">Built with</span><span class="lang" data-lang="ko">제작 기반</span>
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>

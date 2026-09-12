@@ -134,10 +134,16 @@
       // show all info boxes
       boxes.forEach((info) => (info.style.display = ""));
 
-      // info template
+      // info template - localized here rather than with the paired-element
+      // markup the rest of the site uses, because this line is drawn by script
+      const ko = (window.siteLang ? window.siteLang() : "en") === "ko";
       let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-      info += "<a href='./'>Clear search</a>";
+      info += ko
+        ? `검색 결과 ${n.toLocaleString()}건 중 ${x.toLocaleString()}건<br>`
+        : `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
+      info += ko
+        ? "<a href='./'>검색 초기화</a>"
+        : "<a href='./'>Clear search</a>";
 
       // set info HTML string
       boxes.forEach((el) => (el.innerHTML = info));
@@ -212,4 +218,6 @@
   window.addEventListener("load", searchFromUrl);
   // after tags load
   window.addEventListener("tagsfetched", searchFromUrl);
+  // redraw the results line in the newly selected language
+  window.addEventListener("langchange", searchFromUrl);
 }

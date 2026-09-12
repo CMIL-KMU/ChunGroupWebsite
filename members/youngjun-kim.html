@@ -86,10 +86,17 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://chunlab.kookmin.ac.kr/feed.xml">
   <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Imperial+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<!--
+  Declared explicitly rather than derived from the theme file. The
+  google_fonts filter only replaces the first space in a family name and
+  always asks for italic axes, so a family like "IBM Plex Sans KR" - which
+  has no italics - came back as an error and nothing loaded.
+  IBM Plex Sans KR draws Latin and Hangul as one design, so English and
+  Korean match instead of Korean falling through to each OS's default.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -381,32 +388,27 @@
         
         
         
-        <a href="/research/" data-tooltip="Research areas">
-            Research
+        <a href="/research/" data-tooltip="Research areas"><span class="lang" data-lang="en">Research</span><span class="lang" data-lang="ko">연구</span>
         </a>
         
         
         
-        <a href="/team/" data-tooltip="About our team">
-            Team
+        <a href="/team/" data-tooltip="About our team"><span class="lang" data-lang="en">Team</span><span class="lang" data-lang="ko">구성원</span>
         </a>
         
         
         
-        <a href="/publications/" data-tooltip="Published works">
-            Publications
+        <a href="/publications/" data-tooltip="Published works"><span class="lang" data-lang="en">Publications</span><span class="lang" data-lang="ko">논문</span>
         </a>
         
         
         
-        <a href="/news/" data-tooltip="Latest news from the lab">
-            News
+        <a href="/news/" data-tooltip="Latest news from the lab"><span class="lang" data-lang="en">News</span><span class="lang" data-lang="ko">소식</span>
         </a>
         
         
         
-        <a href="/recruitment/" data-tooltip="Join our team">
-            Join us!
+        <a href="/recruitment/" data-tooltip="Join our team"><span class="lang" data-lang="en">Join us!</span><span class="lang" data-lang="ko">함께하기</span>
         </a>
         
         
@@ -454,8 +456,11 @@
     
 
     
+    
+
+    
       <span class="portrait-description">
-        Undergraduate Student
+        <span class="lang" data-lang="en">Undergraduate Student</span><span class="lang" data-lang="ko">학부연구생</span>
       </span>
     
 
@@ -488,7 +493,13 @@
 </div>
 
 
-<p>Youngjun Kim is an undergraduate research student in the School of Applied Chemistry, majoring in Nanomaterials, at Kookmin University. Youngjun joined the research group in July 2026 and works on machine-learning approaches to catalyst design, from automated screening workflows to the evaluation of catalytic properties.</p>
+<div class="lang" data-lang="en">
+  <p>Youngjun Kim is an undergraduate research student in the School of Applied Chemistry, majoring in Nanomaterials, at Kookmin University. Youngjun joined the research group in July 2026 and works on machine-learning approaches to catalyst design, from automated screening workflows to the evaluation of catalytic properties.</p>
+</div>
+
+<div class="lang" data-lang="ko">
+  <p>김영준 학생은 국민대학교 응용화학부 나노소재전공 학부연구생입니다. 2026년 7월에 연구실에 합류하여, 자동화된 스크리닝 워크플로우부터 촉매 특성 평가에 이르는 머신러닝 기반 촉매 설계 연구를 수행하고 있습니다.</p>
+</div>
   </section>
 
   
@@ -502,12 +513,17 @@
   <size></size>
 -->
 
-<h2 id="education-and-experience">Education and Experience</h2>
+<h2 id="education-and-experience학력-및-경력">
+<span class="lang" data-lang="en">Education and experience</span><span class="lang" data-lang="ko">학력 및 경력</span>
+</h2>
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-period">2026-present</div>
-    <div class="timeline-content">Undergraduate Research Student, Kookmin University, Seoul, Korea</div>
+    <div class="timeline-period">2026-<span class="lang" data-lang="en">present</span><span class="lang" data-lang="ko">현재</span>
+</div>
+    <div class="timeline-content">
+<span class="lang" data-lang="en">Undergraduate Research Student, Kookmin University, Seoul, Korea</span><span class="lang" data-lang="ko">학부연구생, 국민대학교, 서울</span>
+</div>
   </div>
   <!-- 학부 입학 연도를 아시면 아래 줄의 주석을 풀고 연도만 채우세요
   <div class="timeline-item">
@@ -529,13 +545,29 @@
   <size></size>
 -->
 
-<h2 id="research-interests">Research Interests</h2>
+<h2 id="research-interests연구-관심-분야">
+<span class="lang" data-lang="en">Research interests</span><span class="lang" data-lang="ko">연구 관심 분야</span>
+</h2>
 
-<ul>
-  <li>Machine learning-driven design of catalytic materials</li>
-  <li>Automated simulation and catalyst screening</li>
-  <li>Energetics and catalytic property evaluation</li>
-</ul>
+<div class="lang" data-lang="en">
+  <ul>
+    <li>Machine learning-driven design of catalytic materials</li>
+    <li>Automated simulation and catalyst screening</li>
+    <li>Energetics and catalytic property evaluation</li>
+  </ul>
+</div>
+
+<div class="lang" data-lang="ko">
+  <ul>
+    <li>머신러닝 기반 촉매 소재 설계</li>
+    <li>시뮬레이션 자동화와 촉매 스크리닝</li>
+    <li>에너지 계산 기반 촉매 특성 평가</li>
+  </ul>
+</div>
+
+
+
+
 
 
 
@@ -544,7 +576,7 @@
 
 <p class="center">
   <a href="/publications/?search=%22Y.%20Kim%22%20%22Youngjun%20Kim%22%20%22youngjun%22%20%22youngjun%20kim%22%20%22youngjunkim%22%20">
-    Search for Youngjun Kim's papers on the Publications page
+    <span class="lang" data-lang="en">Search for Youngjun Kim's papers on the Publications page</span><span class="lang" data-lang="ko">Youngjun Kim님의 논문을 논문 페이지에서 찾아보기</span>
   </a>
 </p>
 
@@ -608,7 +640,7 @@
   <div>
     © 2026
     Chun research group
-      |   Built with
+      |   <span class="lang" data-lang="en">Built with</span><span class="lang" data-lang="ko">제작 기반</span>
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>

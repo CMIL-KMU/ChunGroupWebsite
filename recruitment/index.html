@@ -86,10 +86,17 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://chunlab.kookmin.ac.kr/feed.xml">
   <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Imperial+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<!--
+  Declared explicitly rather than derived from the theme file. The
+  google_fonts filter only replaces the first space in a family name and
+  always asks for italic axes, so a family like "IBM Plex Sans KR" - which
+  has no italics - came back as an error and nothing loaded.
+  IBM Plex Sans KR draws Latin and Hangul as one design, so English and
+  Korean match instead of Korean falling through to each OS's default.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -439,32 +446,27 @@
         
         
         
-        <a href="/research/" data-tooltip="Research areas">
-            Research
+        <a href="/research/" data-tooltip="Research areas"><span class="lang" data-lang="en">Research</span><span class="lang" data-lang="ko">연구</span>
         </a>
         
         
         
-        <a href="/team/" data-tooltip="About our team">
-            Team
+        <a href="/team/" data-tooltip="About our team"><span class="lang" data-lang="en">Team</span><span class="lang" data-lang="ko">구성원</span>
         </a>
         
         
         
-        <a href="/publications/" data-tooltip="Published works">
-            Publications
+        <a href="/publications/" data-tooltip="Published works"><span class="lang" data-lang="en">Publications</span><span class="lang" data-lang="ko">논문</span>
         </a>
         
         
         
-        <a href="/news/" data-tooltip="Latest news from the lab">
-            News
+        <a href="/news/" data-tooltip="Latest news from the lab"><span class="lang" data-lang="en">News</span><span class="lang" data-lang="ko">소식</span>
         </a>
         
         
         
-        <a href="/recruitment/" data-tooltip="Join our team">
-            Join us!
+        <a href="/recruitment/" data-tooltip="Join our team"><span class="lang" data-lang="en">Join us!</span><span class="lang" data-lang="ko">함께하기</span>
         </a>
         
         
@@ -495,8 +497,9 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="join-our-team">
-<i class="icon fa-solid fa-user-plus"></i>Join our team</h1>
+    <h1 id="join-our-team함께할-사람을-찾습니다">
+<i class="icon fa-solid fa-user-plus"></i><span class="lang" data-lang="en">Join our team</span><span class="lang" data-lang="ko">함께할 사람을 찾습니다</span>
+</h1>
 <div class="lang" data-lang="en">
   <p>We welcome applications from students with diverse backgrounds, including Chemistry, Physics, Materials Science, Chemical Engineering, Computer Science, Environmental Engineering, and Convergence Energy Engineering, who are interested in research on computational materials chemistry.</p>
 </div>
@@ -518,7 +521,7 @@
     <a class="button" href="https://www.google.com/maps/place/%EA%B5%AD%EB%AF%BC%EB%8C%80%ED%95%99%EA%B5%90+%EA%B3%BC%ED%95%99%EA%B4%80/@37.6117283,126.9966691,17z/data=!3m1!4b1!4m6!3m5!1s0x357cbce257d22087:0x10dccd69ac366ddc!8m2!3d37.6117241!4d126.999244!16s%2Fg%2F11kj8_z9vz?entry=ttu&g_ep=EgoyMDI2MDIwMS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" data-tooltip="Our location on Google Maps for easy navigation" data-style="" aria-label="Our location on Google Maps for easy navigation">
       <i class="icon fa-solid fa-map-location-dot"></i>
       
-        <span>Room 413, Science Building, Kookmin University</span>
+        <span><span class="lang" data-lang="en">Room 413, Science Building, Kookmin University</span><span class="lang" data-lang="ko">국민대학교 과학관 413호</span></span>
       
     </a>
   </div>
@@ -573,7 +576,7 @@
   <div>
     © 2026
     Chun research group
-      |   Built with
+      |   <span class="lang" data-lang="en">Built with</span><span class="lang" data-lang="ko">제작 기반</span>
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
