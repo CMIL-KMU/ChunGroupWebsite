@@ -41,10 +41,10 @@ home:
     ko: 연구 살펴보기
   join_title:
     en: Join our team!
-    ko: 함께할 사람을 찾습니다
+    ko: 지원하기
   join_details:
     en: Recruitment details
-    ko: 모집 안내 보기
+    ko: 지원 안내 보기
   no_honors:
     en: No achievements posted yet.
     ko: 아직 등록된 수상 소식이 없습니다.
@@ -128,7 +128,7 @@ news:
 recruitment:
   heading:
     en: Join our team
-    ko: 함께할 사람을 찾습니다
+    ko: 지원하기
   address:
     en: Room 413, Science Building, Kookmin University
     ko: 국민대학교 과학관 413호
