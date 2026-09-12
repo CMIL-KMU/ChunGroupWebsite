@@ -65,6 +65,8 @@ header a {
 
 .title {
   font-size: var(--large);
+  font-weight: var(--bold);
+  letter-spacing: var(--track-tight);
 }
 
 .subtitle {
@@ -106,11 +108,22 @@ nav {
   flex-wrap: wrap;
   gap: 10px;
   font-family: var(--heading);
-  text-transform: uppercase;
+  // the nav sits on a dark photo, where regular weight reads as thin; 500 is
+  // what the reference site uses and it holds up against the background
+  font-weight: var(--semi-bold);
+  font-size: var(--large);
+  // no uppercasing: Hangul has no case, so an uppercased nav looked like two
+  // different menus depending on which language was selected
+  letter-spacing: 0;
 }
 
 nav > a {
   padding: 5px;
+}
+
+// Korean nav labels are short; keep them from being squeezed by the flex row
+nav > a > .lang {
+  white-space: nowrap;
 }
 
 nav > a:hover {

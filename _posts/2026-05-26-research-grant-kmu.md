@@ -1,6 +1,6 @@
 ---
-title: "Research project"
-title_ko: "교내 연구과제 선정"
+title: "Research project: high-entropy energy materials"
+title_ko: "연구과제 선정: 고엔트로피 에너지소재"
 date: 2026-04-01
 show_day: false
 image: images/logos/kmu_signature.jpg
@@ -10,13 +10,13 @@ tags:
 ---
 <div class="lang" data-lang="en" markdown="1">
 <!-- excerpt start -->
-Our group has started a research project funded by the Kookmin University.
+Our group has started a research project funded by Kookmin University.
 <!-- excerpt end -->
 
 "AI-powered autonomous exploration and computational framework development for high-entropy energy materials (인공지능활용 고엔트로피 에너지소재 자율탐색 계산 프레임워크 구축)"
 
-- **Total period:** 2026.04 - 2027.12
-- **Total budget:** 30,000,000 KRW
+- **Funder:** Kookmin University
+- **Period:** 2026.04 - 2027.12
 - **Role:** Principal Investigator
 </div>
 
@@ -25,7 +25,7 @@ Our group has started a research project funded by the Kookmin University.
 
 "인공지능활용 고엔트로피 에너지소재 자율탐색 계산 프레임워크 구축"
 
+- **지원 기관:** 국민대학교
 - **연구 기간:** 2026.04 - 2027.12
-- **연구비:** 3,000만 원
 - **역할:** 연구책임자
 </div>

@@ -1,6 +1,6 @@
 ---
-title: "Research project"
-title_ko: "국가 연구과제 선정"
+title: "Research project: metal-halide colour conversion materials"
+title_ko: "연구과제 선정: 금속-할라이드 색변환 소재"
 date: 2026-04-24
 show_day: false
 redirect_from:
@@ -18,8 +18,8 @@ Our group has been selected for the research project by the National Research Fo
 
 "Construction of Data Hub and Development of AI-driven Intelligent Material & Process Design Technology for Metal-halide Color Conversion Materials in Next-generation Displays (차세대 디스플레이용 금속-할라이드 색변환 소재 데이터 HUB 구축 및 AI 기반 소재·공정 지능형 설계 기술 개발)"
 
-- **Total period:** 2026.04 - 2030.12
-- **Total budget:** 9,687,500,000 KRW
+- **Funder:** National Research Foundation of Korea (NRF)
+- **Period:** 2026.04 - 2030.12
 - **Role:** Participating Researcher
 </div>
 
@@ -28,7 +28,7 @@ Our group has been selected for the research project by the National Research Fo
 
 "차세대 디스플레이용 금속-할라이드 색변환 소재 데이터 HUB 구축 및 AI 기반 소재·공정 지능형 설계 기술 개발"
 
+- **지원 기관:** 한국연구재단(NRF)
 - **연구 기간:** 2026.04 - 2030.12
-- **총 연구비:** 96억 8,750만 원
 - **역할:** 공동연구원
 </div>

@@ -31,14 +31,21 @@
 
 :root {
   // font families
-  // one superfamily for Latin and Hangul, so the two never disagree
+  // one superfamily for Latin and Hangul, so the two never disagree.
+  // `Pretendard` is listed after the variable build in case only the static
+  // one is cached; everything after that is the OS fallback chain.
   --sans:
-    "IBM Plex Sans KR", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
-    "Malgun Gothic", "Segoe UI", Roboto, sans-serif;
+    "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+    system-ui, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+    "Segoe UI", Roboto, sans-serif;
   --title: var(--sans);
   --heading: var(--sans);
   --body: var(--sans);
-  --code: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  // no web font for code: it appears rarely enough here that a second
+  // download is not worth it, and every OS ships a good mono
+  --code:
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
 
   // font sizes: fluid between a 360px phone and a 1400px desktop
   --small: clamp(0.8rem, 0.77rem + 0.13vw, 0.875rem);
