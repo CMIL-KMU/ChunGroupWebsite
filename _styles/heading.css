@@ -17,22 +17,20 @@ h6 {
 h1 {
   margin: 40px 0;
   font-size: var(--xxl);
-  font-weight: var(--regular);
-  text-transform: uppercase;
+  font-weight: var(--bold);
   text-align: center;
-  letter-spacing: var(--track-caps);
 }
 
 h2 {
   font-size: var(--xl);
   padding-bottom: 5px;
   border-bottom: solid 1px var(--light-gray);
-  font-weight: var(--regular);
+  font-weight: var(--bold);
 }
 
 h3 {
   font-size: var(--large);
-  font-weight: var(--semi-bold);
+  font-weight: var(--bold);
 }
 
 h4 {

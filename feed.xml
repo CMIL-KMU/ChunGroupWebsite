@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://chunlab.kookmin.ac.kr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chunlab.kookmin.ac.kr/" rel="alternate" type="text/html" /><updated>2026-09-12T07:49:41+00:00</updated><id>https://chunlab.kookmin.ac.kr/feed.xml</id><title type="html">Chun research group</title><subtitle>Materials intelligence for novel discovery</subtitle><entry><title type="html">Welcome Aran!</title><link href="https://chunlab.kookmin.ac.kr/2026/09/01/welcome-aran.html" rel="alternate" type="text/html" title="Welcome Aran!" /><published>2026-09-01T00:00:00+00:00</published><updated>2026-09-12T07:40:39+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/09/01/welcome-aran</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/09/01/welcome-aran.html"><![CDATA[<div class="lang" data-lang="en">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://chunlab.kookmin.ac.kr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chunlab.kookmin.ac.kr/" rel="alternate" type="text/html" /><updated>2026-09-12T08:03:40+00:00</updated><id>https://chunlab.kookmin.ac.kr/feed.xml</id><title type="html">Chun research group</title><subtitle>Materials intelligence for novel discovery</subtitle><entry><title type="html">Welcome Aran!</title><link href="https://chunlab.kookmin.ac.kr/2026/09/01/welcome-aran.html" rel="alternate" type="text/html" title="Welcome Aran!" /><published>2026-09-01T00:00:00+00:00</published><updated>2026-09-12T07:57:42+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/09/01/welcome-aran</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/09/01/welcome-aran.html"><![CDATA[<div class="lang" data-lang="en">
   <!-- excerpt start -->
   <p>Aran from Kookmin University joined our group as an undergraduate research student!
 <!-- excerpt end --></p>
@@ -6,7 +6,7 @@
 
 <div class="lang" data-lang="ko">
   <p>국민대학교 송아란 학생이 학부연구생으로 합류했습니다!</p>
-</div>]]></content><author><name></name></author><category term="lab-life" /><summary type="html"><![CDATA[Aran from Kookmin University joined our group as an undergraduate research student!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New research project</title><link href="https://chunlab.kookmin.ac.kr/2026/07/01/research-grant-nano-hub.html" rel="alternate" type="text/html" title="New research project" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-09-12T07:40:39+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/07/01/research-grant-nano-hub</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/07/01/research-grant-nano-hub.html"><![CDATA[<div class="lang" data-lang="en">
+</div>]]></content><author><name></name></author><category term="lab-life" /><summary type="html"><![CDATA[Aran from Kookmin University joined our group as an undergraduate research student!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Research project: nitrogenous gas removal and valorization</title><link href="https://chunlab.kookmin.ac.kr/2026/07/01/research-grant-nano-hub.html" rel="alternate" type="text/html" title="Research project: nitrogenous gas removal and valorization" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-09-12T07:57:42+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/07/01/research-grant-nano-hub</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/07/01/research-grant-nano-hub.html"><![CDATA[<div class="lang" data-lang="en">
   <!-- excerpt start -->
   <p>Our group has joined a new research project funded by the Ministry of Science and ICT, as a co-principal investigator.
 <!-- excerpt end --></p>
@@ -14,10 +14,9 @@
   <p>“Establishment of an AI-Integrated Lifecycle Data Hub for High-Performance Composite Catalysts and Electrode Materials for Nitrogenous Hazardous Gas Removal and Valorization (질소계 유해가스 제거 및 고부가화를 위한 AI-전주기 데이터 연계형 고성능 복합 촉매 및 전극소재 HUB 구축)”</p>
 
   <ul>
-    <li><strong>Program:</strong> Nano Materials Technology Development Program, Ministry of Science and ICT (National Research Foundation of Korea)</li>
+    <li><strong>Funder:</strong> Nano Materials Technology Development Program, Ministry of Science and ICT (National Research Foundation of Korea)</li>
     <li><strong>Host institution:</strong> Korea Institute of Science and Technology (KIST)</li>
-    <li><strong>Total period:</strong> 2026.07 - 2030.12</li>
-    <li><strong>Total budget:</strong> 9,375,000,000 KRW</li>
+    <li><strong>Period:</strong> 2026.07 - 2030.12</li>
     <li><strong>Role:</strong> Co-Principal Investigator</li>
   </ul>
 </div>
@@ -28,13 +27,12 @@
   <p>“질소계 유해가스 제거 및 고부가화를 위한 AI-전주기 데이터 연계형 고성능 복합 촉매 및 전극소재 HUB 구축”</p>
 
   <ul>
-    <li><strong>사업명:</strong> 과학기술정보통신부 나노소재기술개발사업 (국가전략기술미래소재기술개발)</li>
+    <li><strong>지원 기관:</strong> 과학기술정보통신부 나노소재기술개발사업 (국가전략기술미래소재기술개발)</li>
     <li><strong>주관연구개발기관:</strong> 한국과학기술연구원(KIST)</li>
     <li><strong>연구 기간:</strong> 2026.07 - 2030.12</li>
-    <li><strong>총 연구비:</strong> 93억 7,500만 원</li>
     <li><strong>역할:</strong> 공동연구개발자</li>
   </ul>
-</div>]]></content><author><name></name></author><category term="achievements" /><summary type="html"><![CDATA[Our group has joined a new research project funded by the Ministry of Science and ICT, as a co-principal investigator.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/posts/nrf.svg" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/posts/nrf.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome Chaeho, Whese and Youngjun!</title><link href="https://chunlab.kookmin.ac.kr/2026/07/01/welcome-chaeho-whese-youngjun.html" rel="alternate" type="text/html" title="Welcome Chaeho, Whese and Youngjun!" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-09-12T07:40:39+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/07/01/welcome-chaeho-whese-youngjun</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/07/01/welcome-chaeho-whese-youngjun.html"><![CDATA[<div class="lang" data-lang="en">
+</div>]]></content><author><name></name></author><category term="achievements" /><summary type="html"><![CDATA[Our group has joined a new research project funded by the Ministry of Science and ICT, as a co-principal investigator.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/posts/nrf.svg" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/posts/nrf.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome Chaeho, Whese and Youngjun!</title><link href="https://chunlab.kookmin.ac.kr/2026/07/01/welcome-chaeho-whese-youngjun.html" rel="alternate" type="text/html" title="Welcome Chaeho, Whese and Youngjun!" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-09-12T07:57:42+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/07/01/welcome-chaeho-whese-youngjun</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/07/01/welcome-chaeho-whese-youngjun.html"><![CDATA[<div class="lang" data-lang="en">
   <!-- excerpt start -->
   <p>Chaeho, Whese and Youngjun from Kookmin University joined our group as undergraduate research students!
 <!-- excerpt end --></p>
@@ -42,7 +40,7 @@
 
 <div class="lang" data-lang="ko">
   <p>국민대학교 전채호, 차휘세, 김영준 학생이 학부연구생으로 합류했습니다!</p>
-</div>]]></content><author><name></name></author><category term="lab-life" /><summary type="html"><![CDATA[Chaeho, Whese and Youngjun from Kookmin University joined our group as undergraduate research students!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome Dong Hyeon and Yena!</title><link href="https://chunlab.kookmin.ac.kr/2026/05/29/welcome-dong-hyeon-yena.html" rel="alternate" type="text/html" title="Welcome Dong Hyeon and Yena!" /><published>2026-05-29T00:00:00+00:00</published><updated>2026-09-12T07:40:39+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/05/29/welcome-dong-hyeon-yena</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/05/29/welcome-dong-hyeon-yena.html"><![CDATA[<div class="lang" data-lang="en">
+</div>]]></content><author><name></name></author><category term="lab-life" /><summary type="html"><![CDATA[Chaeho, Whese and Youngjun from Kookmin University joined our group as undergraduate research students!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome Dong Hyeon and Yena!</title><link href="https://chunlab.kookmin.ac.kr/2026/05/29/welcome-dong-hyeon-yena.html" rel="alternate" type="text/html" title="Welcome Dong Hyeon and Yena!" /><published>2026-05-29T00:00:00+00:00</published><updated>2026-09-12T07:57:42+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/05/29/welcome-dong-hyeon-yena</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/05/29/welcome-dong-hyeon-yena.html"><![CDATA[<div class="lang" data-lang="en">
   <!-- excerpt start -->
   <p>Dong Hyeon and Yena from Kookmin University joined our group as an undergraduate intern!
 <!-- excerpt end --></p>
@@ -50,7 +48,7 @@
 
 <div class="lang" data-lang="ko">
   <p>국민대학교 김동현, 이예나 학생이 학부연구생으로 합류했습니다!</p>
-</div>]]></content><author><name></name></author><category term="lab-life" /><summary type="html"><![CDATA[Dong Hyeon and Yena from Kookmin University joined our group as an undergraduate intern!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome Jaeyoung!</title><link href="https://chunlab.kookmin.ac.kr/2026/05/01/welcome-jaeyoung.html" rel="alternate" type="text/html" title="Welcome Jaeyoung!" /><published>2026-05-01T00:00:00+00:00</published><updated>2026-09-12T07:40:39+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/05/01/welcome-jaeyoung</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/05/01/welcome-jaeyoung.html"><![CDATA[<div class="lang" data-lang="en">
+</div>]]></content><author><name></name></author><category term="lab-life" /><summary type="html"><![CDATA[Dong Hyeon and Yena from Kookmin University joined our group as an undergraduate intern!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome Jaeyoung!</title><link href="https://chunlab.kookmin.ac.kr/2026/05/01/welcome-jaeyoung.html" rel="alternate" type="text/html" title="Welcome Jaeyoung!" /><published>2026-05-01T00:00:00+00:00</published><updated>2026-09-12T07:57:42+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/05/01/welcome-jaeyoung</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/05/01/welcome-jaeyoung.html"><![CDATA[<div class="lang" data-lang="en">
   <!-- excerpt start -->
   <p>Jaeyoung from Yonsei University (Prof. Aloysius Soon group) joined our group as a co-advised graduate student!
 <!-- excerpt end --></p>
@@ -58,7 +56,7 @@
 
 <div class="lang" data-lang="ko">
   <p>연세대학교 Aloysius Soon 교수님 연구실의 차재영 학생이 공동지도 대학원생으로 합류했습니다!</p>
-</div>]]></content><author><name></name></author><category term="lab-life" /><summary type="html"><![CDATA[Jaeyoung from Yonsei University (Prof. Aloysius Soon group) joined our group as a co-advised graduate student!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Research project</title><link href="https://chunlab.kookmin.ac.kr/2026/04/24/research-grant.html" rel="alternate" type="text/html" title="Research project" /><published>2026-04-24T00:00:00+00:00</published><updated>2026-09-12T07:40:39+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/04/24/research-grant</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/04/24/research-grant.html"><![CDATA[<div class="lang" data-lang="en">
+</div>]]></content><author><name></name></author><category term="lab-life" /><summary type="html"><![CDATA[Jaeyoung from Yonsei University (Prof. Aloysius Soon group) joined our group as a co-advised graduate student!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/logos/logo_full.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Research project: metal-halide colour conversion materials</title><link href="https://chunlab.kookmin.ac.kr/2026/04/24/research-grant.html" rel="alternate" type="text/html" title="Research project: metal-halide colour conversion materials" /><published>2026-04-24T00:00:00+00:00</published><updated>2026-09-12T07:57:42+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/04/24/research-grant</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/04/24/research-grant.html"><![CDATA[<div class="lang" data-lang="en">
   <!-- excerpt start -->
   <p>Our group has been selected for the research project by the National Research Foundation (NRF) of Korea.
 <!-- excerpt end --></p>
@@ -66,8 +64,8 @@
   <p>“Construction of Data Hub and Development of AI-driven Intelligent Material &amp; Process Design Technology for Metal-halide Color Conversion Materials in Next-generation Displays (차세대 디스플레이용 금속-할라이드 색변환 소재 데이터 HUB 구축 및 AI 기반 소재·공정 지능형 설계 기술 개발)”</p>
 
   <ul>
-    <li><strong>Total period:</strong> 2026.04 - 2030.12</li>
-    <li><strong>Total budget:</strong> 9,687,500,000 KRW</li>
+    <li><strong>Funder:</strong> National Research Foundation of Korea (NRF)</li>
+    <li><strong>Period:</strong> 2026.04 - 2030.12</li>
     <li><strong>Role:</strong> Participating Researcher</li>
   </ul>
 </div>
@@ -78,20 +76,20 @@
   <p>“차세대 디스플레이용 금속-할라이드 색변환 소재 데이터 HUB 구축 및 AI 기반 소재·공정 지능형 설계 기술 개발”</p>
 
   <ul>
+    <li><strong>지원 기관:</strong> 한국연구재단(NRF)</li>
     <li><strong>연구 기간:</strong> 2026.04 - 2030.12</li>
-    <li><strong>총 연구비:</strong> 96억 8,750만 원</li>
     <li><strong>역할:</strong> 공동연구원</li>
   </ul>
-</div>]]></content><author><name></name></author><category term="achievements" /><summary type="html"><![CDATA[Our group has been selected for the research project by the National Research Foundation (NRF) of Korea.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/posts/nrf.svg" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/posts/nrf.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Research project</title><link href="https://chunlab.kookmin.ac.kr/2026/04/01/research-grant-kmu.html" rel="alternate" type="text/html" title="Research project" /><published>2026-04-01T00:00:00+00:00</published><updated>2026-09-12T07:40:39+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/04/01/research-grant-kmu</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/04/01/research-grant-kmu.html"><![CDATA[<div class="lang" data-lang="en">
+</div>]]></content><author><name></name></author><category term="achievements" /><summary type="html"><![CDATA[Our group has been selected for the research project by the National Research Foundation (NRF) of Korea.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/posts/nrf.svg" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/posts/nrf.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Research project: high-entropy energy materials</title><link href="https://chunlab.kookmin.ac.kr/2026/04/01/research-grant-kmu.html" rel="alternate" type="text/html" title="Research project: high-entropy energy materials" /><published>2026-04-01T00:00:00+00:00</published><updated>2026-09-12T07:57:42+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/04/01/research-grant-kmu</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/04/01/research-grant-kmu.html"><![CDATA[<div class="lang" data-lang="en">
   <!-- excerpt start -->
-  <p>Our group has started a research project funded by the Kookmin University.
+  <p>Our group has started a research project funded by Kookmin University.
 <!-- excerpt end --></p>
 
   <p>“AI-powered autonomous exploration and computational framework development for high-entropy energy materials (인공지능활용 고엔트로피 에너지소재 자율탐색 계산 프레임워크 구축)”</p>
 
   <ul>
-    <li><strong>Total period:</strong> 2026.04 - 2027.12</li>
-    <li><strong>Total budget:</strong> 30,000,000 KRW</li>
+    <li><strong>Funder:</strong> Kookmin University</li>
+    <li><strong>Period:</strong> 2026.04 - 2027.12</li>
     <li><strong>Role:</strong> Principal Investigator</li>
   </ul>
 </div>
@@ -102,11 +100,11 @@
   <p>“인공지능활용 고엔트로피 에너지소재 자율탐색 계산 프레임워크 구축”</p>
 
   <ul>
+    <li><strong>지원 기관:</strong> 국민대학교</li>
     <li><strong>연구 기간:</strong> 2026.04 - 2027.12</li>
-    <li><strong>연구비:</strong> 3,000만 원</li>
     <li><strong>역할:</strong> 연구책임자</li>
   </ul>
-</div>]]></content><author><name></name></author><category term="achievements" /><summary type="html"><![CDATA[Our group has started a research project funded by the Kookmin University.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/logos/kmu_signature.jpg" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/logos/kmu_signature.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome Jun Hyeok!</title><link href="https://chunlab.kookmin.ac.kr/2026/04/01/welcome-jun-hyeok.html" rel="alternate" type="text/html" title="Welcome Jun Hyeok!" /><published>2026-04-01T00:00:00+00:00</published><updated>2026-09-12T07:40:39+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/04/01/welcome-jun-hyeok</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/04/01/welcome-jun-hyeok.html"><![CDATA[<div class="lang" data-lang="en">
+</div>]]></content><author><name></name></author><category term="achievements" /><summary type="html"><![CDATA[Our group has started a research project funded by Kookmin University.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chunlab.kookmin.ac.kr/images/logos/kmu_signature.jpg" /><media:content medium="image" url="https://chunlab.kookmin.ac.kr/images/logos/kmu_signature.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome Jun Hyeok!</title><link href="https://chunlab.kookmin.ac.kr/2026/04/01/welcome-jun-hyeok.html" rel="alternate" type="text/html" title="Welcome Jun Hyeok!" /><published>2026-04-01T00:00:00+00:00</published><updated>2026-09-12T07:57:42+00:00</updated><id>https://chunlab.kookmin.ac.kr/2026/04/01/welcome-jun-hyeok</id><content type="html" xml:base="https://chunlab.kookmin.ac.kr/2026/04/01/welcome-jun-hyeok.html"><![CDATA[<div class="lang" data-lang="en">
   <!-- excerpt start -->
   <p>Jun Hyeok from Kookmin University joined our group as an undergraduate intern!
 <!-- excerpt end --></p>

@@ -85,18 +85,24 @@
 </script>
 
 <link rel="alternate" type="application/rss+xml" href="https://chunlab.kookmin.ac.kr/feed.xml">
-  <!-- Google Fonts -->
+  <!-- Web font -->
 <!--
-  Declared explicitly rather than derived from the theme file. The
-  google_fonts filter only replaces the first space in a family name and
-  always asks for italic axes, so a family like "IBM Plex Sans KR" - which
-  has no italics - came back as an error and nothing loaded.
-  IBM Plex Sans KR draws Latin and Hangul as one design, so English and
-  Korean match instead of Korean falling through to each OS's default.
+  Pretendard, the same family the reference site (snu-sdcl.github.io) uses.
+  It draws Latin and Hangul at matching optical weight, which matters here
+  because every heading and label now carries both scripts side by side.
+
+  Declared explicitly rather than derived from the theme file: the
+  google_fonts filter replaces only the first space in a family name and
+  always appends italic axes, so a multi-word family came back as an error
+  and nothing loaded at all - which is why the site had been rendering in
+  Arial.
+
+  The variable dynamic-subset build is the cheap one: 53KB of CSS split
+  into 92 unicode ranges, so a visitor downloads only the Hangul blocks the
+  page actually uses, and one file covers every weight from 45 to 920.
 -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -514,7 +520,7 @@
     
       <i class="icon fa-solid fa-angle-left"></i> <span class="lang" data-lang="en">Previous post</span><span class="lang" data-lang="ko">이전 글</span><br>
       <a href="/2026/07/01/research-grant-nano-hub.html">
-        New research project
+        Research project: nitrogenous gas removal and valorization
       </a>
     
   </span>

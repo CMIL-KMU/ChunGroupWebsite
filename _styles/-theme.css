@@ -28,12 +28,15 @@
 
 :root {
   --sans:
-    "IBM Plex Sans KR", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
-    "Malgun Gothic", "Segoe UI", Roboto, sans-serif;
+    "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+    system-ui, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+    "Segoe UI", Roboto, sans-serif;
   --title: var(--sans);
   --heading: var(--sans);
   --body: var(--sans);
-  --code: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --code:
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
   --small: clamp(0.8rem, 0.77rem + 0.13vw, 0.875rem);
   --medium: clamp(0.95rem, 0.91rem + 0.17vw, 1.0625rem);
   --large: clamp(1.05rem, 0.98rem + 0.32vw, 1.25rem);

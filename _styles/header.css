@@ -51,6 +51,8 @@ header a {
 
 .title {
   font-size: var(--large);
+  font-weight: var(--bold);
+  letter-spacing: var(--track-tight);
 }
 
 .subtitle {
@@ -92,11 +94,17 @@ nav {
   flex-wrap: wrap;
   gap: 10px;
   font-family: var(--heading);
-  text-transform: uppercase;
+  font-weight: var(--semi-bold);
+  font-size: var(--large);
+  letter-spacing: 0;
 }
 
 nav > a {
   padding: 5px;
+}
+
+nav > a > .lang {
+  white-space: nowrap;
 }
 
 nav > a:hover {
