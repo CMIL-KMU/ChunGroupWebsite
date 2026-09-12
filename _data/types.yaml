@@ -2,25 +2,34 @@
 
 # team member roles
 
+# `description_ko` is the Korean label; portrait.html and alumni-list.html
+# render both so the KOR/ENG toggle switches them. A role without a Korean
+# label falls back to English.
+
 principal-investigator:
   icon: fa-solid fa-user-tie
   description: Principal Investigator
+  description_ko: 연구책임자
 
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
+  description_ko: 박사후연구원
 
 grad:
   icon: fa-solid fa-user-graduate
   description: Graduate Student
+  description_ko: 대학원생
 
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
+  description_ko: 학부연구생
 
 mascot:
   icon: fa-solid fa-dog
   description: Mascot
+  description_ko: 마스코트
 
 # general
 

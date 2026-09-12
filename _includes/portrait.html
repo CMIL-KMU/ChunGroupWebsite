@@ -36,15 +36,29 @@
       </span>
     {% endif %}
 
-    {% if member.description or type %}
+    {% comment %}
+      A member file may override the role label with its own `description` /
+      `description_ko`; otherwise the role's label from _data/types.yaml is
+      used. Both languages are emitted either way, so the KOR/ENG toggle
+      switches the label. A label with no Korean counterpart stays English.
+    {% endcomment %}
+    {% if member.description %}
+      {% assign role_en = member.description %}
+      {% assign role_ko = member.description_ko %}
+    {% else %}
+      {% assign role_en = type.description %}
+      {% assign role_ko = type.description_ko %}
+    {% endif %}
+
+    {% if role_en %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {% include t.html en=role_en ko=role_ko %}
       </span>
     {% endif %}
 
     {% if member.affiliation %}
       <span class="portrait-affiliation">
-        {{ member.affiliation }}
+        {% include t.html en=member.affiliation ko=member.affiliation_ko %}
       </span>
     {% endif %}
   </a>

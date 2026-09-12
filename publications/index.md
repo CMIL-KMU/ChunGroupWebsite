@@ -1,11 +1,12 @@
 ---
 title: Publications
+title_ko: 논문
 nav:
   order: 3
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-book-open" %} Publications
+# {% include icon.html icon="fa-solid fa-book-open" %} {% include t.html key="publications.heading" %}
 
 {% include search-box.html %}
 
@@ -19,7 +20,7 @@ nav:
 
 {% include tags.html tags=unique_citation_tags %}
 
-## Selected publications
+## {% include t.html key="publications.selected" %}
 
 {% include citation.html lookup="doi:10.48550/arXiv.2605.24002" style="rich" %}
 
@@ -39,16 +40,16 @@ nav:
 
 <div class="publications-header">
   <div class="publication-tabs">
-    <button id="tab-papers" class="tab-btn active" onclick="switchPubTab('papers')">Papers & Preprints</button>
-    <button id="tab-patents" class="tab-btn" onclick="switchPubTab('patents')">Patents</button>
+    <button id="tab-papers" class="tab-btn active" onclick="switchPubTab('papers')">{% include t.html key="publications.tab_papers" %}</button>
+    <button id="tab-patents" class="tab-btn" onclick="switchPubTab('patents')">{% include t.html key="publications.tab_patents" %}</button>
     <a href="https://scholar.google.com/citations?hl=ko&user=ZrnibVwAAAAJ" class="scholar-tab-btn" target="_blank" rel="noopener">
       <i class="fa-brands fa-google"></i> Google Scholar
     </a>
   </div>
   <div class="publications-legend">
-    <span class="legend-item"><i class="fa-solid fa-book-open"></i> Paper</span>
-    <span class="legend-item"><i class="fa-regular fa-eye"></i> Preprint</span>
-    <span class="legend-item"><i class="fa-solid fa-file-signature"></i> Patent</span>
+    <span class="legend-item"><i class="fa-solid fa-book-open"></i> {% include t.html key="publications.legend_paper" %}</span>
+    <span class="legend-item"><i class="fa-regular fa-eye"></i> {% include t.html key="publications.legend_preprint" %}</span>
+    <span class="legend-item"><i class="fa-solid fa-file-signature"></i> {% include t.html key="publications.legend_patent" %}</span>
   </div>
 </div>
 

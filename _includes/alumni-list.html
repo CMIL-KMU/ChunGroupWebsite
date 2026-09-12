@@ -34,21 +34,22 @@
   <ul class="alumni-list">
     {% for m in ordered %}
       {% assign type = site.data.types[m.role] %}
-      {% assign label = m.description | default: type.description %}
+      {% if m.description %}
+        {% assign label_en = m.description %}
+        {% assign label_ko = m.description_ko %}
+      {% else %}
+        {% assign label_en = type.description %}
+        {% assign label_ko = type.description_ko %}
+      {% endif %}
       <li class="alumni-item">
         <span class="alumni-who">
           <span class="alumni-name">{{ m.name }}</span>
-          {% if label %}<span class="alumni-role">{{ label }}</span>{% endif %}
+          {% if label_en %}<span class="alumni-role">{% include t.html en=label_en ko=label_ko %}</span>{% endif %}
         </span>
-        {% if m.affiliation %}<span class="alumni-now">{{ m.affiliation }}</span>{% endif %}
+        {% if m.affiliation %}<span class="alumni-now">{% include t.html en=m.affiliation ko=m.affiliation_ko %}</span>{% endif %}
       </li>
     {% endfor %}
   </ul>
 {% else %}
-  <p class="alumni-empty lang" data-lang="en">
-    Our first alumni will be listed here.
-  </p>
-  <p class="alumni-empty lang" data-lang="ko">
-    첫 졸업생이 나오면 이곳에 기록됩니다.
-  </p>
+  <p class="alumni-empty">{% include t.html key="team.alumni_empty" %}</p>
 {% endif %}

@@ -1,5 +1,12 @@
 <form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google" />
+  <input
+    type="text"
+    name="query"
+    placeholder="Search site with Google"
+    data-t-attr="placeholder"
+    data-t-en="Search site with Google"
+    data-t-ko="Google로 사이트 검색"
+  />
   <button type="submit" class="button" aria-label="search site">
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
   </button>

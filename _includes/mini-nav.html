@@ -15,7 +15,7 @@
     %}
     {% for page in pages %}
       {% if page.nav %}
-        <a href="{{ page.dir | relative_url | uri_escape }}">{{ page.title }}</a>
+        <a href="{{ page.dir | relative_url | uri_escape }}">{% include t.html en=page.title ko=page.title_ko %}</a>
       {% endif %}
     {% endfor %}
     {% include lang-toggle.html %}

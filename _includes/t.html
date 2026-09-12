@@ -1,0 +1,37 @@
+{%- comment -%}
+  Renders one interface string in both languages so the KOR/ENG toggle can
+  swap between them with no page reload.
+
+  Two ways to call it:
+
+    include t.html key="research.heading"   - from _data/strings.yaml
+    include t.html en="Alumni" ko="졸업생"   - inline, for one-off strings
+
+  (written without the surrounding Liquid braces so this comment cannot be
+  mistaken for a call)
+
+  Output is a pair of inline spans with no surrounding whitespace, so this is
+  safe inside a heading, a link, a table cell, or an include parameter such as
+  button.html's `text`.
+
+  If a Korean string is missing the English one is shown in both modes, so a
+  half-translated page degrades to English rather than to a blank space.
+{%- endcomment -%}
+
+{%- if include.key -%}
+  {%- assign node = site.data.strings -%}
+  {%- assign path = include.key | split: "." -%}
+  {%- for step in path -%}
+    {%- assign node = node[step] -%}
+  {%- endfor -%}
+  {%- assign en = node.en -%}
+  {%- assign ko = node.ko -%}
+{%- else -%}
+  {%- assign en = include.en -%}
+  {%- assign ko = include.ko -%}
+{%- endif -%}
+
+{%- assign ko = ko | default: en -%}
+{%- if en -%}
+<span class="lang" data-lang="en">{{ en }}</span><span class="lang" data-lang="ko">{{ ko }}</span>
+{%- endif -%}

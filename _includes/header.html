@@ -40,7 +40,11 @@
         {% for page in pages %}
         {% if page.nav %}
         <a href="{{ page.dir | relative_url | uri_escape }}" data-tooltip="{{ page.nav.tooltip | xml_escape }}">
-            {{ page.title }}
+            {%- comment -%}
+              `title_ko` in a page's front matter gives the nav its Korean
+              label; a page without one keeps its English title in both modes.
+            {%- endcomment -%}
+            {% include t.html en=page.title ko=page.title_ko %}
         </a>
         {% endif %}
         {% endfor %}

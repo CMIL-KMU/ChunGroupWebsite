@@ -1,11 +1,12 @@
 ---
 title: Research
+title_ko: 연구
 nav:
   order: 1
   tooltip: Research areas
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research areas
+# {% include icon.html icon="fa-solid fa-microscope" %}{% include t.html key="research.heading" %}
 
 <div class="lang" data-lang="en" markdown="1">
 We work on computational materials science at the intersection of artificial intelligence and atomistic simulation, with an emphasis on the predictive design of functional materials. We develop AI-accelerated frameworks that enable efficient and systematic exploration of high-dimensional materials design spaces. Our methodology combines deep reinforcement learning, machine-learned interatomic potentials, and automated simulation workflows to advance atomistic modeling and simulation for materials discovery.
@@ -19,7 +20,7 @@ We apply these computational approaches to a broad range of materials systems, i
 
 {% include section.html %}
 
-## Agentic computational workflows
+## {% include t.html key="research.agentic_workflows" %}
 
 {% capture text %}
 
@@ -42,7 +43,7 @@ Leveraging large language models (LLMs), we develop scientific AI agents for aut
 
 {% include section.html %}
 
-## Agentic atomistic simulation
+## {% include t.html key="research.agentic_simulation" %}
 
 {% capture text %}
 
@@ -67,7 +68,7 @@ We develop agentic atomistic simulation frameworks that overcome the timescale a
 
 {% include section.html %}
 
-## Modelling and simulations
+## {% include t.html key="research.modelling" %}
 
 {% capture text %}
 

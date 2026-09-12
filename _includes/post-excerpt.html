@@ -30,7 +30,7 @@
     {% endif %}
 
     <div class="post-excerpt-text">
-      <a href="{{ url }}">{{ title }}</a>
+      <a href="{{ url }}">{% include t.html en=title ko=post.title_ko %}</a>
 
       {%
         include post-info.html
@@ -53,8 +53,14 @@
         | strip_newlines
         | regex_strip
       %}
+      {% comment %}
+        The excerpt is pulled out of the post body and stripped of markup, so
+        the paired-span trick cannot survive the round trip. A post therefore
+        carries its Korean excerpt in front matter as `excerpt_ko`, and the
+        pair is assembled here.
+      {% endcomment %}
       <p data-search="{{ search }}">
-        {{ excerpt }}
+        {% include t.html en=excerpt ko=post.excerpt_ko %}
       </p>
     </div>
   </div>

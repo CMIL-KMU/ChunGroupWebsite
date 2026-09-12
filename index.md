@@ -1,8 +1,18 @@
 ---
 ---
 
+{%- comment -%}
+  Button labels go through t.html so they switch with the KOR/ENG toggle.
+  They are captured up front because button.html takes its label as a
+  parameter, and a Liquid parameter cannot itself contain a tag.
+{%- endcomment -%}
+{% capture explore_text %}{% include t.html key="home.explore" %}{% endcapture %}
+{% capture all_pubs_text %}{% include t.html key="home.all_publications" %}{% endcapture %}
+{% capture more_news_text %}{% include t.html key="home.more_news" %}{% endcapture %}
+{% capture join_details_text %}{% include t.html key="home.join_details" %}{% endcapture %}
+
 <div class="home-hero">
-  <h1 class="home-hero-title">Computational Materials Intelligence Lab</h1>
+  <h1 class="home-hero-title">{% include t.html en="Computational Materials Intelligence Lab" ko="계산 소재 지능 연구실" %}</h1>
   <p class="home-hero-desc lang" data-lang="en">
     We are a computational research group working at the interface of artificial intelligence and atomistic simulations, with a focus on the predictive design of functional materials. We develop AI-accelerated computational frameworks that enable efficient exploration of complex materials design spaces.
   </p>
@@ -13,7 +23,7 @@
     {%
       include button.html
       link="research"
-      text="Explore our research"
+      text=explore_text
       icon="fa-solid fa-arrow-right"
       flip=true
       style="bare"
@@ -23,7 +33,7 @@
 
 <!-- section break -->
 
-# {% include icon.html icon="fa-solid fa-fire" %}Featured Publications
+# {% include icon.html icon="fa-solid fa-fire" %}{% include t.html key="home.featured" %}
 
 {% assign sorted_publications = site.data.citations | sort: "date" | reverse %}
 {% assign featured_publications = sorted_publications | where_exp: "citation", "citation.image != nil" | limit: 4 %}
@@ -43,7 +53,7 @@
   {%
     include button.html
     link="publications"
-    text="See all publications"
+    text=all_pubs_text
     icon="fa-solid fa-book"
     style="bare"
   %}
@@ -51,13 +61,13 @@
 
 <!-- section break -->
 
-# {% include icon.html icon="fa-solid fa-newspaper" %}Latest Updates
+# {% include icon.html icon="fa-solid fa-newspaper" %}{% include t.html key="home.updates" %}
 
 {% assign sorted_posts = site.posts | sort: "date" | reverse %}
 <div class="cols home-news-grid" style="--cols: 2; margin-top: 30px;">
   <div>
     <h2 class="home-news-column-title">
-      {% include icon.html icon="fa-solid fa-trophy" %}Honors & achievements
+      {% include icon.html icon="fa-solid fa-trophy" %}{% include t.html key="home.honors" %}
     </h2>
     {% assign honors_posts = sorted_posts | where_exp: "post", "post.tags contains 'achievements'" | limit: 5 %}
     {% if honors_posts.size > 0 %}
@@ -73,13 +83,13 @@
         <button class="slider-arrow next" onclick="scrollSlider('honors-slider', 1)" aria-label="Next slider item">❯</button>
       </div>
     {% else %}
-      <p style="color: var(--gray); font-style: italic; margin-top: 15px;">No achievements posted yet.</p>
+      <p style="color: var(--gray); font-style: italic; margin-top: 15px;">{% include t.html key="home.no_honors" %}</p>
     {% endif %}
   </div>
 
   <div>
     <h2 class="home-news-column-title">
-      {% include icon.html icon="fa-solid fa-users" %}Lab life & activities
+      {% include icon.html icon="fa-solid fa-users" %}{% include t.html key="home.lab_life" %}
     </h2>
     {% assign lab_life_posts = sorted_posts | where_exp: "post", "post.tags contains 'lab-life'" | limit: 5 %}
     {% if lab_life_posts.size > 0 %}
@@ -95,7 +105,7 @@
         <button class="slider-arrow next" onclick="scrollSlider('lab-life-slider', 1)" aria-label="Next slider item">❯</button>
       </div>
     {% else %}
-      <p style="color: var(--gray); font-style: italic; margin-top: 15px;">No lab life updates posted yet.</p>
+      <p style="color: var(--gray); font-style: italic; margin-top: 15px;">{% include t.html key="home.no_lab_life" %}</p>
     {% endif %}
   </div>
 </div>
@@ -104,7 +114,7 @@
   {%
     include button.html
     link="news"
-    text="More news & posts"
+    text=more_news_text
     icon="fa-solid fa-arrow-right"
     flip=true
     style="bare"
@@ -114,7 +124,7 @@
 <!-- section break -->
 
 <div class="home-recruitment-banner">
-  <h2>{% include icon.html icon="fa-solid fa-user-plus" %}Join Our Team!</h2>
+  <h2>{% include icon.html icon="fa-solid fa-user-plus" %}{% include t.html key="home.join_title" %}</h2>
   <p class="lang" data-lang="en">
     We welcome applications from motivated people with diverse backgrounds in Chemistry, Physics, Materials Science, Chemical Engineering, Computer Science, and energy engineering who are interested in computational materials chemistry.
   </p>
@@ -125,7 +135,7 @@
     {%
       include button.html
       link="recruitment"
-      text="Recruitment details"
+      text=join_details_text
       icon="fa-solid fa-circle-info"
       style="bare"
     %}

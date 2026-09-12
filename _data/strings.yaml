@@ -1,0 +1,147 @@
+# Interface text in both languages.
+#
+# Every entry is an `en` / `ko` pair. Render one with:
+#
+#   {% include t.html key="nav.research" %}
+#
+# which emits both languages wrapped in <span class="lang" data-lang="...">,
+# so the KOR/ENG toggle shows exactly one of them. A one-off string that does
+# not belong in this file can be passed inline instead:
+#
+#   {% include t.html en="Alumni" ko="졸업생" %}
+#
+# Publication entries are deliberately NOT translated: citations are quoted
+# bibliographic records and have to stay in the language they were published
+# in.
+
+# Nav labels are NOT here: a page's Korean nav label is `title_ko` in its own
+# front matter, so the label lives next to the page it names.
+
+home:
+  featured:
+    en: Featured publications
+    ko: 주요 논문
+  all_publications:
+    en: See all publications
+    ko: 전체 논문 보기
+  updates:
+    en: Latest updates
+    ko: 최근 소식
+  honors:
+    en: Honors & achievements
+    ko: 수상 및 성과
+  lab_life:
+    en: Lab life & activities
+    ko: 연구실 활동
+  more_news:
+    en: More news & posts
+    ko: 소식 더 보기
+  explore:
+    en: Explore our research
+    ko: 연구 살펴보기
+  join_title:
+    en: Join our team!
+    ko: 함께할 사람을 찾습니다
+  join_details:
+    en: Recruitment details
+    ko: 모집 안내 보기
+  no_honors:
+    en: No achievements posted yet.
+    ko: 아직 등록된 수상 소식이 없습니다.
+  no_lab_life:
+    en: No lab life updates posted yet.
+    ko: 아직 등록된 연구실 소식이 없습니다.
+
+research:
+  heading:
+    en: Research areas
+    ko: 연구 분야
+  agentic_workflows:
+    en: Agentic computational workflows
+    ko: 에이전트 기반 계산 워크플로우
+  agentic_simulation:
+    en: Agentic atomistic simulation
+    ko: 에이전트 기반 원자 단위 시뮬레이션
+  modelling:
+    en: Modelling and simulations
+    ko: 모델링과 시뮬레이션
+
+team:
+  heading:
+    en: Team
+    ko: 구성원
+  alumni:
+    en: Alumni
+    ko: 졸업생
+  alumni_empty:
+    en: Our first alumni will be listed here.
+    ko: 첫 졸업생이 나오면 이곳에 기록됩니다.
+
+member:
+  education:
+    en: Education and experience
+    ko: 학력 및 경력
+  interests:
+    en: Research interests
+    ko: 연구 관심 분야
+  honors:
+    en: Honors and awards
+    ko: 수상 내역
+  present:
+    en: present
+    ko: 현재
+
+publications:
+  heading:
+    en: Publications
+    ko: 논문
+  selected:
+    en: Selected publications
+    ko: 주요 논문
+  tab_papers:
+    en: Papers & Preprints
+    ko: 논문 및 프리프린트
+  tab_patents:
+    en: Patents
+    ko: 특허
+  legend_paper:
+    en: Paper
+    ko: 논문
+  legend_preprint:
+    en: Preprint
+    ko: 프리프린트
+  legend_patent:
+    en: Patent
+    ko: 특허
+
+news:
+  heading:
+    en: News
+    ko: 소식
+  previous:
+    en: Previous post
+    ko: 이전 글
+  next:
+    en: Next post
+    ko: 다음 글
+
+recruitment:
+  heading:
+    en: Join our team
+    ko: 함께할 사람을 찾습니다
+  address:
+    en: Room 413, Science Building, Kookmin University
+    ko: 국민대학교 과학관 413호
+
+footer:
+  built_with:
+    en: Built with
+    ko: 제작 기반
+
+error:
+  heading:
+    en: Page not found
+    ko: 페이지를 찾을 수 없습니다
+  search_prompt:
+    en: "Try searching the whole site for the content you want:"
+    ko: "찾으시는 내용을 사이트 전체에서 검색해 보세요:"
