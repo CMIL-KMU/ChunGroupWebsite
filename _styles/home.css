@@ -73,9 +73,6 @@
   border-bottom: none;
   padding-bottom: 0;
   text-align: center;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
 }
 .home-recruitment-banner p {
   margin-bottom: 12px;
