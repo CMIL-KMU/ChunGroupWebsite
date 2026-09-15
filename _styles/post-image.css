@@ -1,0 +1,22 @@
+.post-image {
+  display: block;
+  width: auto;
+  max-width: min(100%, 820px);
+  max-height: 520px;
+  margin: 0 auto 30px auto;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}
+
+.post-image[src$=".svg"] {
+  box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  .post-image {
+    max-height: 60vh;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=post-image.css.map */
