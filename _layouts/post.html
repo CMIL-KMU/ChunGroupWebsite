@@ -2,7 +2,13 @@
 layout: default
 ---
 
-{% include section.html background=page.image %}
+{% comment %}
+  The post's image used to be the washed-out background behind the title,
+  which cropped it to a letterbox and dropped it to 20% opacity - fine for a
+  texture, wrong for a photograph anybody is meant to look at. It is now
+  shown as an image at the top of the post body, contained rather than
+  cropped, with the text below it.
+{% endcomment %}
 
 <h1 class="center">{% include t.html en=page.title ko=page.title_ko %}</h1>
 
@@ -17,6 +23,15 @@ layout: default
 %}
 
 {% include section.html %}
+
+{% if page.image %}
+  <img
+    class="post-image"
+    src="{{ page.image | relative_url | uri_escape }}"
+    alt="{{ page.title | default: "post image" | regex_strip }}"
+    {% include fallback.html %}
+  >
+{% endif %}
 
 {{ content }}
 

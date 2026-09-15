@@ -1,0 +1,31 @@
+---
+---
+
+// The image at the top of a post. Contained, never cropped - the caps are
+// chosen so that both kinds of image the site uses look right:
+//
+//   a photograph (4:3)      -> about 690 x 520, a proper lead image
+//   a funder or lab logo    -> about 820 x 255, a banner, since those files
+//   (3.0 - 3.5 : 1)            are all wide wordmarks
+//
+.post-image {
+  display: block;
+  width: auto;
+  max-width: min(100%, 820px);
+  max-height: 520px;
+  margin: 0 auto 30px auto;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}
+
+// a logo sits on the page rather than in a frame
+.post-image[src$=".svg"] {
+  box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  .post-image {
+    max-height: 60vh;
+    margin-bottom: 20px;
+  }
+}
