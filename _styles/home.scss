@@ -78,10 +78,13 @@
     margin-bottom: 15px;
     border-bottom: none;
     padding-bottom: 0;
+    // a plain centred heading, like every other heading on the page. It used
+    // to be an inline-flex row with its own 10px gap, which stacked on top of
+    // the 1em margin the icon already carries from heading.scss: the icon sat
+    // ~37px from the text instead of ~27px, and because the flex row was
+    // centred as a whole, the wider gap pushed the words themselves off to
+    // the right of the banner's centre line.
     text-align: center;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
   }
 
   p {
