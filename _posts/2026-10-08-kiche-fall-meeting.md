@@ -18,3 +18,11 @@ Our group attended the 2026 KIChE Fall Meeting on October 6–8, 2026.
 <div class="lang" data-lang="ko" markdown="1">
 연구실 구성원들이 2026년 10월 6일부터 8일까지 열린 추계 화공학회에 참석했습니다.
 </div>
+
+{% include figure.html image="images/posts/20261006-08-kiche/IMG_0881.jpg" width="100%" %}
+
+{% include figure.html image="images/posts/20261006-08-kiche/IMG_0887.jpg" width="100%" %}
+
+{% include figure.html image="images/posts/20261006-08-kiche/IMG_0888.jpg" width="100%" %}
+
+{% include figure.html image="images/posts/20261006-08-kiche/IMG_1066.jpg" width="100%" %}
