@@ -26,10 +26,20 @@ Our group attended the 2026 KIChE Fall Meeting on October 6–8, 2026.
   margin-inline: auto;
 }
 .kiche-photos img { height: auto; }
+.kiche-gallery-divider {
+  width: min(100%, 820px, calc(520px * 5053 / 3790));
+  height: 0;
+  border: 0;
+  border-top: 1px solid #d1d5db;
+  margin: 48px auto;
+}
+.kiche-photos .figure:first-child { margin-top: 0; }
 @media (max-width: 600px) {
   .kiche-photos { width: min(100%, 820px, calc(60vh * 5053 / 3790)); }
 }
 </style>
+
+<hr class="kiche-gallery-divider">
 
 <div class="kiche-photos" markdown="1">
 
