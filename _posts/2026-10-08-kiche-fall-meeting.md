@@ -1,6 +1,6 @@
 ---
-title: "Attending the 2026 KIChE Fall Meeting"
-title_ko: "2026추계 화공학회 참석"
+title: "Attending the 2026 Fall Meeting of the Korean Institute of Chemical Engineers"
+title_ko: "2026 추계 화학공학회 참석"
 date: 2026-10-08
 show_day: false
 image: images/posts/20261006-08-kiche/IMG_1056.jpg
