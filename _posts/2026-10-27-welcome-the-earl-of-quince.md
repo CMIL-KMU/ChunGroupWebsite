@@ -8,7 +8,7 @@ tags:
 ---
 <div class="eoq-description" markdown="1">
 <!-- excerpt start -->
-welcome the Earl of Quince, freshly “borrowed” from the school’s quince tree.
+Freshly “borrowed” from the school’s quince tree. 🍋
 <!-- excerpt end -->
 </div>
 
