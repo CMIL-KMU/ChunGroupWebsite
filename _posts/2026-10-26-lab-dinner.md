@@ -1,6 +1,6 @@
 ---
 title: "Lab Dinner"
-date: 2026-10-26
+date: 2026-10-26 23:59:00 +0000
 show_day: false
 image: images/posts/lab-dinner-2026-10-26.jpg
 tags:
