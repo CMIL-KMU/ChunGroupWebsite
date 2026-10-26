@@ -54,7 +54,7 @@ Our group attended the 2026 KIChE Fall Meeting on October 6–8, 2026.
 {% include figure.html image="images/posts/20261006-08-kiche/IMG_0933.jpg" width="100%" %}
 
 <video autoplay muted loop playsinline preload="metadata" aria-label="2026 KIChE Fall Meeting video" style="display: block; width: 100%; height: auto; margin: 40px auto; border-radius: var(--rounded); box-shadow: var(--shadow);">
-  <source src="{{ '/images/posts/20261006-08-kiche/kiche-2026-video.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/images/posts/20261006-08-kiche/kiche-2026-video-web.mp4' | relative_url }}" type="video/mp4">
 </video>
 
 </div>
