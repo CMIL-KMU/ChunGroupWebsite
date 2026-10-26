@@ -2,7 +2,7 @@
 title: "Lab Dinner"
 date: 2026-10-26
 show_day: false
-image: images/posts/lab-dinner-2026-10-26..JPG
+image: images/posts/lab-dinner-2026-10-26.jpg
 tags:
   - lab-life
 ---
