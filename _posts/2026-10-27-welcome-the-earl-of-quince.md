@@ -1,5 +1,5 @@
 ---
-title: "welcome the Earl of Quince"
+title: "Welcome the Earl of Quince!"
 date: 2026-10-27 00:00:00 +0900
 show_day: false
 image: images/posts/Earl of Quince/EoQ_main.jpg
